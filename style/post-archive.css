@@ -359,12 +359,12 @@
     align-items: center;
     gap: 15px;
     padding: 10px;
-
+    margin-top: 30px;
 }
 
 .recommended-pic img {
-    /* width: 211px; */
-    width: fit-content;
+    width: 247px;
+    /* width: fit-content; */
     border-radius: 10px;
 }
 
@@ -435,9 +435,6 @@
     background: #F6F6F6;
 }
 
-.recommended-color .offset-xxl-3 {
-    margin-right: 22% !important;
-}
 
 .swiper-button-next,
 .swiper-button-prev {

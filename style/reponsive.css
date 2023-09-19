@@ -998,12 +998,39 @@
         max-height: fit-content;
     }
 
+    
     .popular-city-pic img {
         width: 100%;
     }
 
     .popular-city-boxs {
-        width: 47%;
+        width: 47% !important;
+    }
+
+    .recommended-text p {
+        display: none;
+    }
+
+    .box-news-footer span {
+        display: none;
+    }
+
+    .recommended-title h1 a {
+        font-size: 14px;
+    }
+
+    .recommended-box  .recommended-pic img {
+        width: 168px !important;
+    }
+
+
+    .de-best-ci .moving-arrow-l ,
+    .de-best-ci .moving-arrow-r{
+        display: none;
+    }
+
+    .small-hero-sec {
+        margin-top: 1rem;
     }
 
     /* end of the post archive  */
