@@ -41,7 +41,7 @@
 }
 
 .nav_item>li>a {
-    font-family: var(  --PeydaWebFaNum5 );
+    font-family: var(--PeydaWebFaNum5);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -147,7 +147,7 @@ and the navbar for nav  */
 
     text-align: center;
     font-size: 16px;
-    font-family:var(--PeydaWebFaNum2);
+    font-family: var(--PeydaWebFaNum2);
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
@@ -171,7 +171,7 @@ and the navbar for nav  */
 
     /* display: inline; */
     font-size: 16px;
-    font-family:var(--PeydaWebFaNum2);
+    font-family: var(--PeydaWebFaNum2);
 
     font-style: normal;
     font-weight: 300;
@@ -212,6 +212,8 @@ and the navbar for nav  */
     display: none;
 }
 
+
+
 /* responsive mobile part  */
 
 @media screen and (max-width:750px) {
@@ -221,7 +223,7 @@ and the navbar for nav  */
         display: none;
     }
 
-    
+
 
     .mobile-header {
         display: block;
@@ -266,5 +268,20 @@ and the navbar for nav  */
         height: 30px;
     }
 
-}
+    .side-activator {
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
 
+
+    .mobile-svg {
+
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+}

@@ -1,10 +1,13 @@
 
 const windowWidth = window.innerWidth;
+
+
+
 if (windowWidth <= 612) {
   
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1.11,
-    spaceBetween: 10,
+    spaceBetween: 0,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -13,7 +16,9 @@ if (windowWidth <= 612) {
       disableOnInteraction: false,
     },
   });
-} else {
+}   
+
+else {
 
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
@@ -32,10 +37,10 @@ if (windowWidth <= 612) {
 
 if (windowWidth <= 612) {
   var swiper = new Swiper(".best_ausbildungs", {
-    slidesPerView:1.001,
+    slidesPerView:1.000001,
     spaceBetween: 20,
     autoplay: {
-      delay: 100000,
+      delay: 1000,
       disableOnInteraction: false,
     },
 
@@ -52,7 +57,7 @@ else {
     slidesPerView: 2,
     spaceBetween: 20,
     autoplay: {
-      delay: 100000,
+      delay: 1000,
       disableOnInteraction: false,
     },
 
@@ -76,7 +81,7 @@ if (windowWidth <= 612) {
     slidesPerView: 1.01,
     spaceBetween: 20,
     autoplay: {
-      delay: 1000,
+      delay: 100000,
       disableOnInteraction: false,
     },
 
@@ -95,7 +100,7 @@ else {
     slidesPerView: 2,
     spaceBetween: 20,
     autoplay: {
-      delay: 1000,
+      delay: 100000,
       disableOnInteraction: false,
     },
 
