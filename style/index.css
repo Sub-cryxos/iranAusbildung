@@ -11,16 +11,3 @@ body{
 }
 
 
-/* the responsive of tablet  */
-
-@media screen and (max-width :1284px) {
-
-    .best_ausbildungs .swiper-wrapper .swiper-slide {
-        width: 258px !important;
-    }
-    
-
-    .guid-sec {
-        flex-wrap:wrap ;
-    }
-}

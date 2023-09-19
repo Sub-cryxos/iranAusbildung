@@ -4,7 +4,9 @@
 @media screen and (max-width:720px) {
 
     /* this is for index page  */
-
+    .step_box .step_box_desc {
+        padding: 5px;
+    }
 
     .aub-hero-slider .swiper-slide {
         width: 90% !important;
@@ -213,6 +215,8 @@
     .consult_navigate a {
         width: 70%;
         margin-top: 2rem;
+        font-weight: 600    ;
+        font-size: 13px;
 
     }
 
@@ -354,7 +358,7 @@
     }
 
     #btn_more_pro {
-        font-size: 14px;
+        font-size: 13px;
         width: 60%;
     }
 
@@ -392,7 +396,7 @@
     }
 
     .title_guid:after {
-        right: 100px;
+        right: 61px;
     }
 
     .blog_box p {
@@ -507,8 +511,8 @@
     .ausbildung_card {
         display: flex;
         align-items: center;
-
-        width: 338px;
+        gap: 10px;
+        width: 338px !important;
         height: 180.589px;
 
         border-radius: 4.829px;
@@ -539,6 +543,7 @@
         width: 100%;
         margin-top: 5px;
         height: 24.143px;
+        padding: 0;
     }
 
     .salary_ausbildung ul>li span {

@@ -274,3 +274,10 @@
     font-weight: 300;
     margin-top: 19px;
 }
+
+/* the responsive of tablet  */
+
+@media screen and (min-width :1284px)  {
+
+   
+}

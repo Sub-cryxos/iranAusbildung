@@ -1,7 +1,7 @@
 
 const windowWidth = window.innerWidth;
 if (windowWidth <= 612) {
-  console.log("if")
+  
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1.11,
     spaceBetween: 10,
@@ -14,7 +14,7 @@ if (windowWidth <= 612) {
     },
   });
 } else {
-  console.log('else')
+
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     spaceBetween: 10,
@@ -29,21 +29,43 @@ if (windowWidth <= 612) {
 
 }
 // ths slider best ausbildungs 
-var swiper = new Swiper(".best_ausbildungs", {
-  slidesPerView: 2,
-  spaceBetween: 20,
-  autoplay: {
-    delay: 100000,
-    disableOnInteraction: false,
-  },
 
-  navigation: {
-    nextEl: ".arrow_down_comments",
-    prevEl: " .arrow_up_comments",
-  },
+if (windowWidth <= 612) {
+  var swiper = new Swiper(".best_ausbildungs", {
+    slidesPerView:1.001,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 100000,
+      disableOnInteraction: false,
+    },
+
+    navigation: {
+      nextEl: ".arrow_down_comments",
+      prevEl: " .arrow_up_comments",
+    },
 
 
-});
+  });
+}
+else {
+  var swiper = new Swiper(".best_ausbildungs", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 100000,
+      disableOnInteraction: false,
+    },
+
+    navigation: {
+      nextEl: ".arrow_down_comments",
+      prevEl: " .arrow_up_comments",
+    },
+
+
+  });
+}
+
+
 
 // ths slider of comment section
 
@@ -84,7 +106,7 @@ else {
 
 
   });
-  
+
 }
 
 
