@@ -1,0 +1,255 @@
+@import url('../fonts.css');
+
+.wallet-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 312px;
+    height: 175px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: var(--primary-color, #EC3A4C);
+}
+
+.wallet-cheapset {
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.amount .text_amount {
+    margin-right: 1.7rem;
+}
+
+.amount-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.amount-price {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.amount .text_amount p,
+.amount-price span,
+.amount-number p[active-text] {
+    color: #FFF;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.salary-wallet {
+    color: #FFF;
+    font-family: PeydaWebFaNum15;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* start of the withdrew */
+
+.withdrew {
+    width: 177px;
+    height: 50px;
+
+    border-radius: 5px;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    border: 1px solid #EEE;
+    background: #FFF;
+
+}
+
+.withdrew a {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.3%;
+    /* 23.002px */
+}
+
+.withdrew img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.basket {
+    width: 28px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+    background: #F1E0CC;
+    cursor: pointer;
+}
+
+/* start of the transactions */
+
+.transactions .text {
+    color: #ED4545;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 164.3%;
+    /* 26.288px */
+}
+
+.transaction_box {
+    width: 310px;
+    /* height: 129px; */
+    border-radius: 5px;
+    background: #F6F6F6;
+    padding: 1rem;
+}
+
+.transaction_item {
+    display: flex;
+    gap: 7px;
+}
+
+.transaction_item:nth-child(1) {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 164.3%;
+    /* 23.002px */
+}
+
+.transaction_item:nth-child(2) {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 164.3%;
+    /* 23.002px */
+}
+
+.transaction_item span {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum13;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 164.3%;
+    /* 19.716px */
+    letter-spacing: -0.12px;
+}
+
+.transaction_item p {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 164.3%;
+    /* 23.002px */
+    letter-spacing: -0.14px;
+}
+
+.transaction_box hr {
+    opacity: 0.2;
+}
+
+.transaction_box button {
+    justify-self: end;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+}
+
+.transaction_box button img {
+    width: 100%;
+    height: 100%;
+}
+
+#modal-opener {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* solary consut  */
+
+.salary-consult {
+    width: 300px !important;
+}
+
+.text-salary {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    border-radius: 5px;
+    background: #F6F6F6;
+    margin-right: 2rem;
+}
+
+.text-salary p {
+    color: #000;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price-sal {
+    color: #000;
+    font-family: PeydaWebFaNum15;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-salary span {
+    color: #000;
+    font-family: PeydaWebFaNum15;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,161 @@
+.UserLogInBtn {
+    border-radius: 10px;
+    /* box-shadow: 15px 15px rgb(173, 173, 173); */
+    padding: 25px 35px;
+    border-radius: 20px;
+    background: #fff;
+    height: auto;
+}
+
+.UserLogInBtn header {
+    display: flex;
+    gap: 5px;
+}
+
+.UserLogInBtn header h3 {
+    color: var(--secondary, #1D1E22);
+    text-align: right;
+      font-family:  PeydaWebFaNum1;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.descriptionOfLogin p {
+    color: #7D7D7D;
+    text-align: right;
+    /* font-family: IRANSansX; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.LoGinInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.LoGinInput label {
+    color: var(--secondary-color, #1D1E22);
+    text-align: right;
+    font-family:  PeydaWebFaNum16;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+}
+
+.LoGinInput input {
+    padding: 17px 12px 18px 20px;
+    border-radius: 5px;
+    background: #F4F4F4;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+
+}
+
+
+.LoGinInput input::placeholder {
+    color: #9D9D9D;
+    text-align: right;
+    font-family:  PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.LoGinInput input:focus {
+    border: none;
+}
+
+.LoGinInputCheck {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+
+.LoGinInputCheck .ForgetPassword {
+    color: var(--primary, #EC3A4C);
+    text-align: right;
+    font-family:  PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.LogInButtoN,
+.Google-signIn {
+    padding: 14px 0px 13px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--primary-color, #EC3A4C);
+    border: none;
+
+    color: #FFF;
+    text-align: right;
+    font-family:  PeydaWebFaNum16;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 1rem;
+    transition: all linear .2s;
+
+}
+
+.LogInButtoN:hover {
+    background-color: var(--primary-color, #d11023);
+    
+
+}
+
+.Google-signIn {
+    background-color: #ffffff00;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+
+    text-align: right;
+    font-family:  PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid;
+
+    gap: 10px;
+    margin-top: 1rem;
+
+}
+
+.UserLogInBtnFooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #000;
+    text-align: right;
+    font-family:  PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1rem;
+
+}
+
+.UserLogInBtnFooter a {
+    color:  var(--primary-color, #d11023);
+}

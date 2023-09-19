@@ -1,0 +1,73 @@
+.social_box {
+    height: 135px;
+    background-image: url('../assets/images/social-box-bg.png');
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.social_box_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.social_box_text {
+    font-family:  PeydaWebFaNum16;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #FFF;
+    width: 50%;
+}
+
+.social_box_icons {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_box_icons>a {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social_box_icons>a:nth-child(1) {
+    padding: 0;
+
+}
+
+@media screen and (max-width :620px) {
+
+    .social_box {
+        height: 159px;
+        display:block;
+    }
+
+    .social_box_main {
+        flex-direction: column;
+       gap: 1rem;
+    }
+
+    .social_box_icons {
+        width: 100%;
+        margin-top: 8%  ;
+        filter: drop-shadow(0px 2px 40px rgba(0, 0, 0, 0.22));
+
+    }
+
+    .social_box_text {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 200%;
+        text-align: center;
+    }
+}

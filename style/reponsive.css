@@ -1,0 +1,1101 @@
+@import url('./variables.css');
+
+/* this is for mobile  */
+@media screen and (max-width:720px) {
+
+    /* this is for index page  */
+
+
+    .aub-hero-slider .swiper-slide {
+        width: 90% !important;
+    }
+
+    .ausbildung_card_first {
+        width: 300px !important;
+    }
+
+    .comment_box {
+        width: 256px;
+        padding: 0;
+        margin: 0px;
+    }
+
+ 
+    .comments_section {
+       
+        max-height: 800px;
+
+    }
+
+    .moving_arrow-comment {
+        display: none;
+    }
+
+
+     .ausbildung_card_first .ausbildung_box header {
+        padding: 0 15px;
+    }
+
+    .intro_text p {
+        font-size: 20px;
+    }
+
+    .big_highlight p {
+        font-size: 22px;
+        padding: 0;
+    }
+
+    .highlight-text {
+        padding: 0 5px !important;
+    }
+
+    .search_form {
+        padding: 11px 11px 13px 11px;
+    }
+
+    .search_input {
+        width: 70% !important;
+        height: 45px;
+    }
+
+    .search_input::placeholder {
+        font-size: 12px;
+    }
+
+    .search_submit {
+        width: 30%;
+        font-size: 10px;
+    }
+
+    #top-margin {
+        margin-top: 1.5rem;
+    }
+
+
+    .link_boxs {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 10px;
+        padding: 8px 12px;
+    }
+
+    .link_box {
+        margin-top: 1rem;
+    }
+
+    .count_dwon_box {
+        padding: 10px 0;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .count_dwon_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .guid-sec {
+        flex-wrap: wrap;
+    }
+
+    .picture_guid,
+    .guid_text {
+        width: 100%;
+    }
+
+    .guid_text .title_guid,
+    .what_is_asubildung,
+    .ausbildung_desc,
+    .text_guid p,
+    .step_step header,
+    #popular_ausbildungs,
+    #be_pro,
+    #be_pro_text,
+    #be_pro_ausbildung_desc,
+    .popular_ausbildungs_text_guid .title_guid,
+    #weblog_title,
+    .right_section_text .text_box_comments .title_guid,
+    .right_section_text .text_box_comments p,
+    .right_section_text .text_box_comments h1 {
+        text-align: center;
+    }
+
+    .guid_text .title_guid::after {
+        content: '';
+        right: 136px;
+    }
+
+    .ausbildung_desc {
+        width: 93% !important;
+    }
+
+    .text_guid p {
+        width: 84%;
+        margin-top: 1rem;
+
+    }
+
+    .step_boxs {
+        margin-top: 1rem;
+    }
+
+    .btn_more {
+        width: 46%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .de_flag {
+        left: 76%;
+    }
+
+    .picture_text_box {
+        top: 78%;
+        left: 2%;
+    }
+
+    .picture_guid {
+        margin-top: 1.5rem;
+    }
+
+    .step_step header {
+        margin-top: 5rem;
+    }
+
+    .responsive_step_box {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .flex-sm-row-reverse_a {
+        flex-wrap: wrap-reverse;
+    }
+
+    .flex-sm-row-reverse_b {
+        flex-wrap: wrap;
+    }
+
+
+    .step_box .step_box_number {
+        top: -12%;
+    }
+
+    .step_box_number span {
+        font-size: 41px;
+    }
+
+    #final_step .step_box_number {
+        left: 45% !important;
+    }
+
+    #final_step {
+        margin-top: 3.5rem;
+        height: auto;
+    }
+
+    #step_box_desc_7 {
+        height: auto;
+        padding: 20px 8px 14px 8px;
+    }
+
+    #step_box_desc_7 p,
+    #step_box_desc_7 h3 {
+        text-align: center !important;
+
+    }
+
+    .consult_navigate {
+        flex-direction: column;
+    }
+
+    .consult_navigate a {
+        width: 70%;
+        margin-top: 2rem;
+
+    }
+
+    .step_photo {
+        margin-top: 2rem;
+    }
+
+
+
+    #popular_ausbildungs::after {
+        right: 12px;
+    }
+
+    #best_ausbildung {
+        margin-top: 2rem !important;
+        text-align: center;
+    }
+
+
+
+    #best_ausbildung_user {
+        margin-top: 2rem !important;
+    }
+
+    .popular_ausbildungs_text {
+        align-items: unset;
+        height: auto;
+    }
+
+    .popular_ausbildungs_text_guid {
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    #popular_ausbildungs_btn_more {
+        display: none;
+    }
+
+    #popular_btn_more {
+        display: flex;
+    }
+
+
+    .ausbildung_card .popular-asubildung_pic {
+        width: 144px;
+        height: 153px;
+    }
+
+    #weblog_btn {
+        padding: 4px 11px;
+    }
+
+    #weblog_title::after {
+        right: 140px;
+    }
+
+    /* responsive card  */
+
+    .ausbildung_card_responsive {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .ausbildung_card {
+        width: 338px !important;
+        height: 180.59px;
+        border-radius: 5px;
+        border: 1px solid #E3E3E3;
+        background: #FFF;
+        position: relative;
+        margin-left: 15px;
+    }
+
+    .popular-asubildung_pic_responsive {
+        width: 144.857px;
+        height: 153.549px;
+    }
+
+    .popular-asubildung_pic_responsive img {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        object-fit: cover;
+    }
+
+
+
+    .popular_ausbildung_title_responsive .popular_ausbildung_fa_responsive {
+        font-size: 13.52px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        color: var(--secondary-color);
+        text-align: center;
+    }
+
+    .popular_ausbildung_title_responsive .popular_ausbildung_de_responsive {
+        font-size: 13.52px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        color: var(--primary-color);
+        text-align: center;
+    }
+
+
+    .salary_ausbildung ul>li {
+        background: #F6F6F6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .salary_ausbildung_responsive ul>li span {
+        padding: 10px 2px 8px 1px;
+        color: #000;
+        font-size: 11.589px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    #popular_btn_more {
+        width: 61%;
+        font-size: 14px;
+    }
+
+    #be_pro_text {
+
+        font-size: 18px;
+    }
+
+    #be_pro_ausbildung_desc {
+        width: 100%;
+    }
+
+    #btn_more_pro {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    .approved_img {
+        position: absolute;
+        bottom: 0px;
+        top: 290px;
+        left: 113px;
+    }
+
+    #best_ausbildungs {
+        margin-top: 5rem;
+    }
+
+    .bg-circle {
+        left: -15rem;
+        top: 8rem;
+    }
+
+
+    .person-pic {
+        width: 100%;
+        height: 100%;
+        background-position-y: 100%;
+        background-position-x: 44%;
+        background-size: contain;
+        position: absolute;
+        top: 6px;
+        left: 0;
+    }
+
+    .weblog_header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .title_guid:after {
+        right: 100px;
+    }
+
+    .blog_box p {
+        width: 100%;
+    }
+
+
+    .comment_section {
+        flex-direction: column;
+    }
+
+    .comment_section .right_section_text {
+        width: 100%;
+    }
+
+    .right_section_text .text_box_comments .title_guid::after {
+        right: -1px;
+    }
+
+    .right_section_text .text_box_comments p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .right_section_text .text_box_comments h1 {
+        font-size: 18px;
+    }
+
+    .comments_section {
+        width: 100%;
+        overflow-y: hidden;
+    }
+
+    .moving_arrows {
+        display: none;
+    }
+
+    .comment_body {
+        flex-direction: column-reverse;
+    }
+
+    .comment_body p {
+        text-align: center;
+    }
+
+    .comment_auther {
+        text-align: center;
+    }
+
+    .responsive_comment_icon {
+        display: block !important;
+    }
+
+    .icon_comment {
+        display: none;
+    }
+
+    .trust_logo_box {
+        width: 50%;
+    }
+
+    .popular_ausbildungs_wrapper {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .ausbildung_popular_wrapper {
+        margin-top: 1rem !important;
+        justify-content: center;
+    }
+
+    #padding-set {
+        padding: 0;
+    }
+
+
+    div[mobile-hide] {
+        display: none;
+    }
+
+    .blog_box_wrapper {
+        flex-direction: column;
+    }
+
+    /* this is for index page ends */
+
+    /* start of the Ausbildungs page  */
+    .search_text {
+        font-size: 25px;
+    }
+
+
+    .categories,
+    .subjects {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .search_btn {
+        gap: 0;
+    }
+
+    .sorts {
+        gap: 12px;
+    }
+
+    .sort {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .ausbildung_card {
+        display: flex;
+        align-items: center;
+
+        width: 338px;
+        height: 180.589px;
+
+        border-radius: 4.829px;
+        border: 2px solid #F6F6F6;
+        background: #FFF;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+
+    }
+
+    .second-sec {
+        width: 70%;
+    }
+
+    .desktop-mode {
+        display: none;
+    }
+
+    .first-sec,
+    .second-sec {
+        display: block;
+    }
+
+    .salary_ausbildung {
+        width: 100%;
+    }
+
+    .salary_ausbildung ul>li {
+        width: 100%;
+        margin-top: 5px;
+        height: 24.143px;
+    }
+
+    .salary_ausbildung ul>li span {
+        font-size: 12px;
+    }
+
+    .btn_navigate_more {
+        display: none;
+    }
+
+    .shitf {
+        height: auto;
+        left: 12.0rem;
+        top: 14px;
+        padding: 0;
+        width: 45px;
+    }
+
+    .saved_post {
+        top: 15px;
+        right: 3px;
+    }
+
+    .share_post {
+        top: 14px;
+        right: 33px;
+    }
+
+    .shitf p {
+        font-size: 11px;
+    }
+
+
+    .popular-asubildung_pic {
+        padding: 1px;
+    }
+
+    .ausbildung_card_wrapper {
+        flex-direction: column;
+
+    }
+
+    /* end of the Ausbildungs page  */
+
+    /* start of the single ausbildung page  */
+    .page_title {
+        flex-direction: column;
+    }
+
+    .title_fa {
+        font-size: 25px !important;
+        color: var(--primary-color) !important;
+
+    }
+
+
+    .title_de {
+        font-size: 17px !important;
+        margin-top: 1rem;
+        align-items: flex-end;
+
+    }
+
+    #mobile-box {
+        display: block;
+    }
+
+    #mobile-box .salary_ausbildung ul>li {
+        width: 100%;
+    }
+
+    div[mobile-hide] {
+        display: none !important;
+    }
+
+    div[desktop-hide-card] {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav-item .nav-link {
+        padding: 20px 25px 20px 16px;
+    }
+
+    .des_content_sec h1 {
+        font-size: 18px;
+    }
+
+    .des_content_sec p {
+        font-size: 14px;
+    }
+
+    .des_content_sec_multi_img img {
+        width: 115px;
+    }
+
+    .des_content_sec_multi_img {
+        gap: 2px;
+    }
+
+    .solary_box p,
+    span,
+    .solary_box h1 {
+        font-size: 20px;
+    }
+
+    .des_content_sec_compare {
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    .benefits,
+    .loss {
+        width: 100%;
+    }
+
+    .compare-box {
+        width: 100%;
+    }
+
+    .compare-box li {
+        font-size: 14px;
+    }
+
+    .footer_content {
+        flex-wrap: wrap;
+    }
+
+    .tags,
+    .resources {
+        width: 100%;
+    }
+
+    /* end of the single ausbildung page  */
+    /* start of the ausbildung forms  */
+    div[formTitle] {
+
+        flex-direction: row;
+    }
+
+    div[formTitle] span,
+    .page_title~p {
+        font-size: 25px !important;
+        font-family: Morabba !important;
+
+    }
+
+    .cv_form .form-input {
+        width: 100%;
+    }
+
+    .from-description ul li {
+        font-size: 13px;
+    }
+
+    .price-sec {
+        gap: 30px;
+        margin-top: 3rem;
+    }
+
+    .description p {
+        margin-top: 1rem;
+    }
+
+    .desc_box {
+        width: 100%;
+    }
+
+    .desc_box h4 {
+
+        top: -30px;
+        left: 149px;
+    }
+
+    .desc_box-wrapper {
+        gap: 3rem;
+    }
+
+    /* end of the ausbildung forms  */
+    /* start of the contact us  */
+
+    .content {
+        width: 100%;
+    }
+
+    .page-title h3 {
+        font-size: 25px;
+    }
+
+    .page-title p {
+        font-size: 16px;
+    }
+
+    .responsive-text {
+        font-size: 16px;
+    }
+
+    .main-content {
+        padding: 20px 9px;
+    }
+
+    .telegram-content {
+        padding: 40px 10px;
+        gap: 20px;
+    }
+
+    .button {
+        padding: 15px 11px;
+        border-radius: 5px 0px 0px 5px;
+        align-items: center;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .social-media-text h1 {
+        font-size: 16px;
+        color: var(--primary-color);
+    }
+
+    .social-media-text span {
+        display: none;
+    }
+
+    .social-media_box {
+        width: 45%;
+
+    }
+
+    .social-media {
+        gap: 20px;
+    }
+
+    .social-text-box p {
+        font-size: 14px;
+    }
+
+    /* end of the contact us  */
+
+    /* start of about us  */
+    .content-title {
+        justify-content: center;
+    }
+
+    .main-section-text p {
+        font-size: 14px;
+    }
+
+    .content-title h1 {
+        font-size: 16px;
+    }
+
+    .honor h2 {
+        font-size: 16px;
+    }
+
+    .count_dwon_box:nth-child(1),
+    .count_dwon_box:nth-child(2) {
+        width: 50%;
+        margin-top: 4rem;
+    }
+
+    /* start of the single post  */
+
+    .blog-wrapper {
+        padding: 0 9px 0 10px;
+    }
+
+    .blog_pic {
+        width: 300px !important;
+        height: auto;
+        display: block;
+    }
+
+
+    .blog_pic img {
+        height: auto;
+        width: 340px;
+    }
+
+    .descriptions {
+        width: 100%;
+    }
+
+    .sticky {
+        position: relative;
+    }
+
+    .date-published {
+        margin-top: 1rem;
+    }
+
+    /* end of the single post  */
+
+    /* start of the faq  */
+
+    .faq-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .faq-total {
+        width: 100%;
+    }
+
+    /* start of the post archive  */
+
+    .large-hero-sec {
+        height: 215.136px;
+    }
+
+    .small-hero-sec {
+        height: 161.067px;
+        /* font-size: ; */
+    }
+
+    .hero-section-title-sm a {
+        font-size: 14px !important;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .category_box_post {
+        width: 137px;
+        height: 137px;
+        flex-wrap: wrap;
+        /* flex-shrink: 0; */
+    }
+
+    #wrapper-catefories {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .categories-sec {
+        height: auto;
+    }
+
+    .section-title h1 {
+        font-size: 20px;
+    }
+
+    .news-box {
+        /* flex-wrap: wrap; */
+        display: flex;
+        gap: 10px;
+    }
+
+    .news-box .shorthand {
+        display: none;
+    }
+
+    .news-box-pic a {
+        width: 163px;
+        height: 136px;
+    }
+
+    .news-box-pic img {
+        width: 163px;
+        height: 136px;
+    }
+
+    .news-box-title a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .textes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .news-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #mobile-height {
+        height: 250px !important;
+    }
+
+    .bg-circle {
+        width: 370px;
+        height: 422px;
+        left: -1.5rem !important;
+    }
+
+
+    .video-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .video-offer {
+        height: auto;
+    }
+
+    .video-box .video {
+        width: 352px;
+        height: 200px;
+    }
+
+    .video-box {
+        width: auto;
+    }
+
+    .video-text-box p {
+        color: #FFF;
+        text-align: right;
+        font-family: Peyda(FaNum);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+
+    }
+
+    .box-news-footer a,
+    .box-news-footer span {
+        text-align: right;
+        font-family: Peyda(FaNum);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 200%;
+        /* 28px */
+    }
+
+    .video-setion #pills-tab>.nav-item {
+        width: 30%;
+    }
+
+    .video-setion #pills-tab>.nav-item button {
+        font-size: 14px;
+    }
+
+    .tab-title-ul {
+        gap: 10px;
+    }
+
+    div[mobile-flex] {
+        display: flex;
+        overflow: hidden;
+        gap: 10px;
+    }
+
+    .popular-city-box {
+        max-height: fit-content;
+    }
+
+    .popular-city-pic img {
+        width: 100%;
+    }
+
+    .popular-city-boxs {
+        width: 47%;
+    }
+
+    /* end of the post archive  */
+
+
+    /* start of the compare responsive  */
+
+    .compare-wrapper {
+        padding: 20px;
+    }
+
+    .chatrs-content {
+        display: flex;
+        direction: rtl;
+        gap: 10px;
+    }
+
+    .charts {
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .charts-container {
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .compare-text {
+        display: flex;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .after-course,
+    .thired-year {
+        flex-direction: column;
+    }
+
+    .chart {
+        width: 86px;
+        height: auto;
+        padding: 8px 21.063px 6px 21px;
+        border-radius: 5px;
+
+    }
+
+    .chatrs-content p {
+        width: 66px;
+        line-height: 25px;
+    }
+
+    .short {
+        width: 86px;
+    }
+
+    .mid-short {
+        width: 122px;
+    }
+
+    .middle {
+        width: 142px;
+    }
+
+    .s-large {
+        width: 162px;
+    }
+
+    .large {
+        width: 245px;
+
+    }
+
+    .jobs_information {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .job-info_box {
+        width: 100%;
+
+    }
+
+    .left-compare_box,
+    .right-compare_box {
+        width: 100%;
+    }
+
+    .right-compare_box .header,
+    .left-compare_box .header {
+
+        padding: 10px 10px;
+
+    }
+
+    #compare-header {
+        justify-content: center !important;
+        padding: 0 !important;
+    }
+}

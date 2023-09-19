@@ -1,0 +1,276 @@
+.intro_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_text p {
+
+    color: #989898;
+    ;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-left: 12px;
+}
+
+.big_highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.big_highlight>p {
+    font-family: moraba-medium;
+    color: #1D1E22;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 100%;
+    padding: 0 0px 0 11px;
+}
+
+.highlight-text {
+    color: var(--primary-color) !important;
+}
+
+.search_form {
+    width: 100%;
+    padding: 26px 42px 27px 42px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search_input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #EAEAEA;
+
+}
+
+.input-group input:focus~.drop-search {
+    display: block !important;
+}
+
+.search_input::placeholder {
+    font-family: var(   --PeydaWebFaNum3 );
+    color: #989898;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.search_input:focus {
+    box-shadow: none !important;
+    border: 1px solid #eaeaea67 !important;
+
+}
+
+.search_submit {
+    font-family: var(--PeydaWebFaNum3);
+    background-color: var(--primary-color) !important;
+    color: #ffffff;
+}
+
+.search_submit:hover {
+    color: #fae1e1;
+
+}
+
+
+.drop-search {
+    display: none;
+    top: 55px;
+    left: 0;
+    z-index: 111;
+    position: absolute;
+    width: 100%;
+    min-height: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.banner-drop {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #E9E9E9;
+}
+
+
+.drop-sec {
+    width: 100%;
+}
+
+.drop-title {
+    color: #000;
+    text-align: right;
+    font-family: var(   --PeydaWebFaNum5);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 16px */
+}
+
+.last-searched-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.searched-tag {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 8px 14px 7px 9px;
+    gap: 10px;
+    border: 1px solid #33333323;
+    border-radius: 20px;
+}
+
+/* this codes blong to link_boxs  */
+
+.link_boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    padding: 20px 12px 20px 12px;
+    border-radius: 5px;
+}
+
+.link_box p {
+    font-family: var(--PeydaWebFaNum3);
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+
+/* slider box  */
+
+
+
+.ausbildung_card_first {
+    height: 357px;
+    border-radius: 10px;
+    /* border: 1px solid #E3E3E3; */
+    background: transparent;
+    width: 314px;
+    position: relative;
+    /* margin-left: 15px; */
+    background-color: #F6F6F6;
+}
+
+.ausbildung_card_first {
+    padding: 10px;
+}
+
+.ausbildung_card_first .ausbildung_box {
+    border-radius: 10px;
+    background: transparent;
+    padding: 20px;
+    height: 374px;
+    width: 311px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ausbildung_card_first .ausbildung_box header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ausbildung_card_first .ausbildung_box header .ausbildung_title a {
+    font-size: 16px;
+    /* font-family: Morabba; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--secondary-color);
+}
+
+.ausbildung_card_first .ausbildung_box header .ausbildung_title_de a {
+    color: var(--primary-color);
+    font-size: 16px;
+    /* font-family: Morabba; */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+
+
+.aub-hero-slider .swiper-slide{
+    width: unset !important;
+}
+
+.ausbildung_img {
+    width: 100%;
+    height: 100;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.count_number {
+    background-color: #1D1E22;
+
+}
+
+
+
+.count_dwon_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+
+.count_dwon_box {
+    color: #EAEAEA;
+    padding: 20px 0;
+
+}
+
+.count_dwon_box h1 {
+    font-family: PeydaWebFaNum16;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.count_dwon_box p {
+    text-align: center;
+
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 19px;
+}

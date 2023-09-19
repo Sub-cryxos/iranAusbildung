@@ -1,0 +1,143 @@
+@media screen and (max-width:750px) {
+
+    /* responsive of main dashboard page  */
+    .sidebar {
+        display: none;
+    }
+
+    .header-info {
+        display: none;
+    }
+
+    .ausbildung_card {
+        display: flex;
+        align-items: center;
+        width: 338px;
+        height: 185px;
+        padding: 0px 10px 0px 10px;
+        margin-top: 10px;
+
+    }
+
+    .popular-asubildung_pic {
+        width: 50%;
+    }
+
+    .popular-asubildung_pic img {
+        width: 144.857px;
+        height: 153.549px;
+        transform: scale(1.0);
+    }
+
+    .popular-asubildung_infos {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        /* padding: 10px; */
+        padding: 10px;
+    }
+
+    .salary_ausbildung {
+        display: block;
+    }
+
+    .salary_ausbildung ul>li {
+        background: #F6F6F6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .salary_ausbildung ul>li span {
+        padding: 6px 2px 6px 1px;
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+    }
+
+    .btn_navigate_more {
+        display: none;
+    }
+
+    .share_post {
+        display: none;
+    }
+
+    .shitf {
+        top: 18px;
+        left: 174px;
+        padding: 2px 0px 0px 6px;
+        width: 60px;
+
+
+    }
+
+    .shitf p {
+        line-height: 100%;
+    }
+
+    .saved_post {
+        top: 16px;
+        right: 23px;
+        background-color: #ffffff8e;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    *[desktop-show] {
+        display: none !important;
+    }
+
+    *[mobile-show] {
+        display: block !important;
+    }
+
+
+    #small-main-box {
+        margin: 0;
+    }
+
+    .nav-pills .nav-link {
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .nav-pills {
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    /* start of the responsive of your services  */
+    .cv-wait {
+        width: 100%;
+    }
+
+    /* start of the resoinsive of admin dashboard  */
+
+    .salary-consult {
+        height: 90px;
+        margin-top: 15px;
+    }
+
+    .salary-numb {
+       
+        font-size: 30px !important; 
+    
+    }
+
+    .salary-consult p:nth-child(1) {
+        font-size: 16px !important;
+    }
+
+    /* start the responsive of ticket page  */
+    .input-ticket {
+        width: 100% !important;
+    }
+}

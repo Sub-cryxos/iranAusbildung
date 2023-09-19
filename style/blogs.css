@@ -1,0 +1,268 @@
+@import url('./reset.css');
+@import url('./defualt.css');
+@import url('./variables.css');
+
+
+body {
+    background: #FCFCFC;
+}
+
+/* page title started  */
+.page-title {
+    position: relative;
+    background-color: var(--primary-color);
+    height: 179px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-page h1 {
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Morabba;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+}
+
+.text-page p {
+    /* text */
+    margin-top: 2rem;
+    color: #FFF;
+    /* text-align: right; */
+    font-family: Morabba;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+    text-align: center;
+}
+
+.category-nav {
+    position: absolute;
+    bottom: -28px;
+    left: 11%;
+
+    width: 80%;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 5px 44px 0px rgba(0, 0, 0, 0.05);
+}
+
+.categories {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 12px 12px 12px 12px;
+}
+
+.categories .category-item {
+    padding: 12px 12px 12px 12px;
+    border-left: 1px solid #E6E6E6;
+    border-width: 1px;
+}
+
+.categories .category-item:nth-last-child(1) {
+    border: none;
+}
+
+.categories .category-item>a {
+    color: #000;
+    text-align: center;
+    font-family: Peyda(FaNum);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-left: 11px;
+}
+
+/* page title end  */
+
+/* page banner  */
+
+.banner {
+    margin-top: 7rem;
+}
+
+.page-banner {
+    border-radius: 10px;
+    background-color: #EEE;
+    height: 238px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.class-image {
+    position: relative;
+
+}
+
+.circle {
+    position: absolute;
+    bottom: -25rem;
+    left: 0;
+
+    background: url('../assets/images/Ellipse\ 15.svg') no-repeat;
+    background-position: 18% 20%;
+}
+
+.banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 50%;
+    width: 80%;
+}
+
+.banner-text p {
+    color: var(--secondary-color);
+    /* text-align: right; */
+    font-family: Morabba;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 50px */
+}
+
+
+.btn-sign {
+    /* height:50% ; */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.more-btn {
+    display: inline !important;
+    padding: 5px 13px;
+    border-radius: 5px;
+    background-color: #CFCFCF;
+    margin-bottom: 5px;
+
+
+    color: #000;
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 36px */
+}
+
+/* start of the asubildung cards (you can use where ever you want )  */
+
+.main_article-box {
+    padding: 10px;
+}
+
+.ausbildung-card {
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.ausbildung-card .article-img {
+    border-radius: 5px;
+    width: 100%;
+    /* padding: 20px; */
+
+}
+
+.ausbildung-card .article-img img {
+    width: 100%;
+}
+
+.article-text {
+    margin-top: 1rem;
+    width: 95%;
+}
+
+.article-text h3 {
+    margin-top: 1.5rem;
+    color: #000;
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.article-text p {
+    margin-top: 2rem;
+    color: #5B5B5B;
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 172.5%;
+    /* 24.15px */
+}
+
+.read-more_btn {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    /* justify-content: ; */
+    align-items: end;
+    padding-right: 3px;
+}
+
+.read-more_btn a {
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: #FCDDE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    color: var(--primary-color, #EC3A4C);
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 16px */
+}
+
+/* Vip articles started  */
+
+.vip-articles {
+    background-color: #EEF0F2;
+}
+
+.text-vip {
+    color: #25262A;
+    text-align: right;
+    font-family: Morabba;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 25px */
+}
+
+/* Vip articles ended */

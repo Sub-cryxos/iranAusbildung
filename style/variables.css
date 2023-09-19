@@ -1,0 +1,35 @@
+
+@import url('./fonts.css');
+
+
+:root {
+    --primary-color: #EC3A4C;
+    --secondary-color: #1D1E22;
+    --primary-bg-color: #3E4347;
+    --sec-light: #25262A;
+    --primary-hover: #D52A3B;
+
+    --main-bg-color :linear-gradient(0deg, rgba(252,252,252,1) 59%, rgba(238,240,242,1) 68%) !important;
+
+    /* the all fonts are here  */
+    --PeydaWebFaNum1 :  PeydaWebFaNum1;
+    --PeydaWebFaNum2 :  PeydaWebFaNum2;
+    --PeydaWebFaNum3 :  PeydaWebFaNum3;
+    --PeydaWebFaNum5 :  PeydaWebFaNum5;
+    --PeydaWebFaNum6 :  PeydaWebFaNum6;
+    --PeydaWebFaNum8 :  PeydaWebFaNum8;
+    --PeydaWebFaNum9 :  PeydaWebFaNum9;
+
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.perfect-centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

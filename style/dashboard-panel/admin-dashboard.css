@@ -1,0 +1,54 @@
+@import url('../fonts.css');
+
+.salary-consult {
+    width: 342px;
+    height: 127px;
+    border-radius: 20px;
+    background-color: #FF6060;
+    /* padding-top: 20px; */
+    padding: 20px 10px 10px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-green {
+    background-color: #23C38A;
+}
+
+.bg-blue {
+
+    background-color: #4662F6;
+}
+
+.salary-consult p ,
+.salary-consult span{
+    color: #FFF;
+    font-family: PeydaWebFaNum15;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.salary-consult span {
+    font-size: 16px;
+
+}
+
+.salary-consult .salary-numb {
+    font-size: 40px;
+    font-weight: 400;
+  
+}
+
+
+.align-end {
+    align-self: flex-end;
+}
+
+.nav-pills{ 
+    flex-wrap:wrap !important    ;
+}

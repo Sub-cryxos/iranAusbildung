@@ -1,0 +1,449 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+
+
+/* hero section start  */
+.large-hero-sec,
+.small-hero-sec {
+    /* background-image:; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-large.png');
+    height: 422.896px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 19px 24px 24px 26px;
+}
+
+
+.hero-section-title a {
+
+    font-family: PeydaWebFaNum6;
+    color: #FFF;
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 20px */
+}
+
+
+.small-hero-sec-wapper {
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+}
+
+.small-hero-sec {
+    width: 47%;
+    height: 201.333px;
+
+}
+
+#bg_car {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-1.png');
+}
+
+#bg_card {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-2.png');
+}
+
+#bg_football {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-3.png');
+}
+
+#bg_millitary {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-4.png');
+}
+
+.hero-section-title-sm a {
+    font-size: 18px !important;
+}
+
+.category-btn {
+
+    display: inline;
+    padding: 8px 20px;
+    background-color: rgba(236, 58, 76, 0.50);
+    border-radius: 5px;
+
+    font-family: PeydaWebFaNum-N;
+    color: #FFF;
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+}
+
+.category-btn:hover {
+    color: #f5dede;
+}
+
+/* hero section finish  */
+
+/* categiry start  */
+.categories-sec {
+    border-radius: 10px;
+    height: 190px;
+    background: #EEF0F2;
+}
+
+.text-section p {
+    font-family: PeydaWebFaNum6;
+    color: var(--primary-color, #EC3A4C);
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    /* 44px */
+}
+
+.category_box_post {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.category_box_post a {
+    font-family: PeydaWebFaNum5;
+    color: #333;
+    font-family: Peyda(FaNum);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* .category_box_post svg path {
+    fill: var(--primary-color);
+} */
+
+.active-category {
+    background-color: var(--primary-color) !important
+}
+
+.active-category a {
+    color: #fff;
+
+
+    /* 32px */
+}
+
+.active-category svg path {
+    fill: #fff;
+}
+
+.top-m {
+    margin-top: 1rem;
+}
+
+.top-m-big {
+    margin-top: 5rem;
+}
+
+/* categiry end  */
+
+/* lastest articles start  */
+
+.section-title {
+    position: relative;
+}
+
+.section-title h1 {
+    color: var(--secondary-color, #1D1E22);
+    text-align: right;
+    font-family: PeydaWebFaNum6;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    margin-right: 2rem;
+    position: relative;
+}
+
+
+.section-title h1::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: -26px;
+    width: 10px;
+    height: 33px;
+    background-color: var(--primary-color);
+}
+
+.moving-arrow-l ,
+.moving-arrow-r{
+    position: absolute;
+   
+}
+
+.moving-arrow-l {
+    top: 10rem;
+    right: -2rem;
+}
+
+.moving-arrow-r {
+    top: 10rem;
+    left: -2rem;
+}
+
+.news-boxs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-box-pic img {
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.news-box-title a {
+    font-family: PeydaWebFaNum5;
+    width: 90%;
+    margin-top: 10px;
+    color: #000;
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    /* 36px */
+}
+
+.shorthand p {
+    font-family: PeydaWebFaNum3;
+
+    color: #A3A3A3;
+    text-align: right;
+    font-family: Peyda(FaNum);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    padding-left: 10px;
+    /* 26px */
+}
+
+.box-news-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-news-footer a {
+    color: var(--primary-color, #EC3A4C);
+    text-align: right;
+    /* font-family: Peyda(FaNum); */
+    font-family: PeydaWebFaNum5;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+}
+
+.box-news-footer span {
+    color: #757575;
+    text-align: right;
+    font-family: PeydaWebFaNum3;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    /* 28px */
+}
+
+/* lastest articles finish  */
+
+/* video article section start  */
+
+.video-offer {
+    height: 816px;
+    background-color: #1D1E22;
+
+    /* padding: 0 0 20px 0; */
+}
+
+.tab-title-ul {
+    margin-top: 2rem;
+    gap: 65px;
+}
+
+.nav-item .active {
+    color: var(--primary-color, #EC3A4C) !important;
+    padding: 0 !important;
+    background-color: #ffffff00 !important;
+    text-align: right;
+    font-family: PeydaWebFaNum6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    /* 40px */
+    border: none !important;
+}
+
+.nav-item button {
+    padding: 0 !important;
+    color: #DEDEDE;
+    text-align: right;
+    font-family: PeydaWebFaNum6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    border: none !important;
+
+}
+
+.nav-item button:hover {
+    color: floralwhite;
+}
+
+.video-wrapper {
+    display: flex !important;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+.video-text-box p {
+    color: #FFF;
+    text-align: right;
+    font-family: PeydaWebFaNum5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    margin-top: 1rem;
+    width: 90%;
+
+}
+
+.video-box {
+    width: 100%;
+}
+
+.video-box .video {
+    width: 100%;
+    margin-top: 3rem;
+    /* width: 50%;   */
+    height: 399px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+/* video article section finish   */
+
+/* the recommanded articles start  */
+
+.recommended-color {
+    background-color: #EEF0F2;
+}
+
+.recommended-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+
+}
+
+.recommended-pic img {
+    /* width: 211px; */
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.recommended-title a {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+}
+
+.recommended-text p {
+    color: #A3A3A3;
+    text-align: right;
+    font-family: PeydaWebFaNum3;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    /* 26px */
+}
+
+/* the recommanded articles finish  */
+
+/* the popular city in germany start  */
+
+.popular-city-box {
+    max-width: 303px;
+    max-height: 250px;
+}
+
+.popular-city-pic {
+    width: fit-content;
+
+}
+
+.popular-city-title a {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    /* 40px */
+}
+
+.popular-navigate-btn a {
+    color: var(--secondary-color, #1D1E22);
+    text-align: right;
+    font-family: PeydaWebFaNum-N;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 32px */
+}
+
+.ad_box {
+    display: flex;
+    height: 410px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #F6F6F6;
+}
+
+.recommended-color .offset-xxl-3 {
+    margin-right: 22% !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--primary-color);
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1 !important;
+}

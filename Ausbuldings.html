@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/social-media.css">
+    <link rel="stylesheet" href="./style/ausbildung.css">
+    <link rel="stylesheet" href="./style/reponsive.css">
+    <title>Document</title>
+</head>
+
+<body dir="rtl">
+
+    <!-- header started  -->
+    <header class="container-fluid main_header">
+        <div class="top_bar">
+            <!-- the logo is here -->
+
+            <div class="logo_part">
+                <div class="logo_image">
+                    <img src="../assets/images/logo.svg" alt="">
+                </div>
+
+                <!-- the logo text is here -->
+                <div class="logo_text">
+                    <p>ایران آوسبیلدونگ </p>
+                </div>
+            </div>
+
+            <!-- form enter part  -->
+
+            <div class="form_enter">
+                <div class="enter_buttons">
+                    <!-- log / sign in button  -->
+                    <div class="log_sign">
+                        <a class="log_sign-button">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 10C14.2091 10 16 8.20914 16 6C16 3.79086 14.2091 2 12 2C9.79086 2 8 3.79086 8 6C8 8.20914 9.79086 10 12 10Z"
+                                        fill="white" />
+                                    <path opacity="0.5"
+                                        d="M20 17.5C20 19.985 20 22 12 22C4 22 4 19.985 4 17.5C4 15.015 7.582 13 12 13C16.418 13 20 15.015 20 17.5Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <p> ورود/عضویت</p>
+                        </a>
+                    </div>
+
+                    <!-- consult request  -->
+                    <div class="consult_request">
+                        <a class="consult request-button">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2"
+                                        d="M21 12C21.0002 13.5806 20.5841 15.1333 19.7937 16.502C19.0033 17.8708 17.8663 19.0072 16.4972 19.797C15.1281 20.5868 13.5752 21.0021 11.9946 21.0011C10.414 21.0002 8.86158 20.583 7.49344 19.7916L3.98813 20.9606C3.85598 21.0047 3.71417 21.0111 3.57859 20.9791C3.44301 20.9471 3.31903 20.878 3.22052 20.7795C3.12202 20.681 3.0529 20.557 3.02091 20.4214C2.98891 20.2858 2.99531 20.144 3.03938 20.0119L4.20844 16.5066C3.51741 15.3113 3.11064 13.9731 3.01959 12.5955C2.92854 11.2179 3.15566 9.83775 3.68337 8.56195C4.21108 7.28615 5.02523 6.14886 6.06284 5.23807C7.10044 4.32729 8.33367 3.66744 9.66711 3.30956C11.0006 2.95169 12.3985 2.9054 13.7527 3.17426C15.1069 3.44312 16.381 4.01994 17.4766 4.86007C18.5722 5.70021 19.4598 6.78114 20.0708 8.01923C20.6818 9.25732 20.9997 10.6194 21 12Z"
+                                        fill="white" />
+                                    <path
+                                        d="M11.9999 2.25C10.3166 2.24963 8.66188 2.68508 7.19679 3.51396C5.7317 4.34285 4.50616 5.53692 3.63947 6.97997C2.77277 8.42301 2.29444 10.0659 2.25104 11.7486C2.20764 13.4314 2.60065 15.0967 3.39181 16.5825L2.32774 19.7747C2.2396 20.039 2.22681 20.3226 2.2908 20.5938C2.35479 20.8649 2.49304 21.1129 2.69004 21.3099C2.88704 21.5069 3.13502 21.6451 3.40618 21.7091C3.67733 21.7731 3.96095 21.7603 4.22524 21.6722L7.41743 20.6081C8.72503 21.3036 10.1739 21.6921 11.654 21.744C13.1342 21.7959 14.6067 21.51 15.9598 20.9079C17.3129 20.3057 18.5111 19.4033 19.4634 18.269C20.4156 17.1346 21.097 15.7983 21.4557 14.3613C21.8144 12.9244 21.841 11.4246 21.5335 9.97578C21.226 8.52701 20.5925 7.16732 19.6811 5.99992C18.7697 4.83253 17.6043 3.88811 16.2733 3.23836C14.9424 2.58861 13.481 2.25061 11.9999 2.25ZM11.9999 20.25C10.5496 20.251 9.12471 19.8691 7.86931 19.1428C7.75537 19.0767 7.62603 19.0418 7.49431 19.0416C7.41362 19.0416 7.33349 19.0549 7.25712 19.0809L3.74993 20.25L4.91899 16.7438C4.95269 16.643 4.9646 16.5362 4.95394 16.4305C4.94327 16.3248 4.91027 16.2226 4.85712 16.1306C3.94772 14.5584 3.5826 12.7299 3.8184 10.929C4.0542 9.12801 4.87774 7.4552 6.16126 6.17006C7.44479 4.88491 9.11655 4.05925 10.9172 3.82118C12.7179 3.5831 14.5468 3.94591 16.1202 4.85333C17.6936 5.76074 18.9236 7.16204 19.6193 8.83983C20.3151 10.5176 20.4377 12.3781 19.9681 14.1327C19.4986 15.8873 18.4632 17.4379 17.0224 18.5439C15.5817 19.65 13.8163 20.2497 11.9999 20.25ZM15.7499 10.5C15.7499 10.6989 15.6709 10.8897 15.5303 11.0303C15.3896 11.171 15.1988 11.25 14.9999 11.25H8.99993C8.80102 11.25 8.61025 11.171 8.4696 11.0303C8.32895 10.8897 8.24993 10.6989 8.24993 10.5C8.24993 10.3011 8.32895 10.1103 8.4696 9.96967C8.61025 9.82902 8.80102 9.75 8.99993 9.75H14.9999C15.1988 9.75 15.3896 9.82902 15.5303 9.96967C15.6709 10.1103 15.7499 10.3011 15.7499 10.5ZM15.7499 13.5C15.7499 13.6989 15.6709 13.8897 15.5303 14.0303C15.3896 14.171 15.1988 14.25 14.9999 14.25H8.99993C8.80102 14.25 8.61025 14.171 8.4696 14.0303C8.32895 13.8897 8.24993 13.6989 8.24993 13.5C8.24993 13.3011 8.32895 13.1103 8.4696 12.9697C8.61025 12.829 8.80102 12.75 8.99993 12.75H14.9999C15.1988 12.75 15.3896 12.829 15.5303 12.9697C15.6709 13.1103 15.7499 13.3011 15.7499 13.5Z"
+                                        fill="white" />
+                                </svg>
+
+                            </span>
+
+                            <p> درخواست مشاوره</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends here  -->
+
+
+    <!-- start of first (search and category) section  -->
+    <div class="container">
+        <!-- text bar  -->
+        <div class="row mt-5">
+            <div>
+                <h1 class="text-center search_text"><span class="red_text">رشته</span> مورد نظرت رو جستوجو کن</h1>
+            </div>
+        </div>
+        <!-- search bar  -->
+        <div class=" row mt-5">
+            <div class="col-xxl-8 col-xl-5 col-md-8  col-sm-12  offset-xxl-2 offset-xl-2 offset-md-2 ">
+                <div class="search_input_ausbildung">
+                    <form action="" class="search_form">
+                        <div class="input-group ">
+                            <input type="text" class="form-control input_search"
+                                placeholder="نام رشته مورد نظرت رو جستوجو کن ..."
+                                aria-label="نام رشته مورد نظرت رو جستو جو کن ... " aria-describedby="searched">
+                            <button class="btn search_btn" type="button" id="searched">
+                                <span> <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.16"
+                                            d="M19.9946 11C19.9946 13.1217 19.1518 15.1566 17.6515 16.6569C16.1512 18.1571 14.1164 19 11.9946 19C9.8729 19 7.83807 18.1571 6.33777 16.6569C4.83748 15.1566 3.99463 13.1217 3.99463 11C3.99463 8.87827 4.83748 6.84344 6.33777 5.34315C7.83807 3.84285 9.8729 3 11.9946 3C14.1164 3 16.1512 3.84285 17.6515 5.34315C19.1518 6.84344 19.9946 8.87827 19.9946 11Z"
+                                            fill="white" />
+                                        <path
+                                            d="M21.9948 21L17.6518 16.657M17.6518 16.657C18.3947 15.9141 18.984 15.0322 19.3861 14.0615C19.7881 13.0909 19.995 12.0506 19.995 11C19.995 9.94939 19.7881 8.90908 19.3861 7.93845C18.984 6.96782 18.3947 6.08588 17.6518 5.34299C16.9089 4.6001 16.027 4.01081 15.0564 3.60877C14.0858 3.20672 13.0454 2.99979 11.9948 2.99979C10.9442 2.99979 9.90392 3.20672 8.93329 3.60877C7.96266 4.01081 7.08072 4.6001 6.33783 5.34299C4.83751 6.84332 3.99463 8.87821 3.99463 11C3.99463 13.1218 4.83751 15.1567 6.33783 16.657C7.83816 18.1573 9.87305 19.0002 11.9948 19.0002C14.1166 19.0002 16.1515 18.1573 17.6518 16.657Z"
+                                            stroke="white" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                جستوجو
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- categoreis -->
+        <div class="row mt-5 ">
+            <div class="categories col-xxl-8 offset-xxl-2 ">
+                <span class="famous_category"> محبوب ترین ها:</span>
+                <span class="famous_category"> پرستاری</span>
+                <span class="famous_category"> مهندسی نرم افزار</span>
+                <span class="famous_category"> معماری ساختمان</span>
+                <span class="famous_category"> مهندسی صنایع</span>
+                <span class="famous_category"> طراح گرافیک</span>
+                <span class="famous_category"> مهندسی برق صنعتی</span>
+            </div>
+        </div>
+        <!-- subjects  -->
+        <div class="row mt-5">
+            <div class="subjects col-xxl-10 offset-xxl-1">
+                <div class="subject">
+                    <span>
+                        🎨
+                    </span>
+
+                    <span class="subject_text">رشته های هنری</span>
+                </div>
+
+                <div class="subject">
+                    <span>💊</span>
+
+                    <span class="subject_text">رشته های پیراپزشکی</span>
+                </div>
+
+                <div class="subject">
+                    <span>🔧</span>
+
+
+                    <span class="subject_text"> رشته های فنی</span>
+                </div>
+
+                <div class="subject">
+                    <span>👔</span>
+
+
+                    <span class="subject_text"> رشته های مدیریتی </span>
+                </div>
+
+                <div class="subject">
+                    <span>📐</span>
+
+
+                    <span class="subject_text">رشته های مهندسی</span>
+                </div>
+
+                <div class="subject">
+                    <span>🏅</span>
+
+
+                    <span class="subject_text">رشته های ورزشی</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of first (search and category) section  -->
+
+    <!-- start of the main element (cards and filters ) -->
+    <div class="container-fuild main-wrapper mt-5">
+        <div class="container">
+            <!-- filter section -->
+            <div class="row">
+                <div class="col-12 filter_section mt-3">
+                    <p class="text_filter"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.0002 4H6.00018C4.89518 4 3.97418 4.91 4.24718 5.98C4.53781 7.11389 5.07318 8.1704 5.81569 9.07531C6.55821 9.98021 7.48985 10.7116 8.54518 11.218C9.36818 11.612 10.0002 12.386 10.0002 13.298V19.382C10.0003 19.5524 10.0439 19.7199 10.1269 19.8687C10.2099 20.0175 10.3296 20.1426 10.4746 20.2322C10.6195 20.3218 10.785 20.3728 10.9552 20.3805C11.1254 20.3881 11.2948 20.3522 11.4472 20.276L13.4472 19.276C13.6133 19.193 13.753 19.0654 13.8506 18.9075C13.9483 18.7496 14.0001 18.5677 14.0002 18.382V13.298C14.0002 12.386 14.6322 11.612 15.4542 11.218C16.5099 10.7119 17.442 9.98062 18.1849 9.0757C18.9277 8.17077 19.4634 7.11411 19.7542 5.98C20.0252 4.91 19.1032 4 18.0002 4Z"
+                                stroke="#1D1E22" stroke-width="2" />
+                        </svg>
+                        فیلتر ها
+                    </p>
+
+                    <div class="filters mt-3">
+                        <div class="deavtice">
+                            <div class="filter_box">
+                                <span>🧠</span>
+                                <span>انتخاب رشته</span>
+                            </div>
+
+                            <div class="filter_box">
+                                <span>⌚</span>
+                                <span> مدت دوره</span>
+                            </div>
+
+
+                            <div class="filter_box">
+                                <span>🎓</span>
+                                <span> نوع ر شته</span>
+                            </div>
+
+                            <div class="filter_box">
+                                <span>🌙</span>
+                                <span> ساعات کاری</span>
+                            </div>
+                        </div>
+
+                        <div class=" active">
+
+                            <div class="filter_box active_filter">
+                                <span>A</span>
+                                <span> انتحاب بر اساس حروف الفبا</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- sorted by  -->
+            <div class="row mt-5 col-12">
+                <div class="sort_section">
+                    <div class="sorts">
+                        <span class="sort">
+                            <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 6.75H22.5M5.25 12H18.75M9.75 17.25H14.25" stroke="#333333"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            مرتب سازی بر اساس:
+
+                        </span>
+
+                        <span class="sort active_sort">
+                            محبوب ترین ها
+                            <span></span>
+                        </span>
+
+                        <span class="sort">
+                            بیشترین درآمد
+                            <span></span>
+                        </span>
+
+                    </div>
+
+                    <div>
+                        <p class="found_subject">16 رشته پیدا شد</p>
+                    </div>
+                </div>
+                <hr class="mt-4">
+            </div>
+
+            <div class="row col-12 ausbildung_card_wrapper">
+                <div class="ausbildung_card ">
+                    <!-- desktop mode  -->
+                    <div class="desktop-mode">
+                        <div class="popular-asubildung_pic">
+                            <img src="./assets/images/popular_ausbildung.png" alt="popular _ausbildung">
+                        </div>
+
+                        <div class="popular_ausbildung_title">
+                            <h3 class="popular_ausbildung_fa mt-2">پیراپزشکی</h3>
+                            <h3 class="popular_ausbildung_de mt-3">Gesundheitswesen</h3>
+                        </div>
+
+                        <div class="salary_ausbildung">
+                            <ul class=" mt-1">
+
+                                <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="btn_navigate_more">
+                            <a href="">
+                                مشاهده بیشتر
+                                <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_148_209)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.29303 12.7071C8.10556 12.5196 8.00024 12.2653 8.00024 12.0001C8.00024 11.7349 8.10556 11.4806 8.29303 11.2931L13.95 5.6361C14.0423 5.54059 14.1526 5.46441 14.2746 5.412C14.3966 5.35959 14.5278 5.332 14.6606 5.33085C14.7934 5.32969 14.9251 5.355 15.048 5.40528C15.1709 5.45556 15.2825 5.52981 15.3764 5.6237C15.4703 5.7176 15.5446 5.82925 15.5949 5.95214C15.6451 6.07504 15.6704 6.20672 15.6693 6.3395C15.6681 6.47228 15.6405 6.6035 15.5881 6.7255C15.5357 6.84751 15.4595 6.95785 15.364 7.0501L10.414 12.0001L15.364 16.9501C15.5462 17.1387 15.647 17.3913 15.6447 17.6535C15.6424 17.9157 15.5373 18.1665 15.3518 18.3519C15.1664 18.5373 14.9156 18.6425 14.6534 18.6448C14.3912 18.6471 14.1386 18.5463 13.95 18.3641L8.29303 12.7071Z"
+                                                fill="#EC3A4C" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_148_209">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="saved_post">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="formkit:bookmark">
+                                    <rect width="28" height="28" rx="5" fill="white" fill-opacity="0.8" />
+                                    <path id="Vector"
+                                        d="M19.3454 21.9983C19.0527 21.9983 18.7727 21.9185 18.5054 21.7587L14.3182 19.1766C14.2193 19.1177 14.1074 19.0867 13.9936 19.0867C13.8798 19.0867 13.768 19.1177 13.6691 19.1766L9.48181 21.7587C8.96 22.0782 8.34909 22.0782 7.82727 21.772C7.30545 21.4659 7 20.8936 7 20.268V7.99646C7 6.89175 7.85273 6 8.90909 6H19.0909C20.1473 6 21 6.89175 21 7.99646V20.268C21.0011 20.4945 20.9596 20.719 20.8776 20.9286C20.7957 21.1382 20.675 21.3288 20.5225 21.4896C20.37 21.6503 20.1886 21.778 19.9888 21.8653C19.789 21.9526 19.5747 21.9978 19.3582 21.9983H19.3454ZM14 17.7392C14.3309 17.7392 14.6745 17.8324 14.9673 18.0187L19.1545 20.6008C19.32 20.7073 19.4727 20.6407 19.5363 20.6008C19.6 20.5609 19.7273 20.4677 19.7273 20.2547V7.99646C19.7273 7.62379 19.4473 7.33097 19.0909 7.33097H8.90909C8.55272 7.33097 8.27273 7.62379 8.27273 7.99646V20.268C8.27273 20.481 8.4 20.5742 8.46363 20.6141C8.52727 20.654 8.66727 20.7206 8.84545 20.6141L13.0327 18.032C13.3382 17.8457 13.6691 17.7525 14 17.7525V17.7392Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+
+                        <div class="share_post">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="solar:share-linear">
+                                    <rect width="28" height="28" rx="5" fill="white" fill-opacity="0.8" />
+                                    <g id="Group">
+                                        <path id="Vector"
+                                            d="M11.5833 14.25C11.5833 14.8578 11.3419 15.4407 10.9121 15.8705C10.4823 16.3002 9.89945 16.5417 9.29167 16.5417C8.68388 16.5417 8.10098 16.3002 7.67121 15.8705C7.24144 15.4407 7 14.8578 7 14.25C7 13.6422 7.24144 13.0593 7.67121 12.6296C8.10098 12.1998 8.68388 11.9583 9.29167 11.9583C9.89945 11.9583 10.4823 12.1998 10.9121 12.6296C11.3419 13.0593 11.5833 13.6422 11.5833 14.25Z"
+                                            stroke="black" stroke-width="1.25" />
+                                        <path id="Vector_2"
+                                            d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
+                                            stroke="black" stroke-width="1.25" stroke-linecap="round" />
+                                        <path id="Vector_3"
+                                            d="M20.7498 20.2083C20.7498 20.8161 20.5084 21.399 20.0786 21.8288C19.6489 22.2586 19.066 22.5 18.4582 22.5C17.8504 22.5 17.2675 22.2586 16.8377 21.8288C16.4079 21.399 16.1665 20.8161 16.1665 20.2083C16.1665 19.6005 16.4079 19.0177 16.8377 18.5879C17.2675 18.1581 17.8504 17.9167 18.4582 17.9167C19.066 17.9167 19.6489 18.1581 20.0786 18.5879C20.5084 19.0177 20.7498 19.6005 20.7498 20.2083ZM20.7498 8.29167C20.7498 8.89945 20.5084 9.48235 20.0786 9.91212C19.6489 10.3419 19.066 10.5833 18.4582 10.5833C17.8504 10.5833 17.2675 10.3419 16.8377 9.91212C16.4079 9.48235 16.1665 8.89945 16.1665 8.29167C16.1665 7.68388 16.4079 7.10098 16.8377 6.67121C17.2675 6.24144 17.8504 6 18.4582 6C19.066 6 19.6489 6.24144 20.0786 6.67121C20.5084 7.10098 20.7498 7.68388 20.7498 8.29167Z"
+                                            stroke="black" stroke-width="1.25" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="shitf">
+                            <span><img src="./assets/Icons/material-symbols_mode-night-outline.svg" alt=""></span>
+                            <p> شیفتی</p>
+                        </div>
+                    </div>
+                    <!-- desktop mode  -->
+                    <!-- responsive mode  -->
+                    <div class="first-sec">
+                        <div class="popular-asubildung_pic">
+                            <img src="./assets/images/popular_ausbildung.png" alt="popular _ausbildung">
+                        </div>
+
+                        <div class="saved_post">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="formkit:bookmark">
+                                    <rect width="28" height="28" rx="5" fill="white" fill-opacity="0.8" />
+                                    <path id="Vector"
+                                        d="M19.3454 21.9983C19.0527 21.9983 18.7727 21.9185 18.5054 21.7587L14.3182 19.1766C14.2193 19.1177 14.1074 19.0867 13.9936 19.0867C13.8798 19.0867 13.768 19.1177 13.6691 19.1766L9.48181 21.7587C8.96 22.0782 8.34909 22.0782 7.82727 21.772C7.30545 21.4659 7 20.8936 7 20.268V7.99646C7 6.89175 7.85273 6 8.90909 6H19.0909C20.1473 6 21 6.89175 21 7.99646V20.268C21.0011 20.4945 20.9596 20.719 20.8776 20.9286C20.7957 21.1382 20.675 21.3288 20.5225 21.4896C20.37 21.6503 20.1886 21.778 19.9888 21.8653C19.789 21.9526 19.5747 21.9978 19.3582 21.9983H19.3454ZM14 17.7392C14.3309 17.7392 14.6745 17.8324 14.9673 18.0187L19.1545 20.6008C19.32 20.7073 19.4727 20.6407 19.5363 20.6008C19.6 20.5609 19.7273 20.4677 19.7273 20.2547V7.99646C19.7273 7.62379 19.4473 7.33097 19.0909 7.33097H8.90909C8.55272 7.33097 8.27273 7.62379 8.27273 7.99646V20.268C8.27273 20.481 8.4 20.5742 8.46363 20.6141C8.52727 20.654 8.66727 20.7206 8.84545 20.6141L13.0327 18.032C13.3382 17.8457 13.6691 17.7525 14 17.7525V17.7392Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+
+                        </div>
+
+                        <div class="share_post">
+                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="solar:share-linear">
+                                    <rect width="28" height="28" rx="5" fill="white" fill-opacity="0.8" />
+                                    <g id="Group">
+                                        <path id="Vector"
+                                            d="M11.5833 14.25C11.5833 14.8578 11.3419 15.4407 10.9121 15.8705C10.4823 16.3002 9.89945 16.5417 9.29167 16.5417C8.68388 16.5417 8.10098 16.3002 7.67121 15.8705C7.24144 15.4407 7 14.8578 7 14.25C7 13.6422 7.24144 13.0593 7.67121 12.6296C8.10098 12.1998 8.68388 11.9583 9.29167 11.9583C9.89945 11.9583 10.4823 12.1998 10.9121 12.6296C11.3419 13.0593 11.5833 13.6422 11.5833 14.25Z"
+                                            stroke="black" stroke-width="1.25" />
+                                        <path id="Vector_2"
+                                            d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
+                                            stroke="black" stroke-width="1.25" stroke-linecap="round" />
+                                        <path id="Vector_3"
+                                            d="M20.7498 20.2083C20.7498 20.8161 20.5084 21.399 20.0786 21.8288C19.6489 22.2586 19.066 22.5 18.4582 22.5C17.8504 22.5 17.2675 22.2586 16.8377 21.8288C16.4079 21.399 16.1665 20.8161 16.1665 20.2083C16.1665 19.6005 16.4079 19.0177 16.8377 18.5879C17.2675 18.1581 17.8504 17.9167 18.4582 17.9167C19.066 17.9167 19.6489 18.1581 20.0786 18.5879C20.5084 19.0177 20.7498 19.6005 20.7498 20.2083ZM20.7498 8.29167C20.7498 8.89945 20.5084 9.48235 20.0786 9.91212C19.6489 10.3419 19.066 10.5833 18.4582 10.5833C17.8504 10.5833 17.2675 10.3419 16.8377 9.91212C16.4079 9.48235 16.1665 8.89945 16.1665 8.29167C16.1665 7.68388 16.4079 7.10098 16.8377 6.67121C17.2675 6.24144 17.8504 6 18.4582 6C19.066 6 19.6489 6.24144 20.0786 6.67121C20.5084 7.10098 20.7498 7.68388 20.7498 8.29167Z"
+                                            stroke="black" stroke-width="1.25" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="shitf">
+                            <span><img src="./assets/Icons/material-symbols_mode-night-outline.svg" alt=""></span>
+                            <p> شیفتی</p>
+                        </div>
+                    </div>
+
+                    <div class="second-sec">
+                        <div class="popular_ausbildung_title">
+                            <h3 class="popular_ausbildung_fa mt-2">پیراپزشکی</h3>
+                            <h3 class="popular_ausbildung_de mt-3">Gesundheitswesen</h3>
+                        </div>
+                        <div class="salary_ausbildung">
+                            <ul class=" mt-1">
+
+                                <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="btn_navigate_more">
+                            <a href="">
+                                مشاهده بیشتر
+                                <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_148_209)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.29303 12.7071C8.10556 12.5196 8.00024 12.2653 8.00024 12.0001C8.00024 11.7349 8.10556 11.4806 8.29303 11.2931L13.95 5.6361C14.0423 5.54059 14.1526 5.46441 14.2746 5.412C14.3966 5.35959 14.5278 5.332 14.6606 5.33085C14.7934 5.32969 14.9251 5.355 15.048 5.40528C15.1709 5.45556 15.2825 5.52981 15.3764 5.6237C15.4703 5.7176 15.5446 5.82925 15.5949 5.95214C15.6451 6.07504 15.6704 6.20672 15.6693 6.3395C15.6681 6.47228 15.6405 6.6035 15.5881 6.7255C15.5357 6.84751 15.4595 6.95785 15.364 7.0501L10.414 12.0001L15.364 16.9501C15.5462 17.1387 15.647 17.3913 15.6447 17.6535C15.6424 17.9157 15.5373 18.1665 15.3518 18.3519C15.1664 18.5373 14.9156 18.6425 14.6534 18.6448C14.3912 18.6471 14.1386 18.5463 13.95 18.3641L8.29303 12.7071Z"
+                                                fill="#EC3A4C" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_148_209">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- responsive mode  -->
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end of the main element (cards and filters ) -->
+
+    <!-- start of the pagonation  -->
+    <div class="container-fluid main-wrapper">
+        <div class="container pt-5">
+            <div class="row">
+                <nav class="col-12 d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item last-one"><a class="page-link " href="#">قبلی</a></li>
+                        <li class="page-item"><a class="page-link" href="#">10</a></li>
+                        <li class="page-item"><a class="page-link" href="#">9</a></li>
+                        <li class="page-item"><a class="page-link" href="#">8</a></li>
+
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item disabled next-one"><a class="page-link" href="#">بعدی</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- end of the pagonation  -->
+
+    <!-- social-media start  -->
+    <div class="container-fluid main-wrapper ">
+        <div class="container pt-4 ">
+            <div class="row p-3">
+                <div class="col-12 social_box">
+                    <div class="social_box_main">
+                        <div class="social_box_text">
+                            <p>ایران آوسبیلدونگ را در شبکه های اجتماعی دنبال کنید</p>
+                        </div>
+
+                        <div class="social_box_icons">
+                            <a href=""><img src="./assets/Icons/iconoir_youtube.svg" alt=""></a>
+
+                            <a href=""><img src="./assets/Icons/basil_twitter-outline.svg" alt=""></a>
+                            <a href=""><img src="./assets/Icons/iconoir_telegram.svg" alt=""></a>
+                            <a href=""><img src="./assets/Icons/mdi_instagram.svg" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- social-media end  -->
+
+
+
+</body>
+
+</html>

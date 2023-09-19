@@ -1,0 +1,126 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+
+/* title  */
+
+.page-title h3 {
+    color: var(--primary-color);
+    text-align: right;
+    font-family: Moraba-medium;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 35px */
+    text-align: center;
+
+}
+
+.page-title p {
+    margin-top: 1.8rem;
+    color: var(--sec-light, #25262A);
+    text-align: right;
+    font-family:  PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 14px */
+    text-align: center;
+
+}
+
+/* title  */
+
+
+
+/* main page  */
+
+.faq-wrapper {
+   gap: 5px;
+   display: flex;
+
+}
+
+.faq-total {
+    width: 50%;
+}
+
+.main-content {
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    padding: 25px 34px;
+}
+
+
+.faq-box {
+    /* width: 100%; */
+    border-radius: 16px;
+    background-color: #F6F6F6;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.accordion-header:not(.collapsed) {
+    background-image: url('../assets/Icons/mines.svg');
+    background-repeat: no-repeat;
+
+}
+
+
+.accordion-header {
+    width: 100%;
+    border: none;
+    background-color: #ffffff09;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    cursor: pointer;
+    background-image: url('../assets/Icons/Group\ 37117.svg');
+    background-repeat: no-repeat;
+
+}
+
+.accordion-header p {
+    color: var(--sec-light, #25262A);
+    text-align: right;
+    font-family:  PeydaWebFaNum15;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 18px */
+    cursor: pointer;
+}
+
+.accordion-content p {
+    color: #000;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family:  PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    /* 28px */
+}
+
+.active-img {
+    display: inline;
+}
+
+
+
+.faq_arrow-mines {
+    background-image: url('../assets/Icons/mines.svg') !important;
+    
+}
+
+.card-body {
+    background-color: #ffffff00;
+    border: none;
+}
+

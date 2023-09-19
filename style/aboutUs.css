@@ -1,0 +1,137 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+/* title  */
+
+.page-title h3 {
+    color: var(--primary-color);
+    text-align: right;
+    font-family: Moraba-medium;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 35px */
+    text-align: center;
+
+}
+
+.page-title p {
+    margin-top: 1.8rem;
+    color: var(--sec-light, #25262A);
+    text-align: right;
+    font-family: PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 14px */
+    text-align: center;
+
+}
+
+/* title  */
+
+/* main page  */
+.main-content {
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+  
+}
+
+.content-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 34px 20px 0;
+}
+
+.content-title h1 {
+    color: var(--primary-color, #EC3A4C);
+    font-family: PeydaWebFaNum15;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 20px */
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-section-text p {
+    color: #000;
+    text-align: right;
+    font-family:PeydaWebFaNum-N;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.main-img {
+
+    display: flex;
+    padding: 20px 34px;
+
+}
+
+.main-img div {
+    padding: 5px;
+}
+
+.main-img div img {
+    width: 100%;
+}
+
+
+.honor h2 {
+    color: var(--primary-color, #EC3A4C);
+    font-family:  PeydaWebFaNum16;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:20px
+   
+}
+
+
+
+.count_dwon_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px 0; */
+    background-color: #1D1E22;
+    border-radius: 0  0 30px 30px;
+
+}
+
+
+.count_dwon_box {
+    color: #EAEAEA;
+    padding: 20px 0;
+    font-family:  PeydaWebFaNum15;
+}
+
+.count_dwon_box h1 {
+    text-align: center;
+    font-size: 50px ;
+    font-weight: 600;   
+    
+}
+
+.count_dwon_box p {
+    text-align: center;
+
+    font-size: 25px ;
+    font-weight: 300;
+    margin-top: 19px;
+}
+

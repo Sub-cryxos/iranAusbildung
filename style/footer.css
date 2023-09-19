@@ -1,0 +1,189 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+
+/* footer started  */
+
+.page-footer {
+    background: #1D1E22;
+}
+
+.site-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.site-brand h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%;
+    color: #FFF;
+
+}
+
+hr {
+    margin: 20px;
+    padding: 0;
+    color: #2E2F35;
+    background-color: #2E2F35;
+    width: 80% !important;
+}
+
+/* footer nav start  */
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-ausbilding h1,
+.footer-navbar h1,
+.trust-logo h1 {
+    font-family: var(--PeydaWebFaNum8);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--primary-color);
+}
+
+.about-ausbilding p,
+.about-ausbilding div p,
+.footer-navbar li a {
+    margin-top: 1rem;
+    font-family: PeydaWebFaNum16;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    color: #FFF;
+}
+
+.about-ausbilding {
+    width: 25%;
+}
+
+.about-ausbilding div {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.trust-text div p {
+    color: #FFF;
+
+    font-size: 13.982px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19.975px
+}
+
+.trust-text div {
+    font-family: PeydaWebFaNum16;
+
+    margin-top: 5px;
+    padding: 9.987px 15.833px 14.955px 15.98px;
+    border-radius: 4.994px;
+    background: #25262A;
+}
+
+.news-btn {
+    background-color: var(--primary-color);
+    font-family: PeydaWebFaNum16;
+
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    border: 1px solid var(--primary-color);
+
+}
+
+.news-btn:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+
+.copy-right-text {
+    font-family:PeydaWebFaNum16 ;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: #FFF;
+
+}
+
+input::placeholder {
+    text-align: right;
+}
+
+.join-news input,
+.join-news button {
+    width: 50%;
+}
+
+.join-news input {
+    background-color: #3F4043 !important;
+    color: #fff !important;
+    /* text-align: right; */
+    border: none;
+}
+
+/* footer end  */
+
+/* responsive  */
+
+@media screen and (max-width: 780px) {
+    .footer_nav {
+        flex-wrap: wrap;
+
+    }
+
+    .about-ausbilding {
+        width: 100%;
+    }
+
+    .footer-navbar {
+        margin-top: 2rem;
+    }
+
+    .trust-logo {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .mobile-footer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .copy-right {
+        flex-wrap: wrap-reverse;
+    }
+
+    .copy-right-text {
+        align-items: center !important;
+        gap: 10px;
+        width: 100% !important;
+        margin-top: 2rem;
+        color: #919191;
+    }
+
+    .copy-right-media {
+        width: 100% !important;
+        justify-content: center !important;
+        align-items: center;
+        gap: 20px;
+    }
+
+   
+}

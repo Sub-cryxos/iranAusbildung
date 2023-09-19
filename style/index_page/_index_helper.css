@@ -1,0 +1,181 @@
+#top-margin {
+    margin-top: 9.5rem;
+}
+
+.picture_guid {
+    background-color: var(--primary-color);
+    background-image: url('../../assets/images/ALINOUR.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    height: 383px;
+    position: relative;
+}
+
+.de_flag {
+    position: absolute;
+    top: 0;
+    left: 88%;
+}
+
+.picture_text_box {
+    position: absolute;
+    top: 40%;
+    left: 88%;
+    background-color: #FCDDE0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+}
+
+.picture_text_box p {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+    font-size: 26px;
+    color: var(--primary-color);
+    padding: 10px 10px;
+    font-family: moraba-medium;
+}
+
+
+
+
+.text_guid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+
+.title_guid {
+    font-family: var(--PeydaWebFaNum5);
+    font-size: 18px;
+    /* font-weight: 500; */
+    color: var(--primary-color);
+    position: relative;
+    z-index: 1222;
+    font-family: moraba-medium;
+
+    /* align-items: center; */
+}
+
+.title_guid:after {
+    z-index: -4;
+    content: '';
+    position: absolute;
+    top: -7px;
+    right: -14px;
+    background: #FCDDE0;
+    width: 35px;
+    height: 31px;
+    border-radius: 5px;
+}
+
+
+.what_is_asubildung {
+    color: #1D1E22;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--PeydaWebFaNum6);
+}
+
+.ausbildung_desc,
+.text_guid p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    line-height: 200%;
+    width: 75%;
+    font-family: var(--PeydaWebFaNum3);
+
+}
+
+.btn_more {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 300;
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    width: 22%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .2s;
+    border: 1px solid var(--primary-color);
+}
+
+.btn_more:hover {
+    color: #F6F6F6;
+  background-color: var(  --primary-hover);
+
+}
+
+
+
+.btn_more span {
+    margin-left: 5px;
+
+}
+
+.boxs_step {
+    padding: 5px;
+}
+
+.step_step header p {
+    color: #1D1E22;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-family: var(--PeydaWebFaNum6);
+}
+
+.step_boxs {
+    margin-top: 5rem;
+    /* display: flex; */
+}
+
+.step_box {
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    position: relative;
+    height: 159px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.step_box .step_box_number {
+    font-size: 41px;
+    position: absolute;
+    top: -15%;
+    left: 38%;
+    font-family: PeydaWebFaNum16;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+
+.step_box .step_box_desc {
+    padding: 35px 11px 37px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step_box .step_box_desc p {
+    font-family: var(--PeydaWebFaNum5);
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%;
+
+}
+
+#popular_btn_more {
+    display: none;
+}

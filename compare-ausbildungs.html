@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/social-media.css">
+    <link rel="stylesheet" href="./style/compare.css">
+    <link rel="stylesheet" href="./style/reponsive.css">
+    <title>مقایسه اوسبیلدونگ ها</title>
+</head>
+
+<body dir="rtl">
+    <!-- header started  -->
+    <header class="container-fluid main_header">
+        <div class="top_bar">
+            <!-- the logo is here -->
+
+            <div class="logo_part">
+                <div class="logo_image">
+                    <img src="../assets/images/logo.svg" alt="">
+                </div>
+
+                <!-- the logo text is here -->
+                <div class="logo_text">
+                    <p>ایران آوسبیلدونگ </p>
+                </div>
+            </div>
+
+            <!-- form enter part  -->
+
+            <div class="form_enter">
+                <div class="enter_buttons">
+                    <!-- log / sign in button  -->
+                    <div class="log_sign">
+                        <a class="log_sign-button">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 10C14.2091 10 16 8.20914 16 6C16 3.79086 14.2091 2 12 2C9.79086 2 8 3.79086 8 6C8 8.20914 9.79086 10 12 10Z"
+                                        fill="white" />
+                                    <path opacity="0.5"
+                                        d="M20 17.5C20 19.985 20 22 12 22C4 22 4 19.985 4 17.5C4 15.015 7.582 13 12 13C16.418 13 20 15.015 20 17.5Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <p> ورود/عضویت</p>
+                        </a>
+                    </div>
+
+                    <!-- consult request  -->
+                    <div class="consult_request">
+                        <a class="consult request-button">
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.2"
+                                        d="M21 12C21.0002 13.5806 20.5841 15.1333 19.7937 16.502C19.0033 17.8708 17.8663 19.0072 16.4972 19.797C15.1281 20.5868 13.5752 21.0021 11.9946 21.0011C10.414 21.0002 8.86158 20.583 7.49344 19.7916L3.98813 20.9606C3.85598 21.0047 3.71417 21.0111 3.57859 20.9791C3.44301 20.9471 3.31903 20.878 3.22052 20.7795C3.12202 20.681 3.0529 20.557 3.02091 20.4214C2.98891 20.2858 2.99531 20.144 3.03938 20.0119L4.20844 16.5066C3.51741 15.3113 3.11064 13.9731 3.01959 12.5955C2.92854 11.2179 3.15566 9.83775 3.68337 8.56195C4.21108 7.28615 5.02523 6.14886 6.06284 5.23807C7.10044 4.32729 8.33367 3.66744 9.66711 3.30956C11.0006 2.95169 12.3985 2.9054 13.7527 3.17426C15.1069 3.44312 16.381 4.01994 17.4766 4.86007C18.5722 5.70021 19.4598 6.78114 20.0708 8.01923C20.6818 9.25732 20.9997 10.6194 21 12Z"
+                                        fill="white" />
+                                    <path
+                                        d="M11.9999 2.25C10.3166 2.24963 8.66188 2.68508 7.19679 3.51396C5.7317 4.34285 4.50616 5.53692 3.63947 6.97997C2.77277 8.42301 2.29444 10.0659 2.25104 11.7486C2.20764 13.4314 2.60065 15.0967 3.39181 16.5825L2.32774 19.7747C2.2396 20.039 2.22681 20.3226 2.2908 20.5938C2.35479 20.8649 2.49304 21.1129 2.69004 21.3099C2.88704 21.5069 3.13502 21.6451 3.40618 21.7091C3.67733 21.7731 3.96095 21.7603 4.22524 21.6722L7.41743 20.6081C8.72503 21.3036 10.1739 21.6921 11.654 21.744C13.1342 21.7959 14.6067 21.51 15.9598 20.9079C17.3129 20.3057 18.5111 19.4033 19.4634 18.269C20.4156 17.1346 21.097 15.7983 21.4557 14.3613C21.8144 12.9244 21.841 11.4246 21.5335 9.97578C21.226 8.52701 20.5925 7.16732 19.6811 5.99992C18.7697 4.83253 17.6043 3.88811 16.2733 3.23836C14.9424 2.58861 13.481 2.25061 11.9999 2.25ZM11.9999 20.25C10.5496 20.251 9.12471 19.8691 7.86931 19.1428C7.75537 19.0767 7.62603 19.0418 7.49431 19.0416C7.41362 19.0416 7.33349 19.0549 7.25712 19.0809L3.74993 20.25L4.91899 16.7438C4.95269 16.643 4.9646 16.5362 4.95394 16.4305C4.94327 16.3248 4.91027 16.2226 4.85712 16.1306C3.94772 14.5584 3.5826 12.7299 3.8184 10.929C4.0542 9.12801 4.87774 7.4552 6.16126 6.17006C7.44479 4.88491 9.11655 4.05925 10.9172 3.82118C12.7179 3.5831 14.5468 3.94591 16.1202 4.85333C17.6936 5.76074 18.9236 7.16204 19.6193 8.83983C20.3151 10.5176 20.4377 12.3781 19.9681 14.1327C19.4986 15.8873 18.4632 17.4379 17.0224 18.5439C15.5817 19.65 13.8163 20.2497 11.9999 20.25ZM15.7499 10.5C15.7499 10.6989 15.6709 10.8897 15.5303 11.0303C15.3896 11.171 15.1988 11.25 14.9999 11.25H8.99993C8.80102 11.25 8.61025 11.171 8.4696 11.0303C8.32895 10.8897 8.24993 10.6989 8.24993 10.5C8.24993 10.3011 8.32895 10.1103 8.4696 9.96967C8.61025 9.82902 8.80102 9.75 8.99993 9.75H14.9999C15.1988 9.75 15.3896 9.82902 15.5303 9.96967C15.6709 10.1103 15.7499 10.3011 15.7499 10.5ZM15.7499 13.5C15.7499 13.6989 15.6709 13.8897 15.5303 14.0303C15.3896 14.171 15.1988 14.25 14.9999 14.25H8.99993C8.80102 14.25 8.61025 14.171 8.4696 14.0303C8.32895 13.8897 8.24993 13.6989 8.24993 13.5C8.24993 13.3011 8.32895 13.1103 8.4696 12.9697C8.61025 12.829 8.80102 12.75 8.99993 12.75H14.9999C15.1988 12.75 15.3896 12.829 15.5303 12.9697C15.6709 13.1103 15.7499 13.3011 15.7499 13.5Z"
+                                        fill="white" />
+                                </svg>
+
+                            </span>
+
+                            <p> درخواست مشاوره</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends here  -->
+
+    <!-- page titile  -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="page-title">
+                <h3><strong class="primary-color">مقایسه</strong> رشته های آوسبیلدونگ</h3>
+                <p>برای مقایسه آوسبیلدونگ ها لطفا دو مورد را وارد کنید</p>
+            </div>
+        </div>
+    </div>
+    <!-- page titile  -->
+    <!-- main compare start  -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="compare-wrapper row ">
+
+                <!-- this is the header of the compare  -->
+                <div class="col-xxl-12 d-flex justify-content-between flex-wrap" id="compare-header" >
+                    <div class="right-compare_box col-xxl-5">
+                        <header class="header">
+                            <div class="ausbildung-title">
+                                <h1>طراح رابط کاربری </h1>
+                                <h2>َAusbildung Benutzeroberflächendesigner</h2>
+                            </div>
+
+                            <div class="select-part-r">
+                                <img src="./assets/Icons/mingcute_down-line.svg" alt="">
+                            </div>
+
+                        </header>
+
+                        
+                        <div class="comapre-body ">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="نام رشته مورد نظر را جستجو کنید" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                <button class="btn " type="button" id="button-addon1">جستوجو</button>
+                              </div>
+
+                              <ul class="list-of-asubildungs">
+                                <li>
+                                    <span class="pr">طراح رابط کاربری</span>
+                                    <span class="de">َAusbildung Benutzeroberflächendesigner</span>
+                                </li>
+
+                                <li>
+                                    <span class="pr">مهندسی IT</span>
+                                    <span class="de">َAusbildungIT   </span>
+                                </li>
+                              </ul>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xxl-2 matreial-change">
+                        <img src="./assets/Icons/material-symbols_compare-arrows-rounded.svg" alt="">
+                    </div>
+
+                    <div class="left-compare_box col-xxl-5" id="compare-header">
+                        <header class="header">
+                            <div class="ausbildung-title">
+                                <h1>طراح رابط کاربری </h1>
+                                <h2>َAusbildung Benutzeroberflächendesigner</h2>
+                            </div>
+
+                            <div class="select-part-l">
+                                <img src="./assets/Icons/mingcute_down-line.svg" alt="">
+
+                            </div>
+
+                        </header>
+
+
+                        <div class="comapre-body ">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="نام رشته مورد نظر را جستجو کنید" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                <button class="btn " type="button" id="button-addon1">جستوجو</button>
+                              </div>
+
+                              <ul class="list-of-asubildungs">
+                                <li>
+                                    <span class="pr">طراح رابط کاربری</span>
+                                    <span class="de">َAusbildung Benutzeroberflächendesigner</span>
+                                </li>
+
+                                <li>
+                                    <span class="pr">مهندسی IT</span>
+                                    <span class="de">َAusbildungIT   </span>
+                                </li>
+                              </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- this is the header of the compare  -->
+
+                <!-- the body of the charts that need an api from selected ausbildung  -->
+
+                <div class="col-xxl-12 d-flex ">
+                    <div class="body charts-container  mt-5">
+                        <!-- this title must given from api  -->
+                        <div class="compare-text">
+                            <div>
+                                <span class="saqure-red"></span>
+                                <span class="type-title pr-t-t" >طراح رابط کاربری</span>
+                            </div>
+
+                            <div>
+                                <span class="saqure-pink"></span>
+                                <span class="type-title pl-t-t">مهندس معماری</span>
+                            </div>
+
+                        </div>
+                        <!-- /* the classing for the charts are  */
+                        /* 2000 to up 306px  large  */
+                       /* 1500 to 2000 263.625px; s-large */
+                        /* 1500 to 2000 230px  middle*/
+                        /* 1200 to 1500 150px  mid-short*/
+                        /* 800 to 1200 70px short */ -->
+                        <div class="charts">
+                            <div class="chatrs-content">
+                                <div class="after-course">
+                                    <div class="chart short">
+                                        <span>€</span>
+                                        <span>800</span>
+                                    </div>
+
+                                    <div class="chart mid-short">
+                                        <span>€</span>
+                                        <span>900</span>
+                                    </div>
+                                </div>
+                                <p> حقوق سال اول</p>
+                            </div>
+
+                            <div class="chatrs-content">
+                                <div class="thired-year">
+                                    <div class="chart middle">
+                                        <span>€</span>
+                                        <span>1200</span>
+                                    </div>
+                                    <div class="chart mid-short">
+                                        <span>€</span>
+                                        <span>1000</span>
+                                    </div>
+
+                                </div>
+                                <p>حقوق سال دوم</p>
+                            </div>
+
+                            <div class="chatrs-content">
+                                <div class="after-course">
+                                    <div class="chart middle">
+                                        <span>€</span>
+                                        <span>1400</span>
+                                    </div>
+
+                                    <div class="chart s-large">
+                                        <span>€</span>
+                                        <span>1500</span>
+                                    </div>
+                                </div>
+                                <p>حقوق سال سوم</p>
+
+                            </div>
+
+                            <div class="chatrs-content">
+
+                                <div class="thired-year">
+                                    <div class="chart middle">
+                                        <span>€</span>
+                                        <span>1600</span>
+                                    </div>
+                                    <div class="chart large ">
+                                        <span>€</span>
+                                        <span>2000</span>
+                                    </div>
+
+                                </div>
+                                <p>بعد از اتمام دوره</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- the body of the charts that need an api  -->
+
+                <!-- this is the job information that needs the api of the selected ausbildung -->
+
+                <div class="col-xxl-12">
+                    <div class="jobs_information">
+
+                        <div class="job-info_box">
+                            <h1>
+                                <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15 26.25C21.9036 26.25 27.5 20.6536 27.5 13.75C27.5 6.84644 21.9036 1.25 15 1.25C8.09644 1.25 2.5 6.84644 2.5 13.75C2.5 20.6536 8.09644 26.25 15 26.25Z"
+                                            fill="#FFF59D" />
+                                        <path
+                                            d="M23.1248 13.75C23.1248 8.9375 18.9998 5.125 14.0623 5.6875C10.3123 6.125 7.31233 9.125 6.93733 12.875C6.62483 15.75 7.81233 18.3125 9.81233 19.9375C10.6873 20.6875 11.2498 21.75 11.2498 22.9375V23.125H18.7498V23.0625C18.7498 21.9375 19.2498 20.8125 20.1248 20.0625C21.9373 18.5625 23.1248 16.3125 23.1248 13.75Z"
+                                            fill="#FBC02D" />
+                                        <path
+                                            d="M19.125 12.625L17.25 11.375C17.0625 11.25 16.75 11.25 16.5625 11.375L15 12.375L13.5 11.375C13.3125 11.25 13 11.25 12.8125 11.375L10.9375 12.625C10.8125 12.75 10.6875 12.875 10.6875 13.0625C10.6875 13.25 10.6875 13.4375 10.8125 13.5625L13.1875 16.5V23.125H14.4375V16.25C14.4375 16.125 14.375 16 14.3125 15.875L12.25 13.3125L13.1875 12.6875L14.6875 13.6875C14.875 13.8125 15.1875 13.8125 15.375 13.6875L16.875 12.6875L17.8125 13.3125L15.75 15.875C15.6875 16 15.625 16.125 15.625 16.25V23.125H16.875V16.5L19.25 13.5625C19.375 13.4375 19.4375 13.25 19.375 13.0625C19.3125 12.875 19.25 12.6875 19.125 12.625Z"
+                                            fill="#FFF59D" />
+                                        <path
+                                            d="M15 29.375C16.0355 29.375 16.875 28.5355 16.875 27.5C16.875 26.4645 16.0355 25.625 15 25.625C13.9645 25.625 13.125 26.4645 13.125 27.5C13.125 28.5355 13.9645 29.375 15 29.375Z"
+                                            fill="#5C6BC0" />
+                                        <path
+                                            d="M16.25 28.125H13.75C12.375 28.125 11.25 27 11.25 25.625V22.5H18.75V25.625C18.75 27 17.625 28.125 16.25 28.125Z"
+                                            fill="#9FA8DA" />
+                                        <path
+                                            d="M18.75 25.625L11.5 26.625C11.6875 27.0625 12.0625 27.5 12.5 27.75L18.375 26.9375C18.625 26.5625 18.75 26.125 18.75 25.625ZM11.25 24.1875V25.4375L18.75 24.375V23.125L11.25 24.1875Z"
+                                            fill="#5C6BC0" />
+                                    </svg>
+                                </span>
+                                اطلاعات شغل
+                            </h1>
+                            <ul class="job-info">
+                                <li class="info-item">
+                                    <span class="title-info"> رشته تحصیلی:</span>
+                                    <span class="info-answer">رشته های هنری</span>
+                                </li>
+                                <hr>
+                                <li class="info-item">
+                                    <span class="title-info"> نوع رشته:</span>
+                                    <span class="info-answer">شولیشه</span>
+                                </li>
+                                <hr>
+
+
+                                <li class="info-item">
+                                    <span class="title-info"> مدت دوره:</span>
+                                    <span class="info-answer">3 ساله</span>
+                                </li>
+                                <hr>
+
+
+                                <li class="info-item">
+                                    <span class="title-info"> دوره:</span>
+                                    <span class="info-answer">شیفتی نمیباشد</span>
+                                </li>
+                                <hr>
+
+
+                            </ul>
+
+                            <div class="salary_ausbildung">
+                                <ul class=" mt-3">
+
+                                    <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                    <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                    <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="col-xxl-2 matreial-change">
+                            <img src="./assets/Icons/material-symbols_compare-arrows-rounded.svg" alt="">
+                        </div>
+                        
+                        <div class="job-info_box">
+                            <h1>
+                                <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15 26.25C21.9036 26.25 27.5 20.6536 27.5 13.75C27.5 6.84644 21.9036 1.25 15 1.25C8.09644 1.25 2.5 6.84644 2.5 13.75C2.5 20.6536 8.09644 26.25 15 26.25Z"
+                                            fill="#FFF59D" />
+                                        <path
+                                            d="M23.1248 13.75C23.1248 8.9375 18.9998 5.125 14.0623 5.6875C10.3123 6.125 7.31233 9.125 6.93733 12.875C6.62483 15.75 7.81233 18.3125 9.81233 19.9375C10.6873 20.6875 11.2498 21.75 11.2498 22.9375V23.125H18.7498V23.0625C18.7498 21.9375 19.2498 20.8125 20.1248 20.0625C21.9373 18.5625 23.1248 16.3125 23.1248 13.75Z"
+                                            fill="#FBC02D" />
+                                        <path
+                                            d="M19.125 12.625L17.25 11.375C17.0625 11.25 16.75 11.25 16.5625 11.375L15 12.375L13.5 11.375C13.3125 11.25 13 11.25 12.8125 11.375L10.9375 12.625C10.8125 12.75 10.6875 12.875 10.6875 13.0625C10.6875 13.25 10.6875 13.4375 10.8125 13.5625L13.1875 16.5V23.125H14.4375V16.25C14.4375 16.125 14.375 16 14.3125 15.875L12.25 13.3125L13.1875 12.6875L14.6875 13.6875C14.875 13.8125 15.1875 13.8125 15.375 13.6875L16.875 12.6875L17.8125 13.3125L15.75 15.875C15.6875 16 15.625 16.125 15.625 16.25V23.125H16.875V16.5L19.25 13.5625C19.375 13.4375 19.4375 13.25 19.375 13.0625C19.3125 12.875 19.25 12.6875 19.125 12.625Z"
+                                            fill="#FFF59D" />
+                                        <path
+                                            d="M15 29.375C16.0355 29.375 16.875 28.5355 16.875 27.5C16.875 26.4645 16.0355 25.625 15 25.625C13.9645 25.625 13.125 26.4645 13.125 27.5C13.125 28.5355 13.9645 29.375 15 29.375Z"
+                                            fill="#5C6BC0" />
+                                        <path
+                                            d="M16.25 28.125H13.75C12.375 28.125 11.25 27 11.25 25.625V22.5H18.75V25.625C18.75 27 17.625 28.125 16.25 28.125Z"
+                                            fill="#9FA8DA" />
+                                        <path
+                                            d="M18.75 25.625L11.5 26.625C11.6875 27.0625 12.0625 27.5 12.5 27.75L18.375 26.9375C18.625 26.5625 18.75 26.125 18.75 25.625ZM11.25 24.1875V25.4375L18.75 24.375V23.125L11.25 24.1875Z"
+                                            fill="#5C6BC0" />
+                                    </svg>
+                                </span>
+                                اطلاعات شغل
+                            </h1>
+                            <ul class="job-info">
+                                <li class="info-item">
+                                    <span class="title-info"> رشته تحصیلی:</span>
+                                    <span class="info-answer">رشته های هنری</span>
+                                </li>
+                                <hr>
+                                <li class="info-item">
+                                    <span class="title-info"> نوع رشته:</span>
+                                    <span class="info-answer">شولیشه</span>
+                                </li>
+                                <hr>
+
+
+                                <li class="info-item">
+                                    <span class="title-info"> مدت دوره:</span>
+                                    <span class="info-answer">3 ساله</span>
+                                </li>
+                                <hr>
+
+
+                                <li class="info-item">
+                                    <span class="title-info"> دوره:</span>
+                                    <span class="info-answer">شیفتی نمیباشد</span>
+                                </li>
+                                <hr>
+
+
+                            </ul>
+
+                            <div class="salary_ausbildung">
+                                <ul class=" mt-3">
+
+                                    <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                    <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+                                    <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- this is the job information that needs the api of the selected ausbildung -->
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- main compare end -->
+
+
+    <!-- footer started  -->
+    <footer class="page-footer container-fluid">
+        <div class="container   pt-3 pb-3">
+            <div class="row">
+                <div class="col-12 site-brand">
+                    <span><img src="../assets/Icons/solar_rocket-line-duotone.svg" alt=""></span>
+                    <h1>ایـــران آوسـبـیـلـدونـــگ</h1>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="container ">
+            <div class="row mt-5">
+                <div class="footer_nav">
+                    <div class="about-ausbilding">
+                        <h1>درباره آوسبیلدونگ</h1>
+                        <p>آوسبیلدونگ سریعترین و ارزانترین راه مهاجرت به آلمان است که این امکان را به متقاضی می‌دهد تا
+                            نه تنها در کشور آلمان تحصیل کند بلکه یک حرفه جدید بیاموزد و کسب درآمد داشته باشد.</p>
+
+                        <div>
+                            <span><svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_558_618)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M17.6457 12.4972L17.1113 12.1887C16.3735 11.7627 16.0107 10.887 16.2192 10.0339L16.7108 8.00837C17.0272 6.70839 18.4797 6.05053 19.6038 6.69953L21.2692 7.66103C21.6936 7.90603 22.0476 8.25478 22.2209 8.71858C22.6195 9.79624 23.1721 12.0852 22.3084 15.1892L17.6457 12.4972ZM13.6457 19.4254L13.3097 19.2314C12.4809 18.7529 11.4153 18.9725 10.8029 19.7471L9.5492 21.3327C8.79091 22.2921 9.03053 23.689 10.0559 24.281L11.8945 25.3425C12.4028 25.636 12.9954 25.7657 13.5631 25.5784C14.6038 25.2359 16.4372 24.3603 18.3906 22.1649L13.6457 19.4254Z"
+                                            fill="#EC3A4C" />
+                                        <path opacity="0.5"
+                                            d="M16.9156 16.6938C14.9156 20.1579 13.646 19.4249 13.646 19.4249L18.3918 22.1649C19.1644 21.2969 19.9547 20.2221 20.7227 18.8918C21.4907 17.5616 21.9943 16.3213 22.3087 15.1887L17.646 12.4967C17.646 12.4967 18.9156 13.2297 16.9156 16.6938Z"
+                                            fill="#EC3A4C" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_558_618">
+                                            <rect width="24" height="24" fill="white"
+                                                transform="translate(32.7852 12) rotate(120)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </span>
+
+                            <p>021 - 55885588</p>
+                        </div>
+
+
+                        <div>
+                            <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.3" d="M20 6H4L12 10.99L20 6ZM4 8V18H20V8L12 13L4 8Z"
+                                        fill="#EC3A4C" />
+                                    <path
+                                        d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 6L12 10.99L4 6H20ZM20 18H4V8L12 13L20 8V18Z"
+                                        fill="#EC3A4C" />
+                                </svg>
+                            </span>
+                            <p>info@iranausbildung.com</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-navbar">
+                        <h1>دسترسی سریع</h1>
+                        <ul>
+                            <li><a href="">خدمات ما</a></li>
+                            <li><a href="">مطالب منتخب</a></li>
+                            <li><a href="">تماس با ما</a></li>
+                            <li><a href="">درباره ما</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="footer-navbar">
+                        <h1>خدمات ما</h1>
+                        <ul>
+                            <li><a href="">درخواست مشاوره</a></li>
+                            <li><a href="">نگارش رزومه و انگیزه نامه</a></li>
+                            <li><a href="">تبدیل نمره</a></li>
+                            <li><a href="">مقایسه آوسبیلدونگ ها</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="trust-logo">
+                        <h1>نماد های اعتبار ما</h1>
+
+                        <div class="d-flex gap-2">
+                            <div class="trust-logo">
+                                <img src="../assets/images/trust-pic.png" alt="">
+                            </div>
+
+                            <div class="trust-logo">
+                                <img src="../assets/images/trust-pic2.svg" alt="">
+                            </div>
+
+                            <div class="trust-text">
+                                <div>
+                                    <p>نماد وزارت گردشگری</p>
+                                </div>
+                                <div>
+                                    <p>نماد وزارت علوم کشور</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <h1 class="mt-4">عضویت در خبر نامه</h1>
+
+
+                        <form action="" class="input-group mb-3">
+                            <input type="email" class="form-control" dir="rtl" placeholder="ایمیل خود را وارد کنید "
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn news-btn" type="submit" id="button-addon2">عضویت</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- copy right started  -->
+            <div class="row mt-4">
+                <hr>
+                <div class="col-12 copy-right d-flex justify-content-between align-items-center">
+                    <div class="copy-right-text d-flex align-items-baseline  gap-0 " style="width: 80%;">
+                        <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.2"
+                                    d="M21 12C21 13.78 20.4722 15.5201 19.4832 17.0001C18.4943 18.4802 17.0887 19.6337 15.4442 20.3149C13.7996 20.9961 11.99 21.1743 10.2442 20.8271C8.49836 20.4798 6.89472 19.6226 5.63604 18.364C4.37737 17.1053 3.5202 15.5016 3.17294 13.7558C2.82567 12.01 3.0039 10.2004 3.68509 8.55585C4.36628 6.91131 5.51983 5.50571 6.99987 4.51677C8.47991 3.52784 10.22 3 12 3C14.387 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z"
+                                    fill="#EC3A4C" />
+                                <path
+                                    d="M12 2.25C10.0716 2.25 8.18657 2.82183 6.58319 3.89317C4.97982 4.96451 3.73013 6.48726 2.99218 8.26884C2.25422 10.0504 2.06114 12.0108 2.43735 13.9021C2.81355 15.7934 3.74215 17.5307 5.10571 18.8943C6.46928 20.2579 8.20656 21.1865 10.0979 21.5627C11.9892 21.9389 13.9496 21.7458 15.7312 21.0078C17.5127 20.2699 19.0355 19.0202 20.1068 17.4168C21.1782 15.8134 21.75 13.9284 21.75 12C21.7473 9.41498 20.7192 6.93661 18.8913 5.10872C17.0634 3.28084 14.585 2.25273 12 2.25ZM12 20.25C10.3683 20.25 8.77326 19.7661 7.41655 18.8596C6.05984 17.9531 5.00242 16.6646 4.378 15.1571C3.75358 13.6496 3.5902 11.9908 3.90853 10.3905C4.22685 8.79016 5.01259 7.32015 6.16637 6.16637C7.32016 5.01259 8.79017 4.22685 10.3905 3.90852C11.9909 3.59019 13.6497 3.75357 15.1571 4.37799C16.6646 5.00242 17.9531 6.05984 18.8596 7.41655C19.7661 8.77325 20.25 10.3683 20.25 12C20.2475 14.1873 19.3775 16.2843 17.8309 17.8309C16.2843 19.3775 14.1873 20.2475 12 20.25ZM9 12C9 12.6296 9.19812 13.2433 9.56628 13.7541C9.93444 14.2649 10.454 14.6469 11.0513 14.8461C11.6487 15.0452 12.2935 15.0513 12.8945 14.8635C13.4955 14.6758 14.0222 14.3037 14.4 13.8C14.5195 13.6409 14.6973 13.5357 14.8943 13.5077C15.0913 13.4796 15.2913 13.531 15.4505 13.6505C15.6096 13.7699 15.7148 13.9477 15.7428 14.1447C15.7708 14.3417 15.7195 14.5418 15.6 14.7009C15.0332 15.4563 14.2431 16.0142 13.3416 16.2956C12.4402 16.577 11.473 16.5676 10.5771 16.2689C9.68126 15.9701 8.90208 15.3971 8.34995 14.631C7.79781 13.8648 7.50071 12.9444 7.50071 12C7.50071 11.0556 7.79781 10.1352 8.34995 9.36904C8.90208 8.60289 9.68126 8.02986 10.5771 7.73111C11.473 7.43236 12.4402 7.42302 13.3416 7.70443C14.2431 7.98583 15.0332 8.54371 15.6 9.29906C15.6592 9.37786 15.7022 9.46753 15.7267 9.56296C15.7512 9.6584 15.7567 9.75772 15.7428 9.85527C15.7289 9.95281 15.696 10.0467 15.6458 10.1315C15.5956 10.2163 15.5293 10.2904 15.4505 10.3495C15.3717 10.4087 15.282 10.4517 15.1866 10.4762C15.0911 10.5007 14.9918 10.5062 14.8943 10.4923C14.7967 10.4784 14.7029 10.4455 14.6181 10.3953C14.5333 10.3452 14.4592 10.2788 14.4 10.2C14.0222 9.69628 13.4955 9.3242 12.8945 9.13646C12.2935 8.94872 11.6487 8.95484 11.0513 9.15395C10.454 9.35306 9.93444 9.73507 9.56628 10.2459C9.19812 10.7567 9 11.3704 9 12Z"
+                                    fill="#EC3A4C" />
+                            </svg>
+                        </span>
+
+
+                        <p>برای استفاده از مطالب ایران آوسبیلدونگ، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. در غیر
+                            این‌صورت هرگونه کپی‌برداری، برداشت و بازنشر بخش یا کل هر کدام از محتوا‌ های ارائه شده تنها
+                            با کسب مجوز مکتوب امکان پذیر خواهد بود.</p>
+                    </div>
+
+                    <div class="copy-right-media d-flex justify-content-between align-items-center" style="width: 15%;">
+                        <div><a href=""><img src="../assets/Icons/footeri1.svg" alt=""></a></div>
+                        <div><a href=""><img src="../assets/Icons/footeritw.svg" alt=""></a></div>
+                        <div><a href=""><img src="../assets/Icons/footeritel.svg" alt=""></a></div>
+                        <div><a href=""><img src="../assets/Icons/footeriinsta.svg" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- copy right finish  -->
+        </div>
+    </footer>
+    <!-- footer finished-->
+    <script src="./jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/compare.js"></script>
+</body>
+
+</html>

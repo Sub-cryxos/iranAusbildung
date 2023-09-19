@@ -1,0 +1,286 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+
+body {
+    background: #FCFCFC !important;
+}
+
+
+
+.form-wrapper {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+}
+
+.description h4,
+.road-map h4 {
+    font-family: moraba-medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: #000;
+}
+
+.road-map h4 {
+    margin-bottom: 2rem;
+}
+
+.description p {
+    font-family: PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    color: #252525;
+}
+
+.desc_box-wrapper {
+    gap: 1.5rem;
+}
+
+.desc_box {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    background: #F6F6F6;
+    padding: 17px 7px 6px 11px;
+    position: relative;
+}
+
+.desc_box p {
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    color: #000;
+    text-align: center;
+}
+
+.desc_box h4 {
+    font-family: PeydaWebFaNum16;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--primary-color);
+
+    position: absolute;
+    top: -31px;
+    left: 61px;
+}
+
+/* style of the form container  */
+
+.form-side {
+    padding: 1.5rem 2.2rem 1.5rem 0;
+
+}
+
+.cv_form {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cv_form .form-input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1.5rem;
+}
+
+.cv_form .form-input input,
+.cv_form .form-input select,
+.cv_form .form-input option,
+.copon-code form input {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+
+    width: 100%;
+    height: 49px;
+    padding: 18px 12px 10px 5px;
+
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #969696;
+
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #F6F6F6;
+}
+
+
+.cv_form .form-input input:focus,
+.copon-code form input {
+    outline: none;
+}
+
+.cv_form .form-input label,
+.from-description p {
+    font-family: PeydaWebFaNum-N;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: #000;
+}
+
+.from-description {
+    margin-right: 1.2rem;
+}
+
+.from-description p {
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+}
+
+.from-description ul {
+    margin-top: 1rem;
+}
+
+.from-description ul li {
+    font-family: PeydaWebFaNum-N;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    color: #000;
+    list-style-image: url(../assets/Icons/list-style-6.svg);
+    list-style-position: inside;
+
+}
+
+.price-sec {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-sec p {
+    font-family: PeydaWebFaNum-N;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 0.5rem;
+}
+
+.price-sec span {
+    font-family: PeydaWebFaNum15;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 18px !important;
+}
+
+.submit-form {
+    border-radius: 5px;
+    background: var(--primary-color);
+    padding: 12px 20px;
+    border: 1px solid var(--primary-color);
+
+    font-family: PeydaWebFaNum13;
+    color: #FFF;
+    text-align: right;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+
+    transition: all linear .2s;
+}
+
+.submit-form:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+
+}
+
+.copon-code {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.copon-code p {
+    font-family: PeydaWebFaNum-N;
+    color: var(--primary, #EC3A4C);
+    text-align: right;
+    /* font-family: Peyda(FaNum); */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 16px */
+}
+
+.disabled-form {
+    display: none !important;
+}
+
+.copon-code-active-form {
+    display: flex !important;
+}
+
+.copon-code-form {
+    transition: all linear .2s;
+}
+
+/* page title start  */
+.page_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px   ;
+}
+
+.page_title ~ p {
+    color: #25262A;
+    text-align: right;
+    font-family:  PeydaWebFaNum13  ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 14px */
+}
+
+.page_title h1,.page_title span {
+    color: var(--secondary, #1D1E22);
+    text-align: right;
+    /* font-family: Morabba; */
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.colored {
+    color: var(--primary-color) !important;
+}

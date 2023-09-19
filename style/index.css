@@ -1,0 +1,26 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+@import url('./index_page/_intro_section.css');
+@import url('./index_page/_index_helper.css');
+@import url('./index_page/_index_articles.css');
+@import url('./index_page/_index_footer.css');
+
+body{
+    background: #fff !important;
+}
+
+
+/* the responsive of tablet  */
+
+@media screen and (max-width :1284px) {
+
+    .best_ausbildungs .swiper-wrapper .swiper-slide {
+        width: 258px !important;
+    }
+    
+
+    .guid-sec {
+        flex-wrap:wrap ;
+    }
+}

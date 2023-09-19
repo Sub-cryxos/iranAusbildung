@@ -1,0 +1,211 @@
+.cv-wait {
+    width: 45%;
+    padding: 10px;
+}
+
+.cv-wait input {
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #F6F6F6;
+
+    width: 100%;
+    display: inline-flex;
+    height: 49px;
+    padding: 18px 12px 17px 7px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.cv-wait label {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 14px */
+    margin-bottom: 0.5rem;
+}
+
+.cv-wait input {
+    color: #969696;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+}
+
+.warning_box {
+    border-radius: 5px;
+    border: 1px dashed #FFEDAF;
+    background: rgba(255, 226, 130, 0.33);
+    padding: 10px 17px 10px 25px;
+}
+
+.warning_box p,
+.done-design p {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    /* 28px */
+}
+
+.done-design {
+    border-radius: 5px;
+    border: 1px dashed #82FFAC;
+    background: rgba(130, 255, 172, 0.33);
+    padding: 10px 17px 10px 25px;
+    margin-top: 1rem;
+
+
+}
+
+.advise-speack p {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 14px */
+}
+
+.text-box {
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #F6F6F6;
+    padding: 13px 11px 11px 11px;
+    margin-top: 1rem;
+}
+
+.text-box p {
+    color: #141414;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200.5%;
+    /* 28.07px */
+}
+
+.project-dl {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-dl p,
+.project-dl .dl-btn {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 16px */
+}
+
+.project-dl .dl-btn {
+    display: inline-flex;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background: var(--primary-color, #EC3A4C);
+    color: #fff;
+}
+
+.your-message {
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #F6F6F6;
+}
+
+
+input[type=file] {
+
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+
+input[type=file]+label {
+    border: none;
+    border-radius: 5px;
+    font-family: PeydaWebFaNum15;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+
+
+    font-size: inherit;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+
+    padding: 6px 30px 9px 9px;
+    display: inline-flex;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+}
+
+input[type=file]+label.btn-3 {
+    border-radius: 5px;
+    background: #000;
+    overflow: hidden;
+}
+
+input[type=file]+label.btn-3 span {
+    display: inline-block;
+    height: 100%;
+    transition: all 0.3s;
+    width: 100%;
+
+    color: #FFF;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-input p {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 16px */
+}
+
+.advise-speak {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 14px */
+}

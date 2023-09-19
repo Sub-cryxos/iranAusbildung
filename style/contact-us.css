@@ -1,0 +1,189 @@
+@import url('./reset.css');
+@import url('./variables.css');
+@import url('./fonts.css');
+
+/* title  */
+
+.page-title h3 {
+    color: var(--primary-color);
+    text-align: right;
+    font-family: Moraba-medium;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 35px */
+    text-align: center;
+
+}
+
+.page-title p {
+    margin-top: 1.8rem;
+    color: var(--sec-light, #25262A);
+    text-align: right;
+    font-family: PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 14px */
+    text-align: center;
+
+}
+
+.tsxd {
+    font-family: PeydaWebFaNum15;
+}
+
+/* title  */
+
+/* main page  */
+.main-content {
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 34px;
+}
+
+/* telegram content  */
+.telegram-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    padding: 40px 100px;
+    /* margin-top: 1rem; */
+}
+
+.telgram_box {
+    width: 376px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+.box-icon {
+    padding: 15px;
+}
+
+.telgram_box .text h2 {
+    color: #000;
+    text-align: right;
+    font-family:PeydaWebFaNum-N;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.button {
+    background-color: #29AAED;
+    padding: 18px 11px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.button .telegram-btn {
+    color: #FFF;
+    text-align: right;
+    font-family:PeydaWebFaNum-N;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-box {
+    width: 376px;
+    /* height: fit-content; */
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 15px;
+}
+
+.contact-text {
+    color: #000;
+    font-family: PeydaWebFaNum-N;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact-path {
+    color: #000;
+    font-family:PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.social-media-text {
+    gap: 10px;
+
+}
+
+.social-media-text h1 {
+    color: var(--secondary-color);
+    font-family: Moraba-medium;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+
+.social-media_box {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.social-text-box {
+    border-radius: 5px;
+    background-color: #FFD9D9;
+    padding: 13px 50px 7px 49px;
+}
+
+.social-text-box p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#instagram .social-text-box {
+    background-color: #F7EBF7;
+}
+
+#twiiter .social-text-box {
+    background-color: #E8F2FE;
+}
+
+#facebook .social-text-box {
+    background-color: #CFEAFB;
+}
+
+/* main page  */

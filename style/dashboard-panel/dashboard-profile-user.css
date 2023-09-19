@@ -1,0 +1,112 @@
+@import url('../fonts.css');
+
+.user-avatar {
+    flex-direction: column;
+}
+
+.user-avatar img {
+    width: 89px;
+    height: 89px;
+
+    border-radius: 89px;
+    border: 3px solid #DEDEDE;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat;    */
+}
+
+.user-avatar input {
+    color: #000;
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 5px;
+    background: #F6F6F6;
+
+    padding: 7px 16px 9px 16px;
+    margin-top: 1rem;
+}
+
+
+
+.cv-wait label {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 14px */
+    margin-bottom: 0.5rem;
+}
+
+.cv-wait input {
+    color: #969696;
+    text-align: right;
+    font-family:  PeydaWebFaNum15;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+}
+
+
+.cv-wait {
+    width: 45%;
+    padding: 10px;
+}
+
+.cv-wait input,select {
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #F6F6F6;
+
+    width: 100%;
+    display: inline-flex;
+    height: 49px;
+    padding: 18px 12px 10px 10px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.text-map {
+    color: #000;
+    font-family:  PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+
+.submit-info {
+    color: #FFF;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 16px */
+    border-radius: 5px;
+    background: var(--primary-color, #EC3A4C);
+    padding: 12px 20px;
+    border: none;
+}
+
+.card-name {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 164.3%;
+    /* 23.002px */  
+}

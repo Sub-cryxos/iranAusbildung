@@ -1,0 +1,394 @@
+@import url('./reset.css');
+@import url('./variables.css');
+/* @import url('./variables.css'); */
+@import url('./fonts.css');
+
+
+body {
+    background: #FCFCFC;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.page-title h3 {
+    font-family: moraba-medium;
+    font-size: 35px;
+
+}
+
+.page-title p {
+    margin-top: 2rem;
+    font-family: PeydaWebFaNum3;
+    font-size: 14px ;
+}
+
+.compare-wrapper {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+}
+
+.right-compare_box .header,
+.left-compare_box .header {
+    /* width: 594px; */
+    height: 87px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #F6F6F6;
+    padding: 18px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-compare_box .header h1,
+.left-compare_box .header h1 {
+    font-family: PeydaWebFaNum5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 100%;
+}
+
+.right-compare_box .header h2,
+.left-compare_box .header h2 {
+    font-family: PeydaWebFaNum4;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 1rem;
+    color: var(--primary-color);
+}
+
+.right-compare_box .body,
+.left-compare_box .body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 25px; */
+}
+
+.left-compare_box .body {
+    direction: ltr;
+}
+
+.compare-text div {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.compare-text div .type-title {
+    font-family: PeydaWebFaNum5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000;
+    /* mask-type: 1rem; */
+}
+
+.compare-text div .saqure-red,
+.compare-text div .saqure-pink {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.compare-text div .saqure-red {
+    background-color: var(--primary-color);
+}
+
+.compare-text div .saqure-pink {
+    background: #FFCACA;
+}
+
+
+.comapre-body {
+    display: none;
+    width: 500px;
+    max-height: 290px;
+    padding: 24px 28px;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.027);
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 2222;
+}
+
+.active-au-b {
+    display: block;
+
+}
+
+.rotate-i{
+    transition: all linear .1s;
+    transform: rotate(180deg);
+}
+
+.comapre-body .input-group {
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    padding: 6px;
+    background-color: #fff;
+}
+
+.comapre-body input {
+    border: none;
+    width: 80% !important;
+    color: #989898;
+    text-align: right;
+    font-family: PeydaWebFaNum3;
+    font-size: 16px;
+}
+
+.comapre-body button {
+    border-radius: 5px !important;
+    background-color: var(--primary-color);
+    width: 20% !important;
+    color: #fff;
+    text-align: right;
+    font-family: PeydaWebFaNum3;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+.comapre-body button:hover {
+    border: 1px solid var(--primary-color) !important;
+}
+
+.comapre-body ul {
+    list-style: circle;
+
+}
+
+.list-of-asubildungs {
+    margin-top: 2rem;
+}
+
+.comapre-body::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.list-of-asubildungs li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: all linear .2s;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    list-style: circle;
+}
+
+.list-of-asubildungs li:hover {
+    background-color: #fff;
+}
+
+.list-of-asubildungs li .pr {
+    font-family: PeydaWebFaNum3;
+    font-size: 20px;
+    color: #000;
+}
+
+.list-of-asubildungs li .de {
+    color: var(--primary-color);
+    font-size: 20px;
+    direction: ltr;
+    font-family: PeydaWebFaNum4 ;
+
+}
+
+/* this is the charts  */
+
+.charts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+    flex-wrap: wrap;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 60%;
+    gap: 50px;
+    direction: ltr;
+    /* flex-wrap: wrap; */
+}
+
+.after-course,
+.thired-year {
+    display: flex;
+    gap: 5px;
+    align-items: end;
+}
+
+.chart {
+    width: 70.063px;
+    padding: 0px 8.313px 0px 9.5px;
+    border-radius: 11.875px;
+    background-color: var(--primary-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart span {
+    font-family: PeydaWebFaNum15;
+    font-size: 21.375px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000  ;
+   
+}
+
+.chart:nth-child(odd) {
+    background-color: #FFCACA;
+    
+}
+
+.chart:nth-child(odd) ~ .chart span {
+    color: #fffcfc;
+
+
+}
+
+/* the classing for the charts are  */
+/* 2000 to up 306px  large*/
+/* 1500 to 2000 230px  middle*/
+/* 1200 to 1500 150px  mid-short*/
+/* 800 to 1200 70px short */
+.short {
+    height: 100.938px;}
+
+.mid-short {
+    height: 166.25px;
+}
+
+.middle {
+    height: 211.375px;
+}
+
+.s-large {
+    height: 263.625px;
+}
+
+.large {
+    height: 306.375px;
+}
+
+
+/* start of jobs informaion  */
+.jobs_information {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 7rem;
+}
+
+.job-info_box {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #F6F6F6;
+    background: #FFF;
+    padding: 20px 15px;
+}
+
+.job-info_box h1 {
+    font-family:  moraba-medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: #000;
+    text-align: center;
+
+}
+
+.job-info_box .job-info .info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-top: 1.4rem;
+}
+
+.job-info_box .job-info .info-item .title-info {
+    font-family: PeydaWebFaNum13;   
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--secondary-color);
+}
+
+.job-info_box .job-info .info-item .info-answer {
+    font-family: PeydaWebFaNum13;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000;
+    text-align: right;
+}
+
+.salary_ausbildung ul>li {
+    height: 39px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.salary_ausbildung ul>li span {
+    font-family: PeydaWebFaNum15;
+    padding: 10px 2px 8px 1px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.chatrs-content p {
+    font-family: PeydaWebFaNum15;
+
+    margin-top: 1.5rem;
+    color: var(--secondary-color, #1D1E22);
+    text-align: center;
+    font-family: Peyda(FaNum);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 20px */
+}
+
+.matreial-change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    /* height: 20px; */
+}
+
+

@@ -1,0 +1,396 @@
+@import url('./reset.css');
+@import url('./variables.css');
+
+@import url('./fonts.css');
+
+/* start of first (search and category) sectio */
+body {
+    background: #EEF0F2;
+}
+
+.search_text {
+    font-family:  moraba-medium;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--secondary-color);
+}
+
+.red_text {
+    color: var(--primary-color);
+
+}
+
+.search_form {
+    border-radius: 10px;
+    background: #F6F6F6;
+    width: 100%;
+    padding: 15px 31px 16px 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    /* width: auto; */
+    flex-wrap: nowrap;
+}
+
+.input_search {
+    width: 80% !important;
+    height: 70px;
+    padding: 0px 44px 0px 44px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    background: #FFF;
+}
+
+.input_search {
+    color: #989898;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    width: 100% !important;
+    font-family:PeydaWebFaNum3 ;
+}
+
+.search_btn {
+    width: 20%;
+    display: flex;
+    height: 70px;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    flex-shrink: 0;
+    border-radius: 5px 0px 0px 5px;
+    background-color: var(--primary-color);
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    font-family:PeydaWebFaNum3 ;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.famous_category {
+    color: #989898;
+    font-family: PeydaWebFaNum5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    border-radius: 20px;
+    border: 1px solid #E0E0E0;
+    padding: 8px 10px;
+}
+
+.subjects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    background: #F6F6F6;
+}
+
+.subject .subject_text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000;
+    font-family: PeydaWebFaNum5;
+   
+}
+
+.main-wrapper {
+    background: #FCFCFC !important;
+}
+
+
+/* end of first (search and category) sectio */
+
+/* start of the main element (cards and filters ) */
+
+
+.filter_section .text_filter {
+    font-family: PeydaWebFaNum5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--secondary-color);
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter_box {
+    color:  #1D1E22;
+    text-align: right;
+    font-family: PeydaWebFaNum5;
+
+    font-size: 14px;
+    border-radius: 18px;
+    border: 1px solid var(--secondary, #1D1E22);
+    background: #FFF;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+.deavtice {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.sort_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sorts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.sort {
+    font-family: PeydaWebFaNum5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--secondary-color);
+    text-align: right;
+    padding: 10px;
+}
+
+.found_subject {
+    font-family: PeydaWebFaNum5;
+    color: #727272;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.active_sort {
+    color: var(--primary-color);
+}
+
+.filter_section hr {
+    color: #EEE;
+    background: #EEE;
+}
+
+/* ausbildung cards  */
+
+.ausbildung_card_wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.ausbildung_card {
+    height: 443px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+    background: #FFF;
+    width: 284px;
+    position: relative;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.popular-asubildung_pic {
+    padding: 8px;
+}
+
+.popular-asubildung_pic img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.popular_ausbildung_title .popular_ausbildung_fa {
+    font-family: PeydaWebFaNum5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
+
+.popular_ausbildung_title .popular_ausbildung_de {
+    font-size: 16px;
+    font-family: PeydaWebFaNum5;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+.salary_ausbildung ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.salary_ausbildung ul>li {
+    font-family: PeydaWebFaNum3;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    padding: 0 6px;
+    width: 85%;
+    height: 35px;
+}
+
+.salary_ausbildung ul>li span {
+    font-family: PeydaWebFaNum15;
+
+
+    padding: 10px 2px 8px 1px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.btn_navigate_more {
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: #FCDDE0;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 8px;
+
+}
+
+.btn_navigate_more a {
+    font-family: PeydaWebFaNum5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--primary-color);
+}
+
+.saved_post,
+.share_post,
+.shitf {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.saved_post {
+    top: 10px;
+    right: 10px;
+}
+
+.share_post {
+    top: 10px;
+    right: 45px;
+}
+
+.shitf {
+    width: 60px;
+    border-radius: 24px;
+    background-color: var(--primary-color);
+    display: flex;
+    padding: 0px 4px 0px 8px;
+
+    align-items: center;
+    gap: 2px;
+    top: 10px;
+    left: 10px;
+}
+
+.shitf p {
+    font-family: PeydaWebFaNum5;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    color: #FFF;
+}
+
+.first-sec ,.second-sec{
+    display: none;
+}
+/* end of the main element (cards and filters ) */
+/* paginations start  */
+.page-link {
+    height: 35px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000;
+    font-family: PeydaWebFaNum15;
+}
+
+.next-one,
+.last-one {
+    width: 58px;
+}
+
+.active>.page-link {
+    border: 0.5px solid #D5DAE1 !important;
+    background: #F6F6F6 !important;
+    color: #000;
+    font-family: PeydaWebFaNum15;
+
+
+}
+
+/* paginations end */

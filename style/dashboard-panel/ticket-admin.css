@@ -1,0 +1,199 @@
+.plus-click {
+    width: 24px;
+    height: 24px;
+
+    border-radius: 18px;
+    background: #CCF1E4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #02BB79;
+    text-align: right;
+    font-family: PeydaWebFaNum-N;
+    font-size: 22.655px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.3%;
+    /* 37.222px */
+
+    cursor: pointer;
+}
+
+.table-ticket {
+    border-radius: 10px;
+    border: 1px solid #E6E6E6;
+    background-color: #F6F6F6;
+}
+
+.t-header,
+.table-content {
+    border: 1px solid #E6E6E6;
+}
+
+.input-ticket input,
+select,
+textarea {
+    width: 100%;
+    padding: 16px 13px 17px 20px;
+    border-radius: 5px;
+    background-color: #F4F4F4;
+    border: none;
+
+    color: #7D7D7D;
+    text-align: right;
+    font-family:PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    resize: none;
+}
+
+.input-ticket label {
+    color: #151515;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0.50rem;
+    margin-top: 30px;
+}
+
+.ticket-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+}
+
+
+input[type=file] {
+
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+
+input[type=file]+label {
+
+
+
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Rubik", sans-serif;
+    font-size: inherit;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 6px 30px 9px 9px;
+    display: inline-flex;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+}
+
+input[type=file]+label.btn-3 {
+    border-radius: 5px;
+    background: #000;
+    overflow: hidden;
+}
+
+input[type=file]+label.btn-3 span {
+    display: inline-block;
+    height: 100%;
+    transition: all 0.3s;
+    width: 100%;
+
+    color: #FFF;
+    text-align: right;
+    font-family:PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type=file]+label.btn-3::before {
+    left: 0;
+    top: -180%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('../../assets/Icons/fluent_attach-20-filled.svg') no-repeat;
+    background-size: contain;
+    background-position: 44% 61%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    content: "";
+    font-family: "Font Awesome 5 Pro";
+    font-size: 130%;
+    line-height: 2.6;
+
+    transition: all 0.3s;
+}
+
+input[type=file]+label.btn-3:hover {
+    border-radius: 5px;
+    background: #000;
+}
+
+input[type=file]+label.btn-3:hover span {
+    transform: translateY(300%);
+}
+
+input[type=file]+label.btn-3:hover::before {
+    top: 0;
+}
+
+.submit-btn {
+    width: 16%;
+}
+
+.answer {
+    width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+    background: var(--secondary-color, #1D1E22);
+
+    color: #FFF;
+    text-align: right;
+    font-family: PeydaWebFaNum-N;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.5%;
+    /* 24.15px */
+}
+
+.answer-title {
+    color: #151515;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    margin-right: 0;
+    line-height: 25px;
+}
