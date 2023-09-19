@@ -78,7 +78,7 @@ else {
 if (windowWidth <= 612) {
   var swiper = new Swiper(".comments_section", {
     direction: "vertical",
-    slidesPerView: 1.01,
+    slidesPerView: 1.1,
     spaceBetween: 20,
     autoplay: {
       delay: 100000,
