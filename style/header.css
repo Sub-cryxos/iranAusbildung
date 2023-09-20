@@ -216,7 +216,7 @@ and the navbar for nav  */
 
 /* responsive mobile part  */
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:1000px) {
 
     .main_header,
     .nav_bar {

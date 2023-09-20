@@ -1,4 +1,10 @@
 @import url('./variables.css');
+/* this is the responsive of tablet  */
+@media screen and (max-width:1530px) {
+    .form_enter  {
+        width: 28%;
+    }
+}
 
 /* this is for mobile  */
 @media screen and (max-width:720px) {
