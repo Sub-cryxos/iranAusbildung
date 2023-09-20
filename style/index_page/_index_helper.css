@@ -14,14 +14,14 @@
 
 .de_flag {
     position: absolute;
-    top: 0;
+    top: 2rem;
     left: 88%;
 }
 
 .picture_text_box {
     position: absolute;
-    top: 40%;
-    left: 88%;
+    top: 65%;
+    left: 84%;
     background-color: #FCDDE0;
     border-radius: 5px;
     display: flex;

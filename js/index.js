@@ -1,13 +1,10 @@
 
 const windowWidth = window.innerWidth;
-
-
-
 if (windowWidth <= 612) {
-  
+  console.log("if")
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1.11,
-    spaceBetween: 0,
+    slidesPerView: 1.35 ,
+    spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -16,10 +13,8 @@ if (windowWidth <= 612) {
       disableOnInteraction: false,
     },
   });
-}   
-
-else {
-
+} else {
+  console.log('else')
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4,
     spaceBetween: 10,
@@ -34,10 +29,10 @@ else {
 
 }
 // ths slider best ausbildungs 
-
-if (windowWidth <= 612) {
+if (windowWidth <= 600) {
+  
   var swiper = new Swiper(".best_ausbildungs", {
-    slidesPerView:1.000001,
+    slidesPerView: 1.1,
     spaceBetween: 20,
     autoplay: {
       delay: 1000,
@@ -51,13 +46,13 @@ if (windowWidth <= 612) {
 
 
   });
-}
-else {
+
+} else {
   var swiper = new Swiper(".best_ausbildungs", {
     slidesPerView: 2,
     spaceBetween: 20,
     autoplay: {
-      delay: 1000,
+      delay: 100000,
       disableOnInteraction: false,
     },
 
@@ -68,20 +63,18 @@ else {
 
 
   });
+
 }
-
-
-
 // ths slider of comment section
 
 
 if (windowWidth <= 612) {
   var swiper = new Swiper(".comments_section", {
-    direction: "vertical",
-    slidesPerView: 1.1,
+   
+    slidesPerView: 1.01,
     spaceBetween: 20,
     autoplay: {
-      delay: 100000,
+      delay: 1000,
       disableOnInteraction: false,
     },
 
@@ -100,7 +93,7 @@ else {
     slidesPerView: 2,
     spaceBetween: 20,
     autoplay: {
-      delay: 100000,
+      delay: 1000,
       disableOnInteraction: false,
     },
 
