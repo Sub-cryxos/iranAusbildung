@@ -30,7 +30,7 @@ if (windowWidth <= 612) {
 }
 // ths slider best ausbildungs 
 if (windowWidth <= 600) {
-  
+
   var swiper = new Swiper(".best_ausbildungs", {
     slidesPerView: 1.1,
     spaceBetween: 20,
@@ -70,7 +70,7 @@ if (windowWidth <= 600) {
 
 if (windowWidth <= 612) {
   var swiper = new Swiper(".comments_section", {
-   
+
     slidesPerView: 1.01,
     spaceBetween: 20,
     autoplay: {
