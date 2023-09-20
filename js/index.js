@@ -3,7 +3,7 @@ const windowWidth = window.innerWidth;
 if (windowWidth <= 612) {
   console.log("if")
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1.35 ,
+    slidesPerView: 1,
     spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
