@@ -113,13 +113,13 @@ hr {
 
 
 .copy-right-text {
-    font-family:PeydaWebFaNum16 ;
+    font-family:PeydaWebFaNum13 ;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     color: #FFF;
-
+    opacity: 0.4;
 }
 
 input::placeholder {
