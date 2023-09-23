@@ -50,7 +50,7 @@ if (windowWidth <= 600) {
 } else {
   var swiper = new Swiper(".best_ausbildungs", {
     slidesPerView: 2,
-    spaceBetween: 20,
+    spaceBetween: 50,
     autoplay: {
       delay: 100000,
       disableOnInteraction: false,
