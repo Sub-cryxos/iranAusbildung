@@ -5,7 +5,6 @@
 .picture_guid {
     background-color: var(--primary-color);
     background-image: url('../../assets/images/ALINOUR.png');
-    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
     height: 383px;
@@ -14,13 +13,13 @@
 
 .de_flag {
     position: absolute;
-    top: 2rem;
+    top:0;
     left: 88%;
 }
 
 .picture_text_box {
     position: absolute;
-    top: 65%;
+    top: 40%;
     left: 84%;
     background-color: #FCDDE0;
     border-radius: 5px;

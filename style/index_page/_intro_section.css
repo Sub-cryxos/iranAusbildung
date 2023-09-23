@@ -143,10 +143,17 @@
 
 /* this codes blong to link_boxs  */
 
+
+
 .link_boxs {
+    width: 100%;
+    padding: 26px 42px 27px 42px;
+
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .link_box {
