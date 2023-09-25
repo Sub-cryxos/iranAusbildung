@@ -136,7 +136,7 @@
     border-radius: 10px;
     background: #F6F6F6;
     padding: 25px;
-    width: 492px;
+    max-width: 492px;
     /* height: fit-content; */
     margin: 10px 0 10px;
 }

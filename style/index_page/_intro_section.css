@@ -148,7 +148,7 @@
 
 .link_boxs {
     width: 100%;
-    padding: 26px 42px 27px 42px;
+    padding: 26px 10px 27px 10px;
 
     border-radius: 10px;
     display: flex;
@@ -283,9 +283,3 @@
     margin-top: 19px;
 }
 
-/* the responsive of tablet  */
-
-@media screen and (min-width :1284px)  {
-
-   
-}

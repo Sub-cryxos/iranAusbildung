@@ -122,6 +122,7 @@
 }
 
 .moving_arrows {
+    display: flex;
     position: absolute;
     top: 200px;
     /* left: 678px; */
@@ -138,7 +139,7 @@
     border-radius: 5px;
     width: 100%;
     height: 100%;
-
+   
 }
 
 .second-card-part {
@@ -378,34 +379,3 @@
 
 /* responsive of tablet  */
 
-@media screen and (max-width :1280px) {
-    .form_enter {
-        width: 28%;
-    }
-
-    .popular_ausbildungs_text_guid {
-        height: 60% !important;
-        margin-top: 3rem;
-    }
-
-    .ausbildung_card {
-        width: 250px ;
-        height: 421px ;
-        margin-top: 3rem;
-    }
-
- 
-    .moving_arrows {
-        width: 80% !important;
-    }
-
-    .bg-circle {
-        left: -10rem !important;
-    }
-
-    .person-pic {
-        background-position-x: 0% !important;
-    }
-
-    
-}

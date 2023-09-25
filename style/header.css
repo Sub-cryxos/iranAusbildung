@@ -133,7 +133,7 @@ and the navbar for nav  */
 }
 
 .form_enter .enter_buttons .log_sign {
-    width: 145px;
+    width: fit-content;
     background-color: #25262A;
     ;
 }
@@ -157,7 +157,7 @@ and the navbar for nav  */
 
 .form_enter .enter_buttons .consult_request {
 
-    width: 169px;
+    width: fit-content;
     background-color: var(--primary-color)
 }
 
@@ -213,10 +213,20 @@ and the navbar for nav  */
 }
 
 
+@media screen and (max-width:1500px) {
+    .form_enter {
+        width: 30%;
+    }
+
+}
+
+
 
 /* responsive mobile part  */
 
 @media screen and (max-width:1000px) {
+
+   
 
     .main_header,
     .nav_bar {

@@ -1,34 +1,35 @@
 @import url('./variables.css');
-/* this is the responsive of tablet  */
+/* this is the responsive of tablet 
 @media screen and (max-width:1530px) {
     .form_enter  {
         width: 29%;
     }
-}
+} */
 
 /* this is for mobile  */
-@media screen and (max-width:720px) {
+@media screen and (max-width:850px) {
 
     /* this is for index page  */
 
 
-  
+
 
     .ausbildung_card_first {
-        width: 300px !important;
+        width: 195.414px !important;
+        height: 235px;
     }
 
     .comment_box {
         width: 305px;
         padding: 0;
-       margin-left: auto;
-       margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
- 
+
     .comments_section {
-       
+
         max-height: 800px;
 
     }
@@ -38,11 +39,26 @@
     }
 
 
-     .ausbildung_card_first .ausbildung_box header {
-        padding: 0 15px;
+    .ausbildung_card_first .ausbildung_box {
+        width: auto;
+        height: 248px;
+        padding: 0;
     }
 
-    .intro_text p {
+    .ausbildung_img img {
+        width: 100%;
+    }
+
+    .ausbildung_card_first .ausbildung_box header .ausbildung_title_de a,
+    .ausbildung_card_first .ausbildung_box header .ausbildung_title a {
+        font-size: 12px;
+    }
+
+    .ausbildung_card_first .ausbildung_box header {
+        padding: 5px 5px;
+    }
+
+    .ausbildung_card_first .ausbildung_box header .intro_text p {
         font-size: 20px;
     }
 
@@ -106,10 +122,6 @@
         flex-wrap: wrap;
     }
 
-    .picture_guid,
-    .guid_text {
-        width: 100%;
-    }
 
     .guid_text .title_guid,
     .what_is_asubildung,
@@ -217,7 +229,7 @@
     }
 
     .consult_navigate a {
-        width: 70%;
+        width:fit-content;
         margin-top: 2rem;
 
     }
@@ -251,6 +263,7 @@
     .popular_ausbildungs_text_guid {
         margin-top: 1rem;
         padding: 0;
+        width: 100%;
     }
 
     #popular_ausbildungs_btn_more {
@@ -265,6 +278,10 @@
     .ausbildung_card .popular-asubildung_pic {
         width: 144px;
         height: 153px;
+    }
+
+    .popular-asubildung_pic img {
+        transform: scale(1.07);
     }
 
     #weblog_btn {
@@ -381,7 +398,7 @@
 
     .bg-circle {
         left: -15rem;
-        top: 8rem;
+        top: 10rem;
     }
 
 
@@ -464,7 +481,7 @@
     .responsive_comment_icon {
         display: block !important;
     }
-    
+
     .responsive_comment_icon svg {
         width: 25px;
     }
@@ -474,7 +491,7 @@
     }
 
     .trust_logo_box {
-        width: 50%;
+        width: 65%;
     }
 
     .popular_ausbildungs_wrapper {
@@ -742,6 +759,7 @@
         gap: 3rem;
     }
 
+
     /* end of the ausbildung forms  */
     /* start of the contact us  */
 
@@ -949,9 +967,9 @@
     }
 
     .bg-circle {
-        width: 370px;
+        width: 442px;
         height: 422px;
-        left: -1.5rem !important;
+        left: 3.5rem !important;
     }
 
 
@@ -1037,13 +1055,13 @@
         font-size: 14px;
     }
 
-    .recommended-box  .recommended-pic img {
+    .recommended-box .recommended-pic img {
         width: 168px !important;
     }
 
 
-    .de-best-ci .moving-arrow-l ,
-    .de-best-ci .moving-arrow-r{
+    .de-best-ci .moving-arrow-l,
+    .de-best-ci .moving-arrow-r {
         display: none;
     }
 
