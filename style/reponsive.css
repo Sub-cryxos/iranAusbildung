@@ -20,8 +20,8 @@
     }
 
     .comment_box {
-        width: 305px;
-        padding: 0;
+        width: 311px;
+        padding: 5px;
         margin-left: auto;
         margin-right: auto;
 
@@ -229,7 +229,7 @@
     }
 
     .consult_navigate a {
-        width:fit-content;
+        width: fit-content;
         margin-top: 2rem;
 
     }
@@ -625,8 +625,21 @@
     /* end of the Ausbildungs page  */
 
     /* start of the single ausbildung page  */
+    .des_content_sec_solary{
+        flex-wrap: wrap;
+    }
+    .des_content_sec_solary .solary_box {
+        margin-top: 1.5rem;
+
+    }
+
+    .employer_find {
+        display: flex;
+    }
+
     .page_title {
         flex-direction: column;
+        text-align: center;
     }
 
     .title_fa {
@@ -662,7 +675,8 @@
     }
 
     .nav-item .nav-link {
-        padding: 20px 25px 20px 16px;
+        padding:11px 14px 10px 10px;
+        font-size: 16px;
     }
 
     .des_content_sec h1 {
@@ -673,18 +687,27 @@
         font-size: 14px;
     }
 
+
+    .des_content_sec_multi_img .big {
+        width: 190.886px;
+    }
+
     .des_content_sec_multi_img img {
-        width: 115px;
+        /* width: 18
+        .reply-btn {
+        }7px; */
+        height: 127.257px;
     }
 
     .des_content_sec_multi_img {
-        gap: 2px;
+        gap: 2%;
     }
 
     .solary_box p,
     span,
     .solary_box h1 {
-        font-size: 20px;
+        font-size: 11px;
+        
     }
 
     .des_content_sec_compare {
@@ -712,6 +735,15 @@
     .tags,
     .resources {
         width: 100%;
+    }
+
+    .reply-btn {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .load-more {
+        margin-top: 1rem;
     }
 
     /* end of the single ausbildung page  */
@@ -848,12 +880,16 @@
 
     /* start of the single post  */
 
+    .title_de-f {
+        align-items: end;
+    }
+
     .blog-wrapper {
         padding: 0 9px 0 10px;
     }
 
     .blog_pic {
-        width: 300px !important;
+
         height: auto;
         display: block;
     }
@@ -861,7 +897,7 @@
 
     .blog_pic img {
         height: auto;
-        width: 340px;
+
     }
 
     .descriptions {
@@ -1145,6 +1181,11 @@
     .job-info_box {
         width: 100%;
 
+    }
+
+    .job-info_box .salary_ausbildung ul>li {
+        height: 39px;
+        max-height: 39px;
     }
 
     .left-compare_box,

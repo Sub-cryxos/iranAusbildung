@@ -23,6 +23,14 @@ body {
     color: var(--secondary-color);
 }
 
+.title_de-f {
+    display: flex;
+}
+
+.tabs-of-main {
+    border-bottom: 1px solid #c2bfbf4d;
+}
+
 .page_title .title_de {
     font-size: 30px;
     font-style: normal;
@@ -108,16 +116,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 1%;
 }
+
+
 
 .des_content_sec_multi_img img {
     border-radius: 5px;
+
 }
+
 
 .des_content_sec_img {
     margin-top: 1.5rem;
     width: 100%;
+    max-width: 800px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -128,7 +141,7 @@ body {
 .employer_find {
     font-family: PeydaWebFaNum-N;
 
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -143,6 +156,7 @@ body {
     align-items: center;
     gap: 10px;
     margin-top: 1.8rem;
+    flex-wrap: wrap;
 }
 
 .solary_box {
@@ -225,7 +239,7 @@ body {
 .compare-box li {
 
     width: 100%;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 200.5%;
     padding: 12px;
@@ -262,13 +276,17 @@ body {
 }
 
 .tags {
-    font-size: PeydaWebFaNum13;
     width: 60%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 8px;
     margin: 8px 0;
+}
+
+.tag {
+    font-family: PeydaWebFaNum13;
+    font-size: 12px;
 }
 
 .post_tags,
@@ -283,7 +301,9 @@ body {
 }
 
 .tag {
-    font-size: 14px;
+
+    font-family: PeydaWebFaNum13;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -387,15 +407,20 @@ body {
 
 
 .accessibility_box,
-.similar-ausbildungs {
+.similar-ausbildung_box {
     width: 100%;
     padding: 0;
-    border: 2px solid #F6F6F6;
-    background: #FFF;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+
+    border: 2px solid #F6F6F6;
+    background-color: #FFF;
     border-radius: 10px;
+}
 
-
+.S-a-b hr {
+    color: #79797938;
+    background-color: #33333375;
+    margin: auto 5px auto;
 }
 
 .accessibility-header,
@@ -501,7 +526,7 @@ body {
 }
 
 .link_box p {
-    /* margin-right: 10px; */
+
     font-family: PeydaWebFaNum15;
 
     font-size: 14px;
@@ -509,6 +534,9 @@ body {
     color: var(--secondary-color);
 }
 
+.similar-ausbildungs {
+    border-bottom: 1px solid #b3adad2e
+}
 
 .similar-ausbildungs_name h1 {
     font-family: moraba-medium;
@@ -572,7 +600,7 @@ body {
 .text-t-co p {
     color: #000;
     text-align: right;
-    font-family:PeydaWebFaNum15 ;
+    font-family: PeydaWebFaNum15;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -582,8 +610,8 @@ body {
 
 .submit-comment input::placeholder,
 .submit-comment textarea::placeholder {
-    font-family:PeydaWebFaNum15 ;
-    
+    font-family: PeydaWebFaNum15;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -653,7 +681,7 @@ body {
 }
 
 .comment-user .user-name {
-    font-family:PeydaWebFaNum15 ;
+    font-family: PeydaWebFaNum15;
 
     font-size: 18px;
     font-style: normal;
@@ -666,7 +694,8 @@ body {
     margin-top: 1.8rem;
     font-size: 14px;
 
-    font-family: PeydaWebFaNum-N;;
+    font-family: PeydaWebFaNum-N;
+    ;
     font-style: normal;
     font-weight: 400;
     line-height: 0%;
@@ -674,7 +703,8 @@ body {
 }
 
 .comment-body p {
-    font-family: PeydaWebFaNum-N;;
+    font-family: PeydaWebFaNum-N;
+    ;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -692,7 +722,7 @@ body {
 }
 
 .reply-btn p {
-    font-family:PeydaWebFaNum15 ;
+    font-family: PeydaWebFaNum15;
 
     font-size: 14px;
     font-style: normal;
@@ -711,7 +741,7 @@ body {
 }
 
 .load-more a {
-    font-family:PeydaWebFaNum15 ;
+    font-family: PeydaWebFaNum15;
 
     font-size: 16px;
     font-style: normal;
@@ -770,4 +800,57 @@ div[desktop-hide-card] {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, ">");
+
+}
+
+.breadcrumb li {
+    color: #25262A;
+    text-align: right;
+    font-family: PeydaWebFaNum13;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 14px */
+}
+
+.rates {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.rates .rating {
+    cursor: pointer;
+    font-family: PeydaWebFaNum13;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* some responsive fix  */
+@media screen and (max-width: 1140px) {
+    .page_title {
+        justify-content: center;
+
+    }
+
+    .page_title .title_fa {
+        color: var(--primary-color);
+        margin-bottom: 2rem;
+    }
+
+    .breadcrumb {
+        justify-content: center;
+    }
+
+    .des_content_sec_multi_img img {
+        max-width: 300px;
+        height: 250px;
+    }
 }
