@@ -860,13 +860,8 @@
         display: none;
     }
 
-    .social-media_box {
-        width: 45%;
-
-    }
-
-    .social-media {
-        gap: 20px;
+   .cu-a {
+        gap: 45px;
     }
 
     .social-text-box p {
