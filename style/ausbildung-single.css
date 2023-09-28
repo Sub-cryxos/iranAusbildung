@@ -832,6 +832,72 @@ div[desktop-hide-card] {
     gap: 5px;
 }
 
+.title_fa {
+    position: relative;
+    z-index: 1;
+    font-family: PeydaWebFaNum5;
+   
+}
+
+.title_fa:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: -4px;
+    right: -14px;
+    background: #FCDDE0;
+    width: 35px;
+    height: 31px;
+    /* border-radius: 5px; */
+}
+
+.sa-m-s  .title_fa {
+    font-size: 18px !important;
+    margin-right: 10%;
+}
+
+.sa-m-s .ausbildung_card {
+    margin: 0;
+    padding: 5px;
+}
+
+.share_post,
+.saved_post {
+    position: absolute;
+}
+
+.sa-m-s .saved_post {
+    right: 8px;
+}
+
+.sa-m-s .share_post {
+    top: 15px;
+    right: 42px;
+}
+
+.sa-m-s .second-sec {
+    padding: 5px;
+}
+
+.sa-m-s .popular_ausbildung_title {
+    text-align: center;
+
+}
+
+.sa-m-s .second-sec .popular_ausbildung_title .popular_ausbildung_fa,
+.sa-m-s .second-sec .popular_ausbildung_title .popular_ausbildung_de {
+    font-size: 13px;
+    font-family: PeydaWebFaNum5;
+}
+
+.sa-m-s .salary_ausbildung li {
+    font-size: 11px;
+}
+
+
+.sa-m-s .salary_ausbildung li>span {
+    padding: 5px 8px;
+}
 
 /* some responsive fix  */
 @media screen and (max-width: 1140px) {
@@ -840,10 +906,14 @@ div[desktop-hide-card] {
 
     }
 
-    .page_title .title_fa {
+   .title_fa {
         color: var(--primary-color);
         margin-bottom: 2rem;
+        font-family: PeydaWebFaNum5;
+        margin-right: 25px;
+
     }
+
 
     .breadcrumb {
         justify-content: center;
