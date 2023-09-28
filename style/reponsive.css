@@ -116,6 +116,8 @@
 
     .count_dwon_wrapper {
         flex-wrap: wrap;
+        border-radius: 5px;
+        padding: 10px;
     }
 
     .guid-sec {
@@ -890,7 +892,11 @@
     .count_dwon_box:nth-child(1),
     .count_dwon_box:nth-child(2) {
         width: 50%;
-        margin-top: 4rem;
+        margin-top: 2rem;
+    }
+
+    .count_dwon_box:last-child{
+        padding-bottom: 3rem;
     }
 
     /* start of the single post  */

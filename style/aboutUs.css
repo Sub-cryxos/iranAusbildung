@@ -78,8 +78,8 @@
 .main-img {
 
     display: flex;
+    justify-content: center;
     padding: 20px 34px;
-
 }
 
 .main-img div {
@@ -93,7 +93,7 @@
 
 .honor h2 {
     color: var(--primary-color, #EC3A4C);
-    font-family:  PeydaWebFaNum16;
+    font-family:  moraba-medium;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -109,7 +109,7 @@
     align-items: center;
     /* padding: 20px 0; */
     background-color: #1D1E22;
-    border-radius: 0  0 30px 30px;
+    border-radius: 0  0 20px 20px;
 
 }
 
