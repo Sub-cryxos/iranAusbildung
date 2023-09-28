@@ -77,11 +77,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 33px 30px;
     cursor: pointer;
     background-image: url('../assets/Icons/Group\ 37117.svg');
     background-repeat: no-repeat;
-
+    background-position-y:center ;
 }
 
 .accordion-header p {
