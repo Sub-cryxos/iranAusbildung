@@ -288,3 +288,6 @@ body {
 .colored {
     color: var(--primary-color) !important;
 }
+
+
+/* responsive with no confilict  */

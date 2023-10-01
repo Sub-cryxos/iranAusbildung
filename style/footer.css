@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-
+    margin: 0 0 0 0;
 }
 
 .site-brand h1 {
@@ -30,8 +30,8 @@ hr {
     margin: 20px;
     padding: 0;
     color: #2E2F35;
-    background-color: #2E2F35;
-    width: 80% !important;
+    background-color: #808186;
+    width: 93% !important;
 }
 
 /* footer nav start  */
@@ -56,12 +56,17 @@ hr {
 .about-ausbilding div p,
 .footer-navbar li a {
     margin-top: 1rem;
-    font-family: PeydaWebFaNum16;
+    font-family: PeydaWebFaNum-N;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 200%;
-    color: #FFF;
+    line-height: 28px;
+    word-spacing: 4px;
+    color: #b0acac; 
+}
+
+.number {
+    font-family: PeydaWebFaNum15 !important; 
 }
 
 .about-ausbilding {
@@ -142,7 +147,7 @@ input::placeholder {
 
 /* responsive  */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 850px) {
     .footer_nav {
         flex-wrap: wrap;
 
@@ -168,6 +173,11 @@ input::placeholder {
 
     .copy-right {
         flex-wrap: wrap-reverse;
+        position: relative;
+    }
+
+    .copy-right-text   {
+        display: none !important;
     }
 
     .copy-right-text {
@@ -183,7 +193,23 @@ input::placeholder {
         justify-content: center !important;
         align-items: center;
         gap: 20px;
+        position: absolute;
+        top: -40px;
+        left: 0;
+    }
+    
+   
+
+    .trust-text div p {
+        font-size: 10px;
+    }
+    
+    .page-footer hr {
+        margin: 15px auto 0 auto;
     }
 
+    .hr-last {
+        margin: 5px  auto 23px auto !important;
+    }
    
 }

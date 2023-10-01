@@ -140,13 +140,22 @@ body {
     background-color: #fff;
 }
 
-.comapre-body input {
+.list-group-ausbildungs {
+    display: flex;
+    gap: 10px;
+}
+
+.comapre-body input[type="text"] {
     border: none;
     width: 80% !important;
     color: #989898;
     text-align: right;
     font-family: PeydaWebFaNum3;
     font-size: 16px;
+}
+
+.comapre-body input[type="checkbox"] {
+    width: 20px;
 }
 
 .comapre-body button {
@@ -179,7 +188,14 @@ body {
     background-color: transparent;
 }
 
-.list-of-asubildungs li {
+.list-of-asubildungs li:nth-last-child(1)   hr{
+    display: none;
+   
+}
+
+
+.list-group-ausbildung-text {
+    width: 90%;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -187,8 +203,15 @@ body {
     padding: 8px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 1.5rem;
-    list-style: circle;
+    margin-top: 0.2rem;
+    list-style: circle; 
+}
+
+
+
+
+.list-of-asubildungs hr {
+    margin: 10px 0 0 0;
 }
 
 .list-of-asubildungs li:hover {
@@ -196,7 +219,7 @@ body {
 }
 
 .list-of-asubildungs li .pr {
-    font-family: PeydaWebFaNum3;
+    font-family: PeydaWebFaNum-N;
     font-size: 20px;
     color: #000;
 }
@@ -389,6 +412,26 @@ body {
     align-items: center;
     width: 20px;
     /* height: 20px; */
+}
+
+@media screen and (max-width:1190px) {
+
+    .charts {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+    .compare-text {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 5% ;
+    }
+
+    .comapre-body {
+        width: 617px;
+        left: 22%;
+    }
 }
 
 
