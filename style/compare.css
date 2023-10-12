@@ -232,6 +232,10 @@ body {
 
 }
 
+.list-of-asubildungs li {
+    list-style: none;
+}
+
 /* this is the charts  */
 
 .charts-container {
