@@ -5,13 +5,13 @@
 
 .main_header,
 .mobile-header {
-    background-color: var(--primary-bg-color);
+    background-color: var(--header-bg-color);
 }
 
 /* this is the navbar  */
 .nav_bar {
     background-color: #F6F6F6;
-    height: 60px;
+    height: clamp(5rem, 5.4rem, 6rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,20 +19,22 @@
 
 .nav_wrapper {
     width: 50%;
-    margin-right: 84px;
+    margin-right: clamp(1.4rem, 2rem, 8.4rem)
 }
 
 .nav_items {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: clamp(91%, 95%, 100%);
+    gap: clamp(0.5rem, 0.7rem, 1rem);
 }
 
 /* the nav items styles  */
 
 .nav_item {
-    padding: 5px;
+    padding: 10px 5px;
+
 }
 
 .nav_item>li {
@@ -41,8 +43,8 @@
 }
 
 .nav_item>li>a {
-    font-family: var(--PeydaWebFaNum5);
-    font-size: 16px;
+    font-family: PeydaWebFaNum-N;
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -51,16 +53,67 @@
 
 .nav_item>li>a:hover {
     color: var(--primary-color);
-
 }
 
 .active_nav_bar {
     color: var(--primary-color) !important;
     text-decoration: dashed var(--primary-color) !important;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 10px 5px;
+
 }
 
 .company_number {
     margin-left: 80px;
+}
+
+.srvice-nav {
+    position: relative;
+}
+
+.sub-menu-service {
+    display: none;
+    position: absolute;
+    width: 162px;
+    height: 200px;
+    max-height: 210px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    z-index: 11111111111111111;
+    overflow-y: scroll;
+}
+
+.sub-menu-service li {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum-N;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.sub-menu-service hr {
+    margin: 0;
+    width: 100% !important;
+    color: #d1d0d0;
+}
+
+.sub-menu-services {
+    /* padding: 1.2rem 0; */
+}
+
+.sub-menu-services li {
+    padding: 1.1rem 1rem;
+}
+
+.sub-menu-service::-webkit-scrollbar {
+    display: none;
+}
+
+.srvice-nav:hover .sub-menu-service {
+    display: block;
 }
 
 /* this is the navbar end */
@@ -84,6 +137,7 @@ and the navbar for nav  */
 /* logo part started  */
 .logo_part {
     width: 30%;
+
     display: flex;
     align-items: center;
     margin-right: 83px;
@@ -112,7 +166,8 @@ and the navbar for nav  */
 /* button part  */
 
 .form_enter {
-    width: 20%;
+
+    width: clamp(25%, 27%, 30%);
     margin-left: 80px;
 
 }
@@ -186,9 +241,10 @@ and the navbar for nav  */
 }
 
 .form-searching {
+    width: clamp(26rem, 27rem, 28.3rem);
+    height: clamp(3.7rem, 3.9rem, 4rem);
     display: flex;
     gap: 0;
-    width: 283px;
     padding: 10px;
     border-radius: 5px;
     background-color: #E0E0E0;
@@ -198,13 +254,19 @@ and the navbar for nav  */
     width: 100%;
     background: inherit;
     border: none;
+    font-size: 1.6rem;
+    font-family: PeydaWebFaNum3;
 
 }
 
 .form-searching button {
     width: 22%;
+    height: 100%;
     background-color: inherit;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -213,20 +275,12 @@ and the navbar for nav  */
 }
 
 
-@media screen and (max-width:1500px) {
-    .form_enter {
-        width: 30%;
-    }
-
-}
-
-
 
 /* responsive mobile part  */
 
 @media screen and (max-width:1040px) {
 
-   
+
 
     .main_header,
     .nav_bar {
