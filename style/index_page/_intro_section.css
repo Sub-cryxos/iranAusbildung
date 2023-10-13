@@ -10,10 +10,11 @@
     color: #989898;
     text-align: right;
     font-family: Moraba-medium;
-    font-size: 2rem;
+    font-size: clamp(1.4rem, 1.6rem, 2rem);
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 20px */
+    line-height: 100%;
+    /* 20px */
 }
 
 .big_highlight {
@@ -27,7 +28,7 @@
     font-family: moraba-medium;
     color: #1D1E22;
     font-style: normal;
-    font-size: 5rem;
+    font-size: clamp(3rem, 4.2rem, 5rem);
     font-weight: 800;
     line-height: 100%;
     padding: 0 0px 0 1.1rem;
@@ -50,8 +51,13 @@
 
 .search_input {
     width: 100%;
-    height: 4.8rem;
+    height: clamp(4.5rem, 5vw, 6rem);
     border: 1px solid #EAEAEA;
+
+}   
+
+.search_submit {
+    font-size: clamp(1.4rem, 1.6rem, 2rem);
 
 }
 
@@ -60,10 +66,10 @@
 }
 
 .search_input::placeholder {
-    font-family: var(   --PeydaWebFaNum3 );
+    font-family: var(--PeydaWebFaNum3);
     color: #989898;
     text-align: right;
-    font-size: 1.6rem;
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
     font-weight: 300;
     line-height: 100%;
 }
@@ -86,10 +92,9 @@
 
 }
 
-
 .drop-search {
     display: none;
-    top: 5.5rem;
+    top: clamp(5.5rem, 6.5rem, 7.5rem);
     left: 0;
     z-index: 111;
     position: absolute;
@@ -102,7 +107,7 @@
 
 .banner-drop {
     width: 100%;
-    height: 9.0rem;
+    height: clamp(9rem, 9.5rem, 10rem);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,8 +123,8 @@
 .drop-title {
     color: #000;
     text-align: right;
-    font-family: var(   --PeydaWebFaNum5);
-    font-size: 1.6rem;
+    font-family: var(--PeydaWebFaNum5);
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -169,7 +174,8 @@
 .link_box p {
     font-family: var(--PeydaWebFaNum3);
     margin-right: 1.0rem;
-    font-size: 1.6rem;
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
+
     font-weight: 500;
     color: var(--secondary-color);
 }
@@ -180,13 +186,11 @@
 
 
 .ausbildung_card_first {
-    height: 357px;
+    width: clamp(22rem, 24rem, 31.4rem);
+    height: clamp(29rem, 31rem, 35.7rem);
     border-radius: 10px;
-    /* border: 1px solid #E3E3E3; */
     background: transparent;
-    width: 31.4rem;
     position: relative;
-    /* margin-left: 15px; */
     background-color: #F6F6F6;
 }
 
@@ -197,9 +201,9 @@
 .ausbildung_card_first .ausbildung_box {
     border-radius: 1.0rem;
     background: transparent;
-    padding: 2.0rem;
-    height: 37.4rem;
-    width: 31.1rem ;
+    padding: clamp(1.5rem, 1.7rem, 2rem);
+    width: clamp(23rem, 24rem, 31.1rem);
+    height: clamp(28rem, 32rem, 37.4rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -207,8 +211,14 @@
 
 .ausbildung_card_first .ausbildung_box header {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    gap: 2rem;
+    /* padding: 0.5rem 0; */
+}
+
+.ausbildung_img img {
+    width: -webkit-fill-available;
 }
 
 .ausbildung_card_first .ausbildung_box header .ausbildung_title a {
@@ -222,7 +232,7 @@
 
 .ausbildung_card_first .ausbildung_box header .ausbildung_title_de a {
     color: var(--primary-color);
-    font-size: 1.6rem;
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
     /* font-family: Morabba; */
     font-style: normal;
     font-weight: 600;
@@ -231,8 +241,9 @@
 
 
 
-.aub-hero-slider .swiper-slide{
+.aub-hero-slider .swiper-slide {
     width: unset !important;
+    margin-top: clamp(5rem,5.8rem,7rem);
 }
 
 .ausbildung_img {
@@ -270,16 +281,20 @@
 .count_dwon_box h1 {
     font-family: PeydaWebFaNum16;
     text-align: center;
-    font-size: 5rem;
+    font-size:  clamp(4rem,4.5rem,5rem);
     font-weight: 600;
 
+}
+
+.guid-section {
+    margin-top: clamp(5rem,5.8rem,7rem);
+    
 }
 
 .count_dwon_box p {
     text-align: center;
 
-    font-size: 2.5rem;
+    font-size: clamp(1.8rem,2.2rem,2.5rem );
     font-weight: 300;
     margin-top: 1.9rem;
 }
-

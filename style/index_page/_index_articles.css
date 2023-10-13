@@ -1,16 +1,18 @@
 .text_final_step {
     text-align: center;
-    font-size: 30px;
+    font-size:clamp(2.7rem,2.8rem,3rem ); 
     font-weight: 600;
     font-family: PeydaWebFaNum6;
-    font-family: var(--PeydaWebFaNum5);
     color: var(--primary-color);
+}
+
+#final_step {
+    padding-right:1rem ;
 }
 
 .step_photo {
     width: 100%;
     display: flex;
-
 }
 
 .step_photo div {
@@ -23,15 +25,16 @@
 
 .consult_navigate a {
     border-radius: 5px;
-    padding: 13px 10px;
+    padding: 1.3rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size:clamp(1.4rem,1.5rem,1.6rem);
     font-weight: 300;
     font-family: PeydaWebFaNum3;
     line-height: 100%;
     transition: all linear .2s;
+    margin-top: clamp(3.5rem , 4rem,5rem);
 }
 
 .consult_navigate a span {
@@ -40,8 +43,8 @@
 
 .btn_consult {
     background-color: var(--primary-color);
-    color: #fff;
     border: 1px solid var(--primary-color);
+    color: #fff;
     border-radius: 5px;
     transition: all linear .2s;
 }
@@ -82,24 +85,17 @@
 
 .after_what {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size:clamp(1.4rem,1.8rem,2rem);
     font-style: normal;
     font-weight: 600;
     font-family: PeydaWebFaNum6;
-
-    font-family: var(--PeydaWebFaNum5);
-
     line-height: normal;
-
 }
-
-
 /* this part goes for popular ausbildungs  */
 
 .popular_ausbildungs_wrapper {
-    height: 559px;
+    height:clamp( 48rem,50rem,55.9rem);
     background: #F6F6F6;
-
 }
 
 .ausbildung_popular_wrapper {
@@ -107,14 +103,21 @@
 }
 
 .ausbildung_card {
-    height: 443px;
-    border-radius: 10px;
+    position: relative;
+    height:clamp(39rem,40rem,44.3rem);
+    border-radius: 1rem;
     border: 1px solid #E3E3E3;
     background: #FFF;
-    width: 284px !important; 
+    width:clamp(24rem,25rem,28.4rem) !important; 
     position: relative;
-    margin-left: 15px;
-    /* padding: 10px; */
+    margin-left:clamp(1.3rem,1.4rem,1.5rem );
+}
+
+.save-btn {
+    position: absolute;
+    top: 1.4rem;
+    right: 1.5rem;
+    cursor: pointer;
 }
 
 .moving_arrows-parent {
@@ -124,30 +127,27 @@
 .moving_arrows {
     display: flex;
     position: absolute;
-    top: 200px;
-    /* left: 678px; */
+    top:clamp(18rem,19rem,20rem);
     z-index: 1111;
-    /* background-color: #ffffffda; */
     border-radius: 10px;
 }   
 
 .popular-asubildung_pic {
-    margin  : 10px 11px;
+    margin: 1rem 1.1rem;
 }
 
 .popular-asubildung_pic img {
     border-radius: 5px;
     width: 100%;
     height: 100%;
-   
 }
 
 .second-card-part {
-    padding: 0 27px;
+    padding: 0 2.7rem;
 }
 
 .popular_ausbildung_title .popular_ausbildung_fa {
-    font-size: 16px;
+    font-size:clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 500;
     font-family: PeydaWebFaNum5;
@@ -157,7 +157,7 @@
 }
 
 .popular_ausbildung_title .popular_ausbildung_de {
-    font-size: 16px;
+    font-size:clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 500;
     font-family: PeydaWebFaNum5;
@@ -181,31 +181,30 @@
 .salary_ausbildung ul>li span {
     padding: 10px 2px 8px 1px;
     color: #000;
-    font-size: 14px;
+    font-size:clamp(1.3rem,1.3rem,1.4rem);
     font-style: normal;
     font-weight: 400;
     font-family:PeydaWebFaNum13 ;
     line-height: 100%;
-    /* font-family: ; */
 }
 
 .btn_navigate_more {
-    border-radius: 5px;
-    background: #FCDDE0;
     display: flex;
-    padding: 8px 20px;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 1rem;
+    background: #FCDDE0;
     justify-content: center;
     cursor: pointer;
     transition: all linear .2s;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 1rem;
 }
 
 
 .btn_navigate_more a {
-    font-size: 16px;
+    font-size:clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 500;
     font-family: PeydaWebFaNum15;
@@ -214,16 +213,15 @@
 }
 
 #popular_ausbildungs_btn_more {
-    margin-top: 20px;
+    margin-top:clamp(1.6rem,1.7rem,2rem);
     width: fit-content !important;
 }
 
 #popular_ausbildungs_btn_more span {
-    margin-left: 15px;
+    margin-left:clamp(1.4rem,1.4rem,1.5rem ); 
 }
 
 .popular_ausbildungs_text_guid {
-
     display: flex;
     flex-direction: column;
     justify-content: center ;
@@ -243,21 +241,22 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 
 .popular_ausbildungs_text {
-    /* width: 100%; */
     height: 100%;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
 
 #picture_guid_pro {
     background-image: url('../../assets/images/cv-desk.png') !important;
+    background-size: 43rem;
+    background-position-y: bottom;
+    background-position-x: center;
+    height: clamp(27rem,27rem,32.8rem);
 
 }
 
@@ -275,12 +274,12 @@
 }
 
 .bg-circle {
-    width: 932px;
+    width:clamp(79rem,80rem,93.2rem) ;
     height: 1035.347px;
     border-radius: 1035.347px;
     background-color: var(--primary-color);
     position: absolute;
-    left: -10rem;
+    left:clamp(-12rem,30%,-16rem);
     top: 80%;
 }
 
@@ -300,39 +299,34 @@
 }
 
 .news-box-pic img {
-    width: 300px;
-    height: 250px;
+    width: clamp(26rem,26rem,30rem);
+    height: clamp( 21rem,21rem,25rem);
     border-radius: 10px;
     image-resolution: from-image 300dpi;
 }
 
 .news-box-title a {
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
     color: #000;
-    text-align: right;
+    text-align: justify;
     font-family: PeydaWebFaNum5;
-    font-size: 18px;
+    font-size:  clamp(1.6rem,1.7rem,1.8rem);
     font-style: normal;
     font-weight: 500;
     line-height: 200%;
-    /* 36px */
-    /* 36px */
 }
 
 
 .shorthand p {
-
-    width: 301px;
+    width: fit-content;
     color: #A3A3A3;
-    text-align: right;
+    text-align: justify;
     font-family: PeydaWebFaNum13;
     font-size: 13px;
     font-style: normal;
     font-weight: 300;
-    
     line-height: 200%;
-    /* 26px */
 }
 
 .box-news-footer {
@@ -343,11 +337,10 @@
 }
 
 .box-news-footer a {
-
     color: var(--primary-color, #EC3A4C);
     text-align: right;
     font-family: PeydaWebFaNum13;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     line-height: 200%;
@@ -357,12 +350,10 @@
     color: #757575;
     text-align: right;
     font-family: PeydaWebFaNum13;
-
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 300;
     line-height: 200%;
-    /* 28px */
 }
 
 
@@ -373,9 +364,7 @@
 }
 
 #padding-set {
-    padding-right: 220px;
+    padding-right:  clamp(19rem,20rem,22rem);
 }
-
-
 /* responsive of tablet  */
 

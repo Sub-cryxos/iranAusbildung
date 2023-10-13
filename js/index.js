@@ -1,7 +1,6 @@
 
 const windowWidth = window.innerWidth;
 if (windowWidth <= 612) {
-
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1.5,
     spaceBetween: 10,
@@ -9,7 +8,7 @@ if (windowWidth <= 612) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 100000,
+      delay: 100000000000,
       disableOnInteraction: false,
     },
   });
@@ -22,7 +21,7 @@ if (windowWidth <= 612) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 1000,
+      delay: 10000000,
       disableOnInteraction: false,
     },
   });

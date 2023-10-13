@@ -6,26 +6,26 @@
     background-color: var(--primary-color);
     background-image: url('../../assets/images/ALINOUR.png');
     background-repeat: no-repeat;
-    border-radius: 12px;
-    height: 383px;
+    border-radius: 1.2rem;
+    height: clamp(33rem, 36rem, 38.3rem);
     position: relative;
 }
 
 .de_flag {
     position: absolute;
-    top:0;
+    top: 0;
     left: 88%;
 }
 
 .picture_text_box {
+    width: max-content;
     position: absolute;
-    top: 40%;
-    left: 84%;
-    background-color: #FCDDE0;
-    border-radius: 5px;
     display: flex;
     justify-content: center;
-    width: max-content;
+    background-color: #FCDDE0;
+    top: 40%;
+    left: 84%;
+    border-radius: 5px;
 }
 
 .picture_text_box p {
@@ -33,34 +33,25 @@
     font-style: normal;
     font-weight: 500;
     line-height: 200%;
-    font-size: 26px;
-    /* letter-spacing: 10px; */
+    font-size: clamp(2rem, 2.3rem, 2.6rem);
+    padding: 0px 1.7rem 7px 1.8rem;
     color: var(--primary-color);
-    padding: 0px 17px 7px 18px;
-
 }
-
-
-
 
 .text_guid {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 80%;
+    justify-content: end;
+    height: 91%;
 }
 
-
 .title_guid {
-    font-family: var(--PeydaWebFaNum5);
-    font-size: 18px;
-    /* font-weight: 500; */
+    font-size: clamp(1.5rem, 1.6rem, 1.8rem);
     color: var(--primary-color);
     position: relative;
     z-index: 1222;
-    font-family: moraba-medium;
-
-    /* align-items: center; */
+    font-family: PeydaWebFaNum5;
+    ;
 }
 
 .title_guid:after {
@@ -70,38 +61,49 @@
     top: -7px;
     right: -14px;
     background: #FCDDE0;
-    width: 35px;
-    height: 31px;
+    width: clamp(2.9rem, 3.2rem, 3.5rem);
+    height: clamp(2.7rem, 2.8rem, 3.1rem);
     border-radius: 5px;
 }
 
 
 .what_is_asubildung {
     color: #1D1E22;
-    font-size: 20px;
+    font-size: clamp(1.3rem, 1.7rem, 2rem);
     font-weight: 600;
-    font-family: var(--PeydaWebFaNum6);
+    font-family: PeydaWebFaNum6;
+    margin-top: 1rem;
 }
 
-.ausbildung_desc,
-.text_guid p {
-    font-size: 14px;
+.ausbildung_desc {
+    font-size: clamp(1rem, 1.2rem, 1.4rem);
     color: #000;
     font-weight: 400;
     line-height: 200%;
-    width:100%;
-    font-family: var(--PeydaWebFaNum3);
+    font-family: PeydaWebFaNum-N;
+}
+
+.ausbildung_desc {
+    width: 95% !important;
+}
+
+.font-5 {
+    font-family: PeydaWebFaNum5
+}
+
+.sepraed-text {
+    font-size: clamp(1rem, 1.2rem, 1.4rem);
 
 }
 
 .btn_more {
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
     font-weight: 300;
-    font-family:PeydaWebFaNum3 ;
+    font-family: PeydaWebFaNum3;
 
     color: #FFF;
     background-color: var(--primary-color);
-    padding: 10px 15px;
+    padding: 1rem 1.5rem;
     width: fit-content;
     border-radius: 5px;
 
@@ -109,20 +111,19 @@
     justify-content: center;
     align-items: center;
     transition: all linear .2s;
+    gap: 1rem;
     border: 1px solid var(--primary-color);
+
 }
 
 .btn_more:hover {
     color: #F6F6F6;
-  background-color: var(  --primary-hover);
+    background-color: var(--primary-hover);
 
 }
 
-
-
 .btn_more span {
     margin-left: 5px;
-
 }
 
 .boxs_step {
@@ -131,55 +132,59 @@
 
 .step_step header p {
     color: #1D1E22;
-    font-size: 20px;
+    font-size: clamp(1.4rem, 1.6rem, 2rem);
     font-weight: 600;
     margin-top: 1rem;
-    font-family: var(--PeydaWebFaNum6);
+    font-family: PeydaWebFaNum6;
 }
 
 .step_boxs {
-    margin-top: 5rem;
-    /* display: flex; */
+    margin-top: clamp(3rem, 6.5rem, 7rem);
+    justify-content: center;
+    gap: clamp(0rem, 0rem, 5rem);
 }
 
 .step_box {
+    height: clamp(14rem, 16rem, 17rem);
     background-color: #F6F6F6;
     border-radius: 5px;
     position: relative;
-    height: 159px;
     display: flex;
     justify-content: center;
 
 }
 
 .step_box .step_box_number {
-    font-size: 41px;
+    font-size: clamp(3rem, 3.7rem, 4.1rem);
     position: absolute;
-    top: -15%;
+    top: -12%;
     left: 38%;
     font-family: PeydaWebFaNum16;
     font-weight: 600;
     color: var(--primary-color);
 }
 
-
 .step_box .step_box_desc {
-    padding: 18px 11px 16px 11px;
+    padding: 1.8rem 0.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .step_box .step_box_desc p {
-    font-family: var(--PeydaWebFaNum5);
+    font-family: PeydaWebFaNum-N;
     color: #000;
     text-align: center;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 200%;
-
+    /* padding: ; */
 }
 
 #popular_btn_more {
     display: none;
+}
+
+.responsive_step_box {
+    padding: 0rem 0 0 4rem;
 }
