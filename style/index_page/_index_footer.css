@@ -92,6 +92,7 @@
     height: 57.5rem;
     display: flex;
     overflow: hidden;
+    margin-top: clamp(2rem, 2.5rem , 3rem) ;
 }
 
 .right_section_text {
@@ -208,6 +209,10 @@
     height: unset !important;
 }
 
+
+.news-info {
+    width: 83%;
+}
 /* this is the trust section  */
 
 .trust_sec {
@@ -230,5 +235,15 @@
 }
 
 .moving_arrow-comment {
-    margin-left: 3rem clamp(2.7rem,2.8rem,3rem);
+    margin-left:  clamp(2.7rem,2.8rem,3rem);
+}
+
+div[mobile-comments] {
+    display: none;
+}
+
+@media screen and (max-width:1390px) {
+    .news-info {
+        width: 100%;
+    }
 }

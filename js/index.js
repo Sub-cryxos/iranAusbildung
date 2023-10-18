@@ -13,7 +13,6 @@ if (windowWidth <= 612) {
     },
   });
 } else {
-  
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 6,
     spaceBetween: 10,
@@ -66,28 +65,7 @@ if (windowWidth <= 600) {
 }
 // ths slider of comment section
 
-
-if (windowWidth <= 612) {
-  var swiper = new Swiper(".comments_section", {
-
-    slidesPerView: 1.01,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: false,
-    },
-
-    navigation: {
-      nextEl: ".arrow_down_comments",
-      prevEl: " .arrow_up_comments",
-    },
-
-
-  });
-}
-else {
-
-  var swiper = new Swiper(".comments_section", {
+  var swiperComment = new Swiper(".comments_section", {
     direction: "vertical",
     slidesPerView: 2,
     spaceBetween: 20,
@@ -104,6 +82,16 @@ else {
 
   });
 
-}
+  
+  var swiperM = new Swiper(".m-comment", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    }
+
+  });
+
 
 

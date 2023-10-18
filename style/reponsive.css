@@ -516,6 +516,14 @@
         text-align: center;
     }
 
+    div[desktop-comments] {
+        display: none;
+    }
+
+    div[mobile-comments] {
+        display: flex;
+    }
+
     .responsive_comment_icon {
         display: block !important;
     }
@@ -1241,6 +1249,7 @@
         font-size: 13px;
         width: 67% !important;
     }
+
 
 
     .comapre-body button {

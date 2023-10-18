@@ -15,7 +15,7 @@ body {
 }
 
 .page_title .title_fa {
-    font-size: 35px;
+    font-size: clamp(2.7rem,3rem,3.5rem);
     font-style: normal;
     font-weight: 500;
     font-family: moraba-medium;
@@ -27,12 +27,10 @@ body {
     display: flex;
 }
 
-.tabs-of-main {
-    border-bottom: 1px solid #c2bfbf4d;
-}
+
 
 .page_title .title_de {
-    font-size: 30px;
+    font-size: clamp(2.4rem,2.7rem,3rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -70,8 +68,7 @@ body {
     height: 60px;
     padding: 20px 41px 20px 42px;
     font-family: PeydaWebFaNum-N;
-
-    font-size: 20px;
+    font-size: clamp(1.5rem,1.8rem,2rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -82,6 +79,12 @@ body {
     gap: 10px;
 }
 
+.data-tabs hr {
+    margin: 0;
+    width: 100% !important;
+    margin-top: -10px;
+}
+
 .tab-content {
     padding: 0 20px;
 }
@@ -89,7 +92,7 @@ body {
 .des_content_sec h1 {
     font-family: PeydaWebFaNum5;
     margin-top: 2rem;
-    font-size: 22px;
+    font-size: clamp(1.5rem,1.8rem,2.2rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -98,8 +101,7 @@ body {
 
 .des_content_sec p {
     font-family: PeydaWebFaNum-N;
-
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 200.5%;
@@ -140,7 +142,7 @@ body {
 
 .employer_find {
     font-family: PeydaWebFaNum-N;
-
+    font-size: clamp(1.5rem,1.8rem,2rem);
     display: none;
     justify-content: space-between;
     align-items: center;
@@ -160,7 +162,7 @@ body {
 }
 
 .solary_box {
-    width: 234px;
+    width: clamp( 18rem,20rem,23.4rem);
     height: 94px;
     border-radius: 5px;
     background: #F6F6F6;
@@ -174,7 +176,7 @@ body {
 
 .solary_box h1 {
     font-family: PeydaWebFaNum-N;
-    font-size: 30px;
+    font-size: clamp(2.5rem,2.7rem,3rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -187,7 +189,7 @@ body {
 .solary_box p,
 .solary_box span {
     font-family: PeydaWebFaNum15;
-    font-size: 32.735px;
+    font-size: clamp(2.5rem,2.8rem,3.2rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -213,7 +215,7 @@ body {
     border-radius: 5px;
     background: #25B44D;
     width: 100px;
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 200.5%;
@@ -239,7 +241,7 @@ body {
 .compare-box li {
 
     width: 100%;
-    font-size: 14px;
+    font-size: clamp(1.2rem,1.23rem,1.4rem);
     font-weight: 400;
     line-height: 200.5%;
     padding: 12px;
@@ -271,7 +273,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     width: 100%;
 }
 
@@ -291,7 +292,7 @@ body {
 
 .post_tags,
 .text-resource {
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -318,7 +319,8 @@ body {
 }
 
 .resource {
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -349,7 +351,8 @@ body {
 }
 
 .job-info_box h1 {
-    font-size: 18px;
+    font-size: clamp(1.4rem,1.6rem,1.8rem);
+
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -367,7 +370,7 @@ body {
 
 .job-info_box .job-info .info-item .title-info {
     font-family: PeydaWebFaNum15;
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -377,7 +380,8 @@ body {
 .job-info_box .job-info .info-item .info-answer {
     font-family: PeydaWebFaNum15;
 
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -399,7 +403,8 @@ body {
 
     padding: 18px 8px 8px 18px;
     color: #000;
-    font-size: 14px;
+    font-size: clamp(1.2rem,1.3rem,1.4rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -434,10 +439,16 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
+.similar-header  {
+    padding: 17px 15px 10px 10px;
+
+}
+
 .accessibility-header h1,
 .similar-header h1 {
     font-family: moraba-medium;
-    font-size: 18px;
+    font-size: clamp(1.4rem,1.6rem,1.8rem);
+
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -458,7 +469,8 @@ body {
 .access-item a {
     font-family: PeydaWebFaNum15;
     display: inline;
-    font-size: 16px;
+    font-size: clamp(1.3rem,1.34rem,1.6rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -474,6 +486,10 @@ body {
     color: #bfbfbf;
 }
 
+.top-gin {
+    margin-top:20%;
+}
+
 .form-link_box {
     border-radius: 10px;
     background: #FFF;
@@ -487,7 +503,7 @@ body {
 .form-link_box .img-flag {
     position: absolute;
     top: -56px;
-    left: 113px;
+    left: clamp(8rem,36%,11.3rem);
 }
 
 .form-link_box .text-form {
@@ -498,7 +514,7 @@ body {
 
 .form-link_box .text-form p {
     font-family: moraba-regular;
-    font-size: 18px;
+    font-size: clamp(1.5rem,30%,1.8rem);
     font-style: normal;
     font-weight: 600;
     line-height: 100%;
@@ -519,7 +535,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid var(--primary-color);
-    padding: 12px 20px 12px 20px;
+    padding: 12px 13px 12px 12px;
     border-radius: 5px;
     margin-top: 0.85rem;
     gap: 5px;
@@ -529,7 +545,8 @@ body {
 
     font-family: PeydaWebFaNum15;
 
-    font-size: 14px;
+    font-size: clamp(1.2rem,30%,1.4rem);
+
     font-weight: 500;
     color: var(--secondary-color);
 }
@@ -540,7 +557,7 @@ body {
 
 .similar-ausbildungs_name h1 {
     font-family: moraba-medium;
-    font-size: 15.52px;
+    font-size: clamp(1.2rem,.3rem,1.5rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -586,7 +603,7 @@ body {
 }
 
 .submit-comment input {
-    width: 40%;
+    width: clamp(48%,10%,40%);
     height: 49px;
     border: none;
     margin-left: 10px;
@@ -601,7 +618,7 @@ body {
     color: #000;
     text-align: right;
     font-family: PeydaWebFaNum15;
-    font-size: 25px;
+    font-size: clamp(1.7rem,1.9rem,2.5rem);
     font-style: normal;
     font-weight: 500;
     line-height: 0%;
@@ -612,7 +629,7 @@ body {
 .submit-comment textarea::placeholder {
     font-family: PeydaWebFaNum15;
 
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 500;
     line-height: 0%;
@@ -645,7 +662,7 @@ body {
 
     font-family: PeydaWebFaNum13;
     color: #fff;
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
@@ -683,7 +700,8 @@ body {
 .comment-user .user-name {
     font-family: PeydaWebFaNum15;
 
-    font-size: 18px;
+    font-size: clamp(1.4rem,1.6rem,1.8rem);
+
     font-style: normal;
     font-weight: 500;
     line-height: 0%;
@@ -691,21 +709,24 @@ body {
 }
 
 .comment-user .user-role {
-    margin-top: 1.8rem;
-    font-size: 14px;
-
+    margin-top: clamp(1.78rem,30%,2.5rem);
+    font-size: clamp(1.2rem,1.3rem,1.4rem);
     font-family: PeydaWebFaNum-N;
-    ;
     font-style: normal;
     font-weight: 400;
     line-height: 0%;
     color: #C7C7C7;
 }
 
+.user-role {
+    font-size: clamp(1.1rem,1.2rem,1.21rem) !important; 
+
+}
+
 .comment-body p {
     font-family: PeydaWebFaNum-N;
-    ;
-    font-size: 14px;
+    font-size: clamp(1.2rem,1.3rem,1.4rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 200.5%;
@@ -724,7 +745,8 @@ body {
 .reply-btn p {
     font-family: PeydaWebFaNum15;
 
-    font-size: 14px;
+    font-size: clamp(1.2rem,1.3rem,1.4rem);
+
     font-style: normal;
     font-weight: 500;
     line-height: 200.5%;
@@ -743,7 +765,8 @@ body {
 .load-more a {
     font-family: PeydaWebFaNum15;
 
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
+
     font-style: normal;
     font-weight: 500;
     line-height: 0%;
@@ -839,17 +862,7 @@ div[desktop-hide-card] {
    
 }
 
-.title_fa:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    top: -4px;
-    right: -14px;
-    background: #FCDDE0;
-    width: 35px;
-    height: 31px;
-    /* border-radius: 5px; */
-}
+
 
 .sa-m-s  .title_fa {
     font-size: 18px !important;
