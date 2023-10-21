@@ -3,8 +3,8 @@
 @import url('./variables.css');
 @import url('./fonts.css');
 
-body {
-    background: #FCFCFC;
+body{
+    background: linear-gradient(0deg, rgba(252,252,252,1) 72%, rgba(238,240,242,1) 77%);
 }
 
 .page_title {

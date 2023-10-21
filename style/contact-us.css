@@ -4,6 +4,10 @@
 
 /* title  */
 
+body{
+    background: linear-gradient(0deg, rgba(252,252,252,1) 72%, rgba(238,240,242,1) 77%);
+}
+
 .page-title h3 {
     color: var(--primary-color);
     text-align: right;

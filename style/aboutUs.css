@@ -7,7 +7,7 @@
     color: var(--primary-color);
     text-align: right;
     font-family: Moraba-medium;
-    font-size: 35px;
+    font-size: clamp(2.7rem,3rem,3.5rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -21,7 +21,7 @@
     color: var(--sec-light, #25262A);
     text-align: right;
     font-family: PeydaWebFaNum13;
-    font-size: 14px;
+    font-size: 14px clamp(1rem,1.2rem,1.4rem);
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
@@ -50,7 +50,7 @@
 .content-title h1 {
     color: var(--primary-color, #EC3A4C);
     font-family: PeydaWebFaNum15;
-    font-size: 20px;
+    font-size: 20px clamp(1.5rem,1.7rem,2rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -68,7 +68,7 @@
     color: #000;
     text-align: right;
     font-family:PeydaWebFaNum-N;
-    font-size: 16px;
+    font-size: 16px clamp(1.3rem,1.4rem,1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
@@ -79,7 +79,7 @@
 
     display: flex;
     justify-content: center;
-    padding: 20px 34px;
+    padding: 2rem 3.4rem;
 }
 
 .main-img div {
@@ -94,7 +94,7 @@
 .honor h2 {
     color: var(--primary-color, #EC3A4C);
     font-family:  moraba-medium;
-    font-size: 20px;
+    font-size: clamp(1.5rem,1.7rem,2rem);
     font-style: normal;
     font-weight: 600;
     line-height:20px
@@ -109,20 +109,20 @@
     align-items: center;
     /* padding: 20px 0; */
     background-color: #1D1E22;
-    border-radius: 0  0 20px 20px;
+    border-radius: 0  0 2rem 2rem;
 
 }
 
 
 .count_dwon_box {
     color: #EAEAEA;
-    padding: 20px 0;
+    padding: 2rem 0;
     font-family:  PeydaWebFaNum15;
 }
 
 .count_dwon_box h1 {
     text-align: center;
-    font-size: 50px ;
+    font-size: clamp(4.3rem,4.5rem,5rem) ;
     font-weight: 600;   
     
 }
@@ -130,7 +130,7 @@
 .count_dwon_box p {
     text-align: center;
 
-    font-size: 25px ;
+    font-size: clamp(1.8rem,2rem,2.5rem);
     font-weight: 300;
     margin-top: 19px;
 }

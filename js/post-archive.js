@@ -43,7 +43,7 @@ if (windowWidth <= 1000) {
 else {
 
   var swiper = new Swiper(".best-cities", {
-    slidesPerView: 4,
+    slidesPerView:3.1,
     spaceBetween: 10,
     autoplay: {
       delay: 2000,

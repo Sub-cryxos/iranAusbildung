@@ -8,12 +8,14 @@
 .small-hero-sec {
     /* background-image:; */
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-large.png');
-    height: 422.896px;
+    height: 42.2rem;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 19px 24px 24px 26px;
+    padding: 1.9rem 1.2rem 2.4rem 1.2rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 
@@ -22,45 +24,54 @@
     font-family: PeydaWebFaNum6;
     color: #FFF;
     text-align: right;
-    font-family: Peyda(FaNum);
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 2.8rem;
+    word-spacing: 1px;
     /* 20px */
 }
 
 
 .small-hero-sec-wapper {
     display: flex;
-    gap: 21px;
+    gap: 2.1rem;
     flex-wrap: wrap;
+    flex-basis: 55rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .small-hero-sec {
     width: 47%;
-    height: 201.333px;
+    height: 20.1rem;
+    /* margin-top: 2rem; */
 
 }
 
 #bg_car {
+
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-1.png');
+
 }
 
 #bg_card {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-2.png');
+
 }
 
 #bg_football {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-3.png');
+
 }
 
 #bg_millitary {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.78) 100%), url('../assets/images/post-archive-hero-section-small-4.png');
+
 }
 
 .hero-section-title-sm a {
-    font-size: 18px !important;
+    font-size: clamp(1.4rem, 1.5rem, 1.8rem) !important;
 }
 
 .category-btn {
@@ -73,8 +84,7 @@
     font-family: PeydaWebFaNum-N;
     color: #FFF;
     text-align: right;
-    font-family: Peyda(FaNum);
-    font-size: 14px;
+    font-size: clamp(1.2rem, 1.3rem, 1.4rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -88,10 +98,21 @@
 /* hero section finish  */
 
 /* categiry start  */
+
+.wrapper-catefories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
 .categories-sec {
     border-radius: 10px;
-    height: 190px;
+    height: 18rem;
     background: #EEF0F2;
+    margin-top: 5rem;
+    padding: 0 3rem;
 }
 
 .text-section p {
@@ -99,7 +120,8 @@
     color: var(--primary-color, #EC3A4C);
     text-align: right;
     font-family: Peyda(FaNum);
-    font-size: 22px;
+    font-size: clamp(1.6rem, 1.8rem, 2.2rem);
+
     font-style: normal;
     font-weight: 600;
     line-height: 200%;
@@ -107,8 +129,8 @@
 }
 
 .category_box_post {
-    width: 170px;
-    height: 170px;
+    width: 17rem;
+    height: 17rem;
     border-radius: 10px;
     border: 1px solid #EBEBEB;
     background-color: #fff;
@@ -121,8 +143,7 @@
 .category_box_post a {
     font-family: PeydaWebFaNum5;
     color: #333;
-    font-family: Peyda(FaNum);
-    font-size: 16px;
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
     font-style: normal;
     font-weight: 500;
 }
@@ -154,9 +175,16 @@
     margin-top: 5rem;
 }
 
+.top-news {
+    margin-top: 14rem;
+}
+
+
 /* categiry end  */
 
 /* lastest articles start  */
+
+
 
 .section-title {
     position: relative;
@@ -167,6 +195,8 @@
     text-align: right;
     font-family: PeydaWebFaNum6;
     font-size: 30px;
+    font-size: clamp(2.5rem, 2.7rem, 3rem);
+
     font-style: normal;
     font-weight: 600;
     line-height: 200%;
@@ -180,48 +210,56 @@
     position: absolute;
     top: 10px;
     right: -26px;
-    width: 10px;
+    width: 1rem;
     height: 33px;
     background-color: var(--primary-color);
 }
 
-.moving-arrow-l ,
-.moving-arrow-r{
+.moving-arrow-l,
+.moving-arrow-r {
     position: absolute;
-   
+
 }
 
 .moving-arrow-l {
-    top: 10rem;
+    top: 15rem;
     right: -2rem;
 }
 
 .moving-arrow-r {
-    top: 10rem;
+    top: 15rem;
     left: -2rem;
 }
 
 .news-boxs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
 }
 
 .news-box-pic img {
-    width: fit-content;
+    width: 100%;
     border-radius: 10px;
 }
 
+.news-box {
+    width: clamp(25rem, 27rem, 30rem);
+    padding: 0 1.5rem;
+}
+
+
 .news-box-title a {
     font-family: PeydaWebFaNum5;
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
     color: #000;
     text-align: right;
-    font-family: Peyda(FaNum);
-    font-size: 18px;
+    font-size: clamp(1.4rem, 1.5rem, 1.8rem);
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 36px;
+    
     /* 36px */
 }
 
@@ -230,8 +268,7 @@
 
     color: #A3A3A3;
     text-align: right;
-    font-family: Peyda(FaNum);
-    font-size: 13px;
+    font-size: clamp(1.1rem, 1.2rem, 1.3rem);
     font-style: normal;
     font-weight: 300;
     line-height: 200%;
@@ -241,7 +278,8 @@
 
 .box-news-footer {
     display: flex;
-    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
 }
 
 .box-news-footer a {
@@ -249,8 +287,7 @@
     text-align: right;
     /* font-family: Peyda(FaNum); */
     font-family: PeydaWebFaNum5;
-
-    font-size: 14px;
+    font-size: clamp(0.9rem,1rem,1.4rem);
     font-style: normal;
     font-weight: 600;
     line-height: 200%;
@@ -260,7 +297,8 @@
     color: #757575;
     text-align: right;
     font-family: PeydaWebFaNum3;
-    font-size: 14px;
+    font-size: clamp(0.9rem,1rem,1.4rem);
+
     font-style: normal;
     font-weight: 300;
     line-height: 200%;
@@ -272,7 +310,7 @@
 /* video article section start  */
 
 .video-offer {
-    height: 816px;
+    height: 750px;
     background-color: #1D1E22;
 
     /* padding: 0 0 20px 0; */
@@ -281,7 +319,13 @@
 .tab-title-ul {
     margin-top: 2rem;
     gap: 65px;
+    width: fit-content;
+    border-bottom: 1px solid #eeeeee71;
+    /* padding-bottom: 14px; */
+    z-index: 1;
+    
 }
+
 
 .nav-item .active {
     color: var(--primary-color, #EC3A4C) !important;
@@ -289,12 +333,15 @@
     background-color: #ffffff00 !important;
     text-align: right;
     font-family: PeydaWebFaNum6;
-    font-size: 20px;
+    font-size: clamp(1.7rem,1.8rem,2rem);
     font-style: normal;
     font-weight: 600;
     line-height: 200%;
     /* 40px */
-    border: none !important;
+    border-bottom: 3px solid var(--primary-color);
+    border-radius: 0;
+
+    z-index: 122;
 }
 
 .nav-item button {
@@ -302,12 +349,10 @@
     color: #DEDEDE;
     text-align: right;
     font-family: PeydaWebFaNum6;
-    font-size: 20px;
+    font-size: clamp(1.7rem,1.8rem,2rem);
     font-style: normal;
     font-weight: 500;
     line-height: 200%;
-    border: none !important;
-
 }
 
 .nav-item button:hover {
@@ -315,7 +360,7 @@
 }
 
 .video-wrapper {
-    display: flex !important;
+    display: flex ;
     justify-content: space-between;
     gap: 42px;
 }
@@ -324,13 +369,11 @@
     color: #FFF;
     text-align: right;
     font-family: PeydaWebFaNum5;
-    font-size: 18px;
+    font-size: clamp(1.4rem,1.5rem,1.8rem);
     font-style: normal;
     font-weight: 500;
     line-height: 200%;
     margin-top: 1rem;
-    width: 90%;
-
 }
 
 .video-box {
@@ -341,17 +384,28 @@
     width: 100%;
     margin-top: 3rem;
     /* width: 50%;   */
-    height: 399px;
+    height: 39.9rem;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.50);
+}
+
+.recommanded-articles {
+    margin-top: 4rem;
 }
 
 /* video article section finish   */
 
 /* the recommanded articles start  */
 
+.recommended-box-wrapepr {
+    width: 100%;
+    padding: 0 4rem 0 0 ;
+}
+
 .recommended-color {
     background-color: #EEF0F2;
+    height: fit-content;
+    padding-bottom: 4.5rem;
 }
 
 .recommended-box {
@@ -363,7 +417,8 @@
 }
 
 .recommended-pic img {
-    width: 247px;
+    width:clamp( 20rem,22rem,24.7rem);
+    height: clamp(16rem,18rem,20rem);
     /* width: fit-content; */
     border-radius: 10px;
 }
@@ -372,7 +427,7 @@
     color: #000;
     text-align: right;
     font-family: PeydaWebFaNum5;
-    font-size: 18px;
+    font-size: clamp(1.4rem,1.6rem,1.8rem);
     font-style: normal;
     font-weight: 500;
     line-height: 200%;
@@ -382,11 +437,24 @@
     color: #A3A3A3;
     text-align: right;
     font-family: PeydaWebFaNum3;
-    font-size: 13px;
+    font-size: clamp(1rem,1.1rem,1.3rem);
     font-style: normal;
     font-weight: 300;
     line-height: 200%;
     /* 26px */
+}
+
+
+.advertisement {
+    padding: 0 4rem;
+}
+
+.ads {
+    margin-top: 2rem;
+}
+
+.ads:first-child{
+    margin-top: 0;
 }
 
 /* the recommanded articles finish  */
@@ -394,20 +462,20 @@
 /* the popular city in germany start  */
 
 .popular-city-box {
-    max-width: 303px;
-    max-height: 250px;
+    max-width: 30.3rem;
+    max-height: 25rem;
+    padding: 0 12px;
 }
 
 .popular-city-pic {
     width: fit-content;
-
 }
 
 .popular-city-title a {
     color: #000;
     text-align: right;
     font-family: PeydaWebFaNum6;
-    font-size: 20px;
+    font-size: clamp(1.7rem,1.8rem,2rem);
     font-style: normal;
     font-weight: 600;
     line-height: 200%;
@@ -418,16 +486,20 @@
     color: var(--secondary-color, #1D1E22);
     text-align: right;
     font-family: PeydaWebFaNum-N;
-    font-size: 16px;
+    font-size: clamp(1.4rem,1.5rem,1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
     /* 32px */
 }
 
+.popular-city-pic a img {
+    width: 100%;
+}
+
 .ad_box {
     display: flex;
-    height: 410px;
+    height: 36rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -441,6 +513,19 @@
     color: var(--primary-color);
 }
 
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
     opacity: 1 !important;
+}
+
+.swiper-slide {
+    width: 30.3rem !important;
+}
+
+
+@media screen and (max-width:1198px) {
+    .small-hero-sec-wapper {
+        flex-basis: 100rem;
+        margin-top: 1.5rem;
+    }
 }

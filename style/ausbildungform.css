@@ -3,11 +3,10 @@
 @import url('./variables.css');
 @import url('./fonts.css');
 
-body {
-    background: #FCFCFC !important;
+
+body{
+    background: linear-gradient(0deg, rgba(252,252,252,1) 72%, rgba(238,240,242,1) 77%);
 }
-
-
 
 .form-wrapper {
     border-radius: 20px;
