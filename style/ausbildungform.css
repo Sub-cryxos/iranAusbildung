@@ -7,7 +7,7 @@
 body{
     background: linear-gradient(0deg, rgba(252,252,252,1) 72%, rgba(238,240,242,1) 77%);
 }
-
+ 
 .form-wrapper {
     border-radius: 20px;
     background: #FFF;
@@ -17,7 +17,7 @@ body{
 .description h4,
 .road-map h4 {
     font-family: moraba-medium;
-    font-size: 18px;
+    font-size:clamp(1.4rem,1.6rem,1.8rem) ;
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -31,7 +31,7 @@ body{
 .description p {
 	font-family: PeydaWebFaNum-N;
 
-    font-size: 14px;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
@@ -49,13 +49,13 @@ body{
     border-radius: 5px;
     background: #F6F6F6;
     padding: 17px 7px 6px 11px;
-    margin-top: 40px;
+    margin-top: 4rem;
     position: relative;
 }
 
 .desc_box p {
     font-family: PeydaWebFaNum15;
-    font-size: 14px;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
@@ -65,7 +65,7 @@ body{
 
 .desc_box h4 {
     font-family: PeydaWebFaNum16;
-    font-size: 41px;
+    font-size: clamp(3.5rem,3.7rem,4.1rem);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -107,11 +107,11 @@ body{
     
 
     width: 100%;
-    height: 49px;
-    padding: 18px 12px 10px 5px;
+    height: 4.9rem;
+    padding: 10px 12px 10px 5px;
 
     font-family: PeydaWebFaNum15;
-    font-size: 14px;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -123,15 +123,34 @@ body{
 }
 
 
+.copon-text {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.copon-code-form {
+    width: clamp(23rem,26rem,30rem);
+    margin-top: 2rem;
+    transition:  all linear .2s;
+}
+
 .cv_form .form-input input:focus,
 .copon-code form input {
     outline: none;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.copon-code form button {
+    margin-right: -3px;
+    width: 30%;
+    font-size: clamp(1rem ,1.2rem,1.5rem);
 }
 
 .cv_form .form-input label,
 .from-description p {
     font-family: PeydaWebFaNum-N;
-    font-size: 14px;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -144,7 +163,8 @@ body{
 
 .from-description p {
     font-family: PeydaWebFaNum15;
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+
 }
 
 .from-description ul {
@@ -153,15 +173,14 @@ body{
 
 .from-description ul li {
     font-family: PeydaWebFaNum-N;
-
-    font-size: 14px;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
     color: #000;
     list-style-image: url(../assets/Icons/list-style-6.svg);
     list-style-position: inside;
-
+    margin-top: 0.8rem;
 }
 
 .price-sec {
@@ -174,7 +193,7 @@ body{
 
 .price-sec p {
     font-family: PeydaWebFaNum-N;
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -184,7 +203,7 @@ body{
 
 .price-sec span {
     font-family: PeydaWebFaNum15;
-    font-size: 12px;
+    font-size:  clamp(0.8rem,0.9rem,1.2rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -192,7 +211,8 @@ body{
 }
 
 .price {
-    font-size: 18px !important;
+    font-size:clamp(1.4rem,1.6rem,1.8rem) !important ;
+
 }
 
 .submit-form {
@@ -205,7 +225,7 @@ body{
     color: #FFF;
     text-align: right;
 
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
@@ -234,7 +254,7 @@ body{
     color: var(--primary, #EC3A4C);
     text-align: right;
     /* font-family: Peyda(FaNum); */
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -266,7 +286,7 @@ body{
     color: #25262A;
     text-align: right;
     font-family:  PeydaWebFaNum13  ;
-    font-size: 14px;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
     font-style: normal;
     font-weight: 300;
     line-height: 100%; /* 14px */
@@ -276,7 +296,7 @@ body{
     color: var(--secondary, #1D1E22);
     text-align: right;
     /* font-family: Morabba; */
-    font-size: 35px;
+    font-size: clamp(2.7rem,3rem,3.5rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
