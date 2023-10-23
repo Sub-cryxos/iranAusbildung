@@ -4,29 +4,36 @@
 @import url('./fonts.css');
 
 body{
-    background: linear-gradient(0deg, rgba(252,252,252,1) 72%, rgba(238,240,242,1) 77%);
+    background: linear-gradient(0deg, rgba(252,252,252,1) 49%, rgba(238,240,242,1) 49%)
 }
+
+.top-gin {
+    margin-top: clamp(2rem,5vw,3.5rem)
+}
+
 .page-title {
     text-align: center;
+    margin-top:clamp(2rem,4rem,5rem);
 }
 
 .page-title h3 {
     font-family: moraba-medium;
-    font-size: 35px;
+    font-size:  clamp(2.5rem,3rem,3.5rem);
 
 }
 
 .page-title p {
-    margin-top: 2rem;
+    margin-top:clamp(2rem,1.5rem,2rem);
+
     font-family: PeydaWebFaNum3;
-    font-size: 14px ;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
 }
 
 .compare-wrapper {
-    border-radius: 20px;
+    border-radius: 2rem;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
-    padding: 40px;
+    padding: 4rem;
 }
 
 .right-compare_box .header,
@@ -36,7 +43,7 @@ body{
     cursor: pointer;
     border-radius: 10px;
     background: #F6F6F6;
-    padding: 18px 32px;
+    padding: 1.8rem 3.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +52,7 @@ body{
 .right-compare_box .header h1,
 .left-compare_box .header h1 {
     font-family: PeydaWebFaNum5;
-    font-size: 20px;
+    font-size:clamp(1.6rem,1.8rem,2rem) ;
     font-style: normal;
     font-weight: 400;   
     line-height: 100%;
@@ -54,7 +61,7 @@ body{
 .right-compare_box .header h2,
 .left-compare_box .header h2 {
     font-family: PeydaWebFaNum4;
-    font-size: 20px;
+    font-size:clamp(1.6rem,1.8rem,2rem) ;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -77,13 +84,14 @@ body{
 
 .compare-text div {
     display: flex;
-    gap: 10px;
-    margin-top: 1rem;
+    gap: 1rem;
+    margin-top: 3rem;
 }
 
 .compare-text div .type-title {
     font-family: PeydaWebFaNum5;
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -93,8 +101,8 @@ body{
 
 .compare-text div .saqure-red,
 .compare-text div .saqure-pink {
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     display: block;
 }
 
@@ -109,8 +117,8 @@ body{
 
 .comapre-body {
     display: none;
-    width: 500px;
-    max-height: 290px;
+    width: clamp(40rem,35%,50rem);
+    max-height: 29rem;
     padding: 24px 28px;
     margin-top: 1rem;
     box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.027);
@@ -149,7 +157,8 @@ body{
     color: #989898;
     text-align: right;
     font-family: PeydaWebFaNum3;
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+
 }
 
 .comapre-body input[type="checkbox"] {
@@ -163,7 +172,8 @@ body{
     color: #fff;
     text-align: right;
     font-family: PeydaWebFaNum3;
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+
     font-weight: 300;
 
 }
@@ -218,13 +228,15 @@ body{
 
 .list-of-asubildungs li .pr {
     font-family: PeydaWebFaNum-N;
-    font-size: 20px;
+    font-size:clamp(1.6rem,1.8rem,2rem) ;
+
     color: #000;
 }
 
 .list-of-asubildungs li .de {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size:clamp(1.6rem,1.8rem,2rem) ;
+
     direction: ltr;
     font-family: PeydaWebFaNum4 ;
 
@@ -240,7 +252,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 8rem;
+    gap:  clamp(5rem,6vw,18rem);
     flex-wrap: wrap;
 }
 
@@ -249,7 +261,7 @@ body{
     justify-content: space-between;
     align-items: end;
     width: 60%;
-    gap: 50px;
+    gap: 5rem;
     direction: ltr;
     /* flex-wrap: wrap; */
 }
@@ -262,7 +274,7 @@ body{
 }
 
 .chart {
-    width: 70.063px;
+    width:  clamp(6.5rem,5vw, 7rem);
     padding: 0px 8.313px 0px 9.5px;
     border-radius: 11.875px;
     background-color: var(--primary-color);
@@ -274,7 +286,8 @@ body{
 
 .chart span {
     font-family: PeydaWebFaNum15;
-    font-size: 21.375px;
+    font-size:clamp(1.7rem,1.9rem,2.1rem) ;
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -319,6 +332,16 @@ body{
 
 
 /* start of jobs informaion  */
+
+.info-margin {
+    margin-top: 10rem;
+}
+
+.informations hr {
+  
+    color: #e5e5e5
+}
+
 .jobs_information {
     display: flex;
     justify-content: center;
@@ -337,7 +360,8 @@ body{
 
 .job-info_box h1 {
     font-family:  moraba-medium;
-    font-size: 18px;
+    font-size:clamp(1.4rem,1.6rem,1.8rem) ;
+
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -356,7 +380,8 @@ body{
 
 .job-info_box .job-info .info-item .title-info {
     font-family: PeydaWebFaNum13;   
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -365,7 +390,8 @@ body{
 
 .job-info_box .job-info .info-item .info-answer {
     font-family: PeydaWebFaNum13;
-    font-size: 16px;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -388,7 +414,8 @@ body{
     font-family: PeydaWebFaNum15;
     padding: 10px 2px 8px 1px;
     color: #000;
-    font-size: 14px;
+    font-size:clamp(1rem,1.2rem,1.4rem) ;
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -401,7 +428,8 @@ body{
     color: var(--secondary-color, #1D1E22);
     text-align: center;
     font-family: Peyda(FaNum);
-    font-size: 20px;
+    font-size:clamp(1.6rem,1.8rem,2rem) ;
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;

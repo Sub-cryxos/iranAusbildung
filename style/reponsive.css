@@ -1309,6 +1309,8 @@
 
     .matreial-change {
         margin-top: 2rem;
+        width: 100%;
+        transform: rotate(90deg);
     }
 
     .left-compare_box {
