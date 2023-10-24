@@ -10,7 +10,7 @@ body {
 
 .search_text {
     font-family: moraba-medium;
-    font-size: 50px;
+    font-size: clamp(3.5rem, 4rem, 5rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -32,6 +32,11 @@ body {
     align-items: center;
 }
 
+.serach {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
 .input-group {
     /* width: auto; */
     flex-wrap: nowrap;
@@ -48,7 +53,7 @@ body {
 
 .input_search {
     color: #989898;
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
@@ -68,7 +73,7 @@ body {
     border-radius: 5px 0px 0px 5px;
     background-color: var(--primary-color);
     color: #FFF;
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
     font-style: normal;
     font-weight: 300;
     line-height: 100%;
@@ -79,12 +84,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .famous_category {
     color: #989898;
     font-family: PeydaWebFaNum5;
-    font-size: 14px;
+    font-size: clamp(1rem, 1.2rem, 1.4rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -97,6 +104,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3rem;
+
 }
 
 .subject {
@@ -112,7 +121,7 @@ body {
 }
 
 .subject .subject_text {
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -133,7 +142,7 @@ body {
 
 .filter_section .text_filter {
     font-family: PeydaWebFaNum5;
-    font-size: 18px;
+    font-size: clamp(1.4rem, 1.6rem, 1.8rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -154,8 +163,7 @@ body {
     color: #1D1E22;
     text-align: right;
     font-family: PeydaWebFaNum5;
-    font-size: 14px;
-
+    font-size: clamp(1rem, 1.2rem, 1.4rem);
     border-radius: 18px;
     border: 1px solid var(--secondary, #1D1E22);
     background: #FFF;
@@ -165,9 +173,181 @@ body {
     cursor: pointer;
     gap: 10px;
     display: flex;
-
 }
 
+.filter-period {
+    position: relative;
+}
+
+.f-period {
+    position: absolute;
+    width: 203px;
+    height: 51px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+
+    top: 4.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 4rem;
+}
+
+
+.f-period div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.f-period div label {
+    cursor: pointer;
+}
+
+.f-period div input {
+    accent-color: var(--primary-color);
+}
+
+.f-period div label {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum-N;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+}
+
+.filter-types {
+    position: relative;
+}
+
+.types-f {
+    display: none;
+    position: absolute;
+    width: 192px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+
+    top: 3rem;
+    z-index: 111;
+    padding: 1.5rem 1rem;
+}
+
+.types-f div label,
+.types-f div p {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum-N;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    cursor: pointer;
+}
+
+.types-f div input {
+    accent-color: var(--primary-color);
+}
+
+.types-f div p {
+    text-align: end;
+}
+
+.types-f hr {
+    margin: 1.1rem 0;
+}
+
+.types-f div p {
+    margin-top: 1rem;
+}
+
+.subject-change {
+    position: relative;
+}
+
+.subjects-f {
+    display: none;
+    position: absolute;
+    width: 23.4rem;
+    height: 31.5rem;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    z-index: 111;
+    padding: 1rem;
+    top: 4.4rem;
+    overflow-y: scroll;
+}
+
+.subjects-f::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    width: 0;
+}
+
+
+.subjects-f header input {
+    display: flex;
+    width: 213px;
+    height: 40px;
+    padding: 13px 12px 13px 13px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+
+	font-family: PeydaWebFaNum15;
+
+
+
+    border-radius: 5px;
+    border: 1px solid #EEE;
+    background: var(--Help-Color, #F6F6F6);
+}
+
+.subjects-f hr {
+    margin: .8rem;
+}
+
+.items-subject {
+    margin-top: 1.4rem;
+}
+
+.subject-item {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.subject-item{
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.items-subject li:hover {
+    background-color:  #f6f6f6bd;
+    margin-right:3px;
+    transition: all linear .5s;
+}
+
+.subject-item span {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum-N;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 16px */
+}
 
 
 .deavtice {
@@ -194,7 +374,7 @@ body {
 
 .sort {
     font-family: PeydaWebFaNum5;
-    font-size: 14px;
+    font-size: clamp(1rem, 1.2rem, 1.4rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -206,7 +386,7 @@ body {
 .found_subject {
     font-family: PeydaWebFaNum5;
     color: #727272;
-    font-size: 14px;
+    font-size: clamp(1rem, 1.2rem, 1.4rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -258,7 +438,8 @@ body {
 
 .popular_ausbildung_title .popular_ausbildung_fa {
     font-family: PeydaWebFaNum5;
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
+
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -269,7 +450,8 @@ body {
 
 
 .popular_ausbildung_title .popular_ausbildung_de {
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
+
     font-family: PeydaWebFaNum5;
     font-style: normal;
     font-weight: 500;
@@ -305,7 +487,8 @@ body {
 
     padding: 10px 2px 8px 1px;
     color: #000;
-    font-size: 14px;
+    font-size: clamp(1rem, 1.2rem, 1.4rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -327,7 +510,7 @@ body {
 
 .btn_navigate_more a {
     font-family: PeydaWebFaNum5;
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -368,7 +551,8 @@ body {
 
 .shitf p {
     font-family: PeydaWebFaNum5;
-    font-size: 12px;
+    font-size: clamp(0.8rem, 1rem, 1.2rem);
+
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
@@ -384,7 +568,7 @@ body {
 /* paginations start  */
 .page-link {
     height: 35px;
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -420,7 +604,7 @@ body {
 .lang-switch {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
     padding: 2px 3px 2px 3px;
     gap: 8px;
     border-radius: 5px;
@@ -437,7 +621,7 @@ body {
     border-width: 1px;
 }
 
-.letter-off{
+.letter-off {
     display: none !important;
 }
 
@@ -461,12 +645,12 @@ body {
     background: #E9E9E9;
 }
 
-.letters-fa span ,
+.letters-fa span,
 .letters-de span {
     color: #000;
     text-align: right;
     font-family: PeydaWebFaNum16;
-    font-size: 16px;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
     font-style: normal;
     font-weight: 600;
     line-height: 150%;

@@ -567,15 +567,28 @@
     /* this is for index page ends */
 
     /* start of the Ausbildungs page  */
+
+    .serach {
+
+        margin-top: 1.5rem;
+    }
+
     .search_text {
         font-size: 25px;
     }
 
 
-    .categories,
+   
     .subjects {
         flex-wrap: wrap;
         gap: 10px;
+        margin-top: 1rem;
+    }
+
+
+
+    .categories {
+        display: none
     }
 
     .search_btn {
@@ -1242,7 +1255,7 @@
     .comapre-body {
         width: 325px;
         padding: 12px 9px;
-        left: 10%;
+        left: clamp(10%,10vw,22%);
     }
 
     .comapre-body input[type="text"] {
