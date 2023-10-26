@@ -179,6 +179,10 @@ body {
     position: relative;
 }
 
+.filter-actives-subject {
+    display: block !important;
+}
+
 .f-period {
     position: absolute;
     width: 203px;
@@ -189,7 +193,7 @@ body {
 
     top: 4.5rem;
 
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
 
@@ -226,6 +230,10 @@ body {
 
 .filter-types {
     position: relative;
+}
+
+.types-f-activator {
+    display: block !important;
 }
 
 .types-f {
@@ -303,7 +311,7 @@ body {
     align-items: center;
     flex-shrink: 0;
 
-	font-family: PeydaWebFaNum15;
+    font-family: PeydaWebFaNum15;
 
 
 
@@ -325,16 +333,16 @@ body {
     padding: 5px;
 }
 
-.subject-item{
-    display: flex; 
+.subject-item {
+    display: flex;
     align-items: center;
     gap: 5px;
-    
+
 }
 
 .items-subject li:hover {
-    background-color:  #f6f6f6bd;
-    margin-right:3px;
+    background-color: #f6f6f6bd;
+    margin-right: 3px;
     transition: all linear .5s;
 }
 
@@ -348,6 +356,57 @@ body {
     line-height: 100%;
     /* 16px */
 }
+
+.periodic-time-activator {
+    display: flex !important;
+}
+
+.filter-period {
+    position: relative;
+}
+
+.periodic-time {
+    display: none;
+    position: absolute;
+    width: 257px;
+    height: 51px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background-color: #FFF;
+    z-index: 1;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px;
+    top: 3.4rem;
+}
+
+
+.periodic-time span {
+    display: inline-flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: var(--Help-Color, #F6F6F6);
+    cursor: pointer;
+
+    color: #808080;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+}
+
+.periodic-time-active {
+    background-color: var(--primary-color) !important;
+    color: #E0E0E0 !important;
+}
+
 
 
 .deavtice {
