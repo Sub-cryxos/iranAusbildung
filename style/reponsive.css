@@ -956,6 +956,15 @@
 
     /* start of the single post  */
 
+    .blog_pic-avatar img {
+        width: clamp(25rem,27rem,70rem);
+        height: 246px;
+    }
+
+    .uniq-single-post-img img {
+        width: 32rem;
+    }
+
     .title_de-f {
         align-items: end;
     }

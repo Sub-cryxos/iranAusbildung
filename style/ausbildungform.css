@@ -143,7 +143,7 @@ body{
 
 .copon-code form button {
     margin-right: -3px;
-    width: 30%;
+    width: 60%;
     font-size: clamp(1rem ,1.2rem,1.5rem);
 }
 

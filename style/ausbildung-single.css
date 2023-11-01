@@ -142,7 +142,7 @@ body{
 
 .employer_find {
     font-family: PeydaWebFaNum-N;
-    font-size: clamp(1.5rem,1.8rem,2rem);
+    font-size: clamp(1.3rem,1.4rem,2rem);
     display: none;
     justify-content: space-between;
     align-items: center;

@@ -1,17 +1,49 @@
 $(document).ready(function () {
-       $('#filter-subject-select').click(function (e) { 
-        $('.subjects-f').toggleClass('filter-actives-subject');
+
+       const langActive = $('.lang-active');
+       $('.de-switch').click(function (e) {
+              console.log(langActive)
+              $(langActive).removeClass('lang-active');
+              const availble = $('.de-switch').hasClass('lang-active');
+              if (availble) {
+                     $('.pr-switch').removeClass('lang-active');
+                     $('.de-switch').removeClass('lang-active');
+                     $('.letters-de').removeClass('letter-on')
+
+              }
+              else {
+                     $('.pr-switch').removeClass('lang-active');
+                     $('.de-switch').addClass('lang-active');
+                     $('.letters-fa').removeClass('letter-on')
+                     $('.letters-de').addClass('letter-on')
+
+              }
        });
 
-       $('#filter-periodic-time').click(function (e) { 
-        $('.periodic-time').toggleClass('periodic-time-activator');
-       });
-       
-       $('#filter-subject-type').click(function (e) { 
-        $('.types-f').toggleClass('types-f-activator');
+       $('.pr-switch').click(function (e) {
+              $(langActive).removeClass('lang-active');
+              const availble = $('.pr-switch').hasClass('lang-active');
+              if (availble) {
+                     $('.de-switch').removeClass('lang-active');
+                     $('.pr-switch').removeClass('lang-active');
+                     $('.letters-fa').removeClass('letter-on')
+
+              }
+              else {
+                     $('.pr-switch').addClass('lang-active');
+                     $('.de-switch').removeClass('lang-active');
+                     $('.letters-fa').addClass('letter-on')
+                     $('.letters-de').removeClass('letter-on')
+              }
        });
 
-       $('#filter-work-time').click(function (e) { 
-        $('.f-period').toggleClass('periodic-time-activator');
-       });
+
+       $('.letters-fa .letter-select').click((e)=>{
+              
+
+
+             
+
+       })
+
 });

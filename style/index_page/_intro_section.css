@@ -186,7 +186,7 @@
 
 
 .ausbildung_card_first {
-    width: clamp(22rem, 24rem, 31.4rem);
+    width: clamp(22rem, 95%, 40rem);
     height: clamp(29rem, 31rem, 35.7rem);
     border-radius: 10px;
     background: transparent;
