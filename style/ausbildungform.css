@@ -8,6 +8,14 @@ body{
     background: linear-gradient(0deg, rgba(252,252,252,1) 72%, rgba(238,240,242,1) 77%);
 }
  
+.page-title-start {
+    margin-top: 7rem;
+}
+
+.down-page {
+    margin-bottom:9rem;
+}
+
 .form-wrapper {
     border-radius: 20px;
     background: #FFF;
