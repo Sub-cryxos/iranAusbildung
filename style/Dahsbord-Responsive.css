@@ -128,7 +128,7 @@
 
     .salary-numb {
        
-        font-size: 30px !important; 
+        font-size: 22px !important; 
     
     }
 
@@ -139,5 +139,13 @@
     /* start the responsive of ticket page  */
     .input-ticket {
         width: 100% !important;
+    }
+
+    .salary-consult {
+        width: 220px;
+    }
+
+    .salary-consult p:nth-child(1){
+        font-size: 12px !important  ;
     }
 }

@@ -38,11 +38,26 @@ $(document).ready(function () {
        });
 
 
-       $('.letters-fa .letter-select').click((e)=>{
+       $('.letters-fa span').click((e) => {
               
+              const activeLetter = $('.active-letter');
+              const choosedOne = $('.choosed-letter')
+              const target = e.target;
+              $(activeLetter).removeClass('active-letter');
+              $(target).addClass('active-letter');
+              $(choosedOne).text(target.innerHTML);
+       })
 
 
-             
+       $('.letters-de span').click((e) => {
+              const activeLetter = $('.active-letter');
+              const choosedOne = $('.choosed-letter')
+              const target = e.target;
+
+              $(activeLetter).removeClass('active-letter');
+              $(target).addClass('active-letter');
+              $(choosedOne).text(target.innerHTML);
+
 
        })
 

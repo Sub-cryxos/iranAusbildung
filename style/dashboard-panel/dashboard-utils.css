@@ -231,6 +231,10 @@ body {
     line-height: normal;
 }
 
+.more_btn span {
+    display: flex;
+}
+
 .half-with {
     width: 46% !important;
 }

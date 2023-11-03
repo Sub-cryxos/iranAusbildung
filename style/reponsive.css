@@ -1067,7 +1067,7 @@
     }
 
     .news-box-title a {
-        font-size: 14px;
+        font-size: 11px;
         line-height: 20px;
     }
 
@@ -1080,7 +1080,7 @@
     .news-info {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        /* justify-content:; */
     }
 
     #mobile-height {
@@ -1127,7 +1127,7 @@
     .box-news-footer span {
         text-align: right;
         font-family: Peyda(FaNum);
-        font-size: 14px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 300;
         line-height: 200%;

@@ -1,7 +1,7 @@
 @import url('../fonts.css');
 
 .salary-consult {
-    width: 342px;
+    width:28rem;
     height: 127px;
     border-radius: 20px;
     background-color: #FF6060;
@@ -11,7 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+
+    margin-top: 10px;}
 
 .bg-green {
     background-color: #23C38A;
@@ -26,7 +27,7 @@
 .salary-consult span{
     color: #FFF;
     font-family: PeydaWebFaNum15;
-    font-size: 20px;
+    font-size: 2em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -34,12 +35,12 @@
 }
 
 .salary-consult span {
-    font-size: 16px;
+    font-size: 1.6em;
 
 }
 
 .salary-consult .salary-numb {
-    font-size: 40px;
+    font-size: 4em;
     font-weight: 400;
   
 }
@@ -51,4 +52,17 @@
 
 .nav-pills{ 
     flex-wrap:wrap !important    ;
+}
+
+.month-name {
+    width: ss;
+}
+
+.nav-link {
+    margin-right: 0;
+}
+
+.nav-pills {
+    justify-content: space-around;
+    width: 100%;
 }
