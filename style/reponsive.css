@@ -770,8 +770,11 @@
     }
 
     .form-link_box .img-flag {
-
         left: 217px;
+    }
+
+    .sp-link-box  .img-flag{
+        left: 5px !important; 
     }
 
     .des_content_sec_compare {
