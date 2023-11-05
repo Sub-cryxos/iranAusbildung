@@ -10,12 +10,12 @@ ausbildung_card.ausbildung_card_wrapper {
 
 
 .ausbildung_card {
-    height: 300px;
+    height: clamp(25rem ,17vw,30rem);
     border-radius: 10px;
     border: 2px solid  #F6F6F6;
 
     background: #FFF;
-    width: 284px;
+    width: clamp(24.1rem ,15vw ,30rem);
     position: relative;
     margin-left: 15px;
     padding: 0;
@@ -61,7 +61,7 @@ ausbildung_card.ausbildung_card_wrapper {
 
 
 .btn_navigate_more {
-    width: 240px;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,6 +92,9 @@ ausbildung_card.ausbildung_card_wrapper {
     height: 28px;
     cursor: pointer;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
 }
 
 .saved_post {
