@@ -61,4 +61,24 @@ $(document).ready(function () {
 
        })
 
+       $('.saved_post').click((e)=>{
+              $(e.target).toggleClass('saved-ausbildung')
+              console.log(e.target)
+       });
+
+       $('.sort').click(function (e) { 
+              const active = $('.sort');
+              const resualt =  $(active).hasClass('active_sort');
+
+              if(resualt) {
+                     $(active).removeClass('active_sort');
+                     $(e.target).toggleClass('active_sort')
+
+              }else {
+                     $(e.target).toggleClass('active_sort')
+
+              }
+              
+       });
+
 });

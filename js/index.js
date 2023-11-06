@@ -8,7 +8,7 @@ if (windowWidth <= 612) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 100000000000,
+      delay: 1000,
       disableOnInteraction: false,
     },
   });
@@ -20,7 +20,7 @@ if (windowWidth <= 612) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 10000000,
+      delay: 1000,
       disableOnInteraction: false,
     },
   });
