@@ -65,33 +65,33 @@ if (windowWidth <= 600) {
 }
 // ths slider of comment section
 
-  var swiperComment = new Swiper(".comments_section", {
-    direction: "vertical",
-    slidesPerView: 2,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: false,
-    },
+var swiperComment = new Swiper(".comments_section", {
+  direction: "vertical",
+  slidesPerView: 2,
+  spaceBetween: 20,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
 
-    navigation: {
-      nextEl: ".arrow_down_comments",
-      prevEl: " .arrow_up_comments",
-    },
+  navigation: {
+    nextEl: ".arrow_down_comments",
+    prevEl: " .arrow_up_comments",
+  },
 
 
-  });
+});
 
-  
-  var swiperM = new Swiper(".m-comment", {
-    slidesPerView: 2,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: false,
-    }
 
-  });
+var swiperM = new Swiper(".m-comment", {
+  slidesPerView: 2,
+  spaceBetween: 20,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  }
 
 
 
+
+});

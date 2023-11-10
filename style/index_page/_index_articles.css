@@ -50,30 +50,46 @@
     transition: all linear .2s;
 }
 
+
+.btn_consult:hover .consult-list {
+    visibility: visible;
+    opacity: 1;
+}
+
 .consult-list {
     position: absolute;
-
     width: 192px;
-    height: 196px;
+    height: auto;
     border-radius: 10px;
     border: 1px solid #E8E8E8;
     background: #FFF;
     top: 61px;
+    z-index: 111;
+    box-shadow: 1px 1px 20px rgba(196, 196, 196, 0.267);
+    opacity: 0;
+    visibility: hidden;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
 
+
 .consult-item {
-    padding: 10px;
+    padding: 7px 7px;
 }
 
 .consult-item .consult-items {
     display: flex;
+    align-items: center;
+}
+.consult-items p:hover  {
+    color: var(--primary-color) !important;
+    transition:  all linear .2s ;
 }
 
 .consult-items p {
     color: #000;
     text-align: right;
-    font-family: Peyda(FaNum);
-    font-size: 14px;
+    font-family: PeydaWebFaNum-N;   
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -81,17 +97,34 @@
 }
 
 .consult-item hr {
-    margin: 0;
+    margin: 1px 0;
+    color: #c4bbbb;
+
+
+}
+
+.consult-item:nth-last-child(1) hr{
+    display: none;
+}
+
+.btn_consult  ,.btn_cv{
+    margin-top: 10px !important;
 }
 
 .btn_cv {
     border: 1px solid var(--primary-color);
 }
 
-.btn_cv:hover,
+
 #btn_more_pro:hover {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+.btn_cv:hover {
+    background-color:#F6F6F6  ;
+    color: #272525;
+    border:1px solid #c9c9c92a ;
 }
 
 .btn_navigate_more:hover {
@@ -116,6 +149,10 @@
 
 #step_box_desc_7 p {
     text-align: right;
+}
+
+#top-margin-p-aus {
+    margin-top: 14rem;
 }
 
 .after_what {
@@ -154,6 +191,20 @@
     top: 1.4rem;
     right: 1.5rem;
     cursor: pointer;
+    background-image: url('../../assets/Icons/save.svg');
+    background-color: #fff;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 5px;
+}
+
+.saved-ausbildung {
+    background-image: url('../../assets/Icons/saved-card.svg') !important;
+    background-size: contain;
+    background-color: #fff;
+    border-radius: 5px;
+   background-repeat: no-repeat;
+   transition:  all cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
 }
 
 .moving_arrows-parent {

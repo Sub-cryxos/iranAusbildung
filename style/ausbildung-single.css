@@ -12,6 +12,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 2.5rem;
 }
 
 .page_title .title_fa {
@@ -25,6 +26,7 @@ body{
 
 .title_de-f {
     display: flex;
+    align-items: baseline;
 }
 
 
@@ -337,6 +339,25 @@ body{
 .btns {
     display: flex;
     align-items: center;
+}
+
+.save-post {
+    width: 28px;
+    height: 28px;    
+    cursor: pointer;
+    background-image: url('../assets/Icons/save.svg');
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .2s ;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.save-post-active {
+    background-image: url('../assets/Icons/saved-card.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .2s ;
+
 }
 
 
