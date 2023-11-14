@@ -132,7 +132,7 @@ var swiperM = new Swiper(".mobile-comments", {
 
   if(windowWidth < 550) {
     var swiperTrust = new Swiper(".trust-section ", {
-      slidesPerView:2,
+      slidesPerView:1.67,
       spaceBetween: 10,
       autoplay: {
         delay: 1000,
