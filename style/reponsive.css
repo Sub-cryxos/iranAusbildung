@@ -6,13 +6,48 @@
     }
 } */
 
+
+*[desktop-hide] {
+    display: none;
+}
+
+
+
+
 /* this is for mobile  */
 @media screen and (max-width:850px) {
+    *[ mobile-show-block] {
+        display:block ;
+    }
+
+    *[ mobile-show-flex] {
+        display: flex;
+    }
+   
+    *[mobile-hide] {
+        display: none;
+    }
+
+    *[block-mobile] {
+        display: block;
+    }
+
+    *[flex-mobile] {
+        display: flex;
+    }
 
     /* this is for index page  */
 
+    /* first section  */
+    .intro_text p {
+        font-size: clamp(0.4rem, 1.3rem, 1.8rem);
+    }
 
 
+    .big_highlight>p {
+        font-size: clamp(0.4rem, 2.1rem, 2.8rem);
+
+    }
 
     .ausbildung_card_first {
         width: 195.414px !important;
@@ -25,46 +60,6 @@
         margin-left: auto;
         margin-right: auto;
 
-    }
-
-
-    .comments_section {
-
-        max-height: 800px;
-
-    }
-
-    .moving_arrow-comment {
-        display: none;
-    }
-
-
-    .ausbildung_card_first .ausbildung_box {
-        width: auto;
-        height: 248px;
-        padding: 0;
-    }
-
-    .ausbildung_img img {
-        width: 100%;
-    }
-
-    .ausbildung_card_first .ausbildung_box header .ausbildung_title_de a,
-    .ausbildung_card_first .ausbildung_box header .ausbildung_title a {
-        font-size: 12px;
-    }
-
-    .ausbildung_card_first .ausbildung_box header {
-        padding: 5px 5px;
-    }
-
-    .ausbildung_card_first .ausbildung_box header .intro_text p {
-        font-size: 20px;
-    }
-
-    .big_highlight p {
-        font-size: 22px;
-        padding: 0;
     }
 
     .highlight-text {
@@ -89,6 +84,49 @@
         font-size: 10px;
     }
 
+    .drop-search {
+        width: 90%;
+        margin: 0 auto 0 auto;
+        box-shadow: 1px 0px 10px 3px rgba(138, 135, 135, 0.158);
+        border-radius: 10px !important;
+        left:1.8rem;
+        padding: 1rem;
+        min-height: 29rem;
+    }
+
+    .drop-title {
+        margin-right: 10px;
+    }
+
+    .drop-sec svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .drop-title span {
+        font-size: clamp(1.1rem, 1.1rem, 1.4rem);
+        margin-right: 3px;
+    }
+
+    .last-searched-tags {
+        margin-top: 1rem;
+            gap: .4rem;
+    }
+
+    .searched-tag {
+        gap: .4rem;
+        padding :0.7rem 1.2rem 0.7rem 0.7rem;
+        flex-wrap: wrap;
+    }
+
+    .searched-tag >span{
+        font-size: 12px;
+
+        display: flex;
+        align-items: center;
+    
+    }
+
     #top-margin {
         margin-top: 1.5rem;
     }
@@ -106,6 +144,7 @@
 
     .link_box {
         margin-top: 1rem;
+        padding: 1rem 1.2rem;
     }
 
     .count_dwon_box {
@@ -118,49 +157,46 @@
         flex-wrap: wrap;
         border-radius: 5px;
         padding: 10px;
+        align-items: baseline;
     }
 
-    .guid-sec {
-        flex-wrap: wrap;
-        justify-content: center !important;
+    .moving_arrow {
+        display: none;
+    }
 
+    .ausbildung_card_first .ausbildung_box header .ausbildung_title_de a,
+    .ausbildung_card_first .ausbildung_box header .ausbildung_title a {
+        font-size: 9px !important;
     }
 
 
-    .guid_text .title_guid,
-    .what_is_asubildung,
-    .ausbildung_desc,
-    .text_guid p,
-    .step_step header,
-    #popular_ausbildungs,
-    #be_pro,
-    #be_pro_text,
-    #be_pro_ausbildung_desc,
-    .popular_ausbildungs_text_guid .title_guid,
-    #weblog_title,
-    .right_section_text .text_box_comments .title_guid,
-    .right_section_text .text_box_comments p,
-    .right_section_text .text_box_comments h1 {
-        text-align: center;
+    .ausbildung_card_first .ausbildung_box header {
+        gap: 5rem;
     }
 
-    .guid_text .title_guid::after {
-        content: '';
-        right: 136px;
+    .count_dwon_wrapper .count_dwon_box {
+        width: 50%;
+        margin-top: 2rem;
     }
 
-    .ausbildung_desc {
-        width: 93% !important;
+     
+    .count_dwon_wrapper .count_dwon_box h1 {
+        font-size: 3rem;
     }
 
-    .text_guid p {
-        width: 100%;
-        margin-top: 1rem;
-
+    
+    .count_dwon_wrapper  .count_dwon_box p {
+        font-size: 15px;
     }
 
+    /* first section end  */
+
+    /* second section  */
+    
+
+    
     .step_boxs {
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 
     .btn_more {
@@ -207,7 +243,7 @@
 
     .responsive_step_box {
         width: 50%;
-        margin-top: 1rem;
+        margin-top: 4rem;
     }
 
     .flex-sm-row-reverse_a {
@@ -248,11 +284,11 @@
     #step_box_desc_7 p,
     #step_box_desc_7 h3 {
         text-align: center !important;
-
+        font-size: 1.2rem;
     }
 
     .consult_navigate {
-        flex-direction: column;
+        flex-direction: row-reverse;
     }
 
     .consult_navigate a {
@@ -265,7 +301,9 @@
         margin-top: 2rem;
     }
 
-
+    #top-margin-p-aus {
+        margin-top: 4rem;
+    }
 
     #popular_ausbildungs::after {
         right: 12px;
@@ -300,6 +338,131 @@
     #popular_btn_more {
         display: flex;
     }
+
+
+    .comments_section {
+
+        max-height: 800px;
+
+    }
+
+    .moving_arrow-comment {
+        display: none;
+    }
+
+    .mobile-comments {
+        padding: 2rem;
+        position: relative;
+    }
+
+    .moving-comment-arrow-l ,
+    .moving-comment-arrow-r {
+        position: absolute;
+        top: 15rem;
+    }
+
+    .moving-comment-arrow-l {
+        right: -0.5rem;
+    }
+
+    .moving-comment-arrow-r {
+        left: -0.5rem;
+    }
+
+    
+
+    .be-proffesional {
+        margin-top: 6rem !important;
+    }
+
+    .text_guid .ausbildung_desc {
+        font-size: 1rem;
+    }
+    
+    .guid-section .ausbildung_desc {
+        font-size: 1rem;
+        width: 100% !important;
+    }
+
+    .ausbildung_card_first .ausbildung_box {
+        width: auto;
+        height: 248px;
+        padding: 0;
+    }
+
+    .ausbildung_img img {
+        width: 100%;
+    }
+
+    .ausbildung_card_first .ausbildung_box header {
+        padding: 5px 5px;
+    }
+
+    .ausbildung_card_first .ausbildung_box header .intro_text p {
+        font-size: 20px;
+    }
+    .popular_ausbildungs_text_guid {
+        margin-top: 2rem;
+
+    }
+
+    .popular_ausbildungs_text_guid  p {
+        font-size: 10px;
+    }
+    /* second section end  */
+
+    /* last secction  */
+    .trust-section {
+        padding: 2em;
+    }
+    
+    .blog_header {
+        margin-top: 1.5rem;
+        font-size: 16px;
+    }
+
+    #weblog_btn {
+        margin-top: 1rem;
+    }
+
+    .guid-sec {
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+
+
+    .guid_text .title_guid,
+    .what_is_asubildung,
+    .ausbildung_desc,
+    .text_guid p,
+    .step_step header,
+    #popular_ausbildungs,
+    #be_pro,
+    #be_pro_text,
+    #be_pro_ausbildung_desc,
+    #weblog_title,
+    .right_section_text .text_box_comments .title_guid,
+    .right_section_text .text_box_comments p,
+    .right_section_text .text_box_comments h1 {
+        text-align: center;
+    }
+
+    .guid_text .title_guid::after {
+        content: '';
+        right: 40%;
+    }
+
+    .ausbildung_desc {
+        width: 93% !important;
+    }
+
+    .text_guid p {
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+
 
 
     .ausbildung_card .popular-asubildung_pic {
@@ -400,7 +563,7 @@
 
     #be_pro_text {
 
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #be_pro_ausbildung_desc {
@@ -457,7 +620,7 @@
     }
 
     .title_guid:after {
-        right: 100px;
+        right: 30%;
     }
 
     .blog_box p {
@@ -474,7 +637,7 @@
     }
 
     .right_section_text .text_box_comments .title_guid::after {
-        right: -1px;
+        right: 18%;
     }
 
     .right_section_text .text_box_comments p {
@@ -505,16 +668,22 @@
 
     .comment_body p {
         text-align: center;
-        padding: 10px;
+        padding: 5px;
+        font-size: 10px;
     }
 
     .comment_body img {
         padding: 10px;
+        width: 8.2rem;
+        height: 9rem;
+        margin-top: -5rem;
     }
 
-    .comment_auther {
+    .comment_auther h3 {
         text-align: center;
     }
+
+
 
     div[desktop-comments] {
         display: none;

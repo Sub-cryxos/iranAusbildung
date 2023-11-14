@@ -1,12 +1,26 @@
-
-
-
-
-
 const windowWidth = window.innerWidth;
-if (windowWidth <= 612) {
+
+if (windowWidth <= 1000) {
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1.5,
+    slidesPerView: 4.2,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    }, autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".moving-arrow-r",
+      prevEl: ".moving-arrow-l ",
+    },
+  });
+  console.log('pass')
+}
+if (windowWidth <= 512) {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2.06,
     spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
@@ -16,32 +30,17 @@ if (windowWidth <= 612) {
       disableOnInteraction: false,
     },
   });
-} else {
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 4.2,
-    spaceBetween: 10,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    }, autoplay: {
-      delay: 10000000000000,
-      disableOnInteraction: false,
-    },
-    navigation: {
-      nextEl: ".moving-arrow-r",
-      prevEl: ".moving-arrow-l ",
-    },
-  });
-
+  console.log('done first')
 }
+
 // ths slider best ausbildungs 
 if (windowWidth <= 600) {
 
   var swiper = new Swiper(".best_ausbildungs", {
-    slidesPerView: 1.08,
+    slidesPerView: 1.17,
     spaceBetween: 20,
     autoplay: {
-      delay: 100000,
+      delay: 1000,
       disableOnInteraction: false,
     },
 
@@ -55,10 +54,10 @@ if (windowWidth <= 600) {
 
 } else {
   var swiper = new Swiper(".best_ausbildungs", {
-    slidesPerView: 2,
+    slidesPerView: 2.2,
     spaceBetween: 50,
     autoplay: {
-      delay: 100000,
+      delay: 1000,
       disableOnInteraction: false,
     },
 
@@ -73,7 +72,7 @@ if (windowWidth <= 600) {
 }
 // ths slider of comment section
 
-var swiperComment = new Swiper(".comments_section", {
+var swiperComment = new Swiper(".desktop-comments", {
   direction: "vertical",
   slidesPerView: 2,
   spaceBetween: 10,
@@ -90,47 +89,56 @@ var swiperComment = new Swiper(".comments_section", {
 
 });
 
+var swiperM = new Swiper(".mobile-comments", {
+  slidesPerView: 1,
+  spaceBetween: 20,
 
-
-
-const MobileComment = document.getElementsByClassName('.m-comment')
-
-if (MobileComment.length !== 0) {
-  var swiperM = new Swiper(".m-comment", {
-    slidesPerView: 2,
-    spaceBetween: 20,
-    autoplay: {
-      delay: 1000,
-      disableOnInteraction: false,
-    }
-  });
-}
+  navigation: {
+    nextEl: " .moving-comment-arrow-r",
+    prevEl: " .moving-comment-arrow-l",
+  },
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  }
+});
 
 
 // the trust logo slider 
-console.log(windowWidth)
-if (windowWidth => 1300) {
-  var swiperTrust = new Swiper(".trust-section ", {
-    slidesPerView: 7.3,
-    spaceBetween: 10,
-    autoplay: {
-      delay: 2000,
-      disableOnInteraction: false,
-    },
 
-  }); 
-  console.log('done on fhd')
-} 
+  if(windowWidth > 1301 ) {
+    var swiperTrust = new Swiper(".trust-section ", {
+      slidesPerView: 7.7,
+      spaceBetween: 10,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+    });
+  }
 
-if (windowWidth <= 1300) {
-  var swiperTrust = new Swiper(".trust-section ", {
-    slidesPerView: 5,
-    spaceBetween: 10,
-    autoplay: {
-      delay: 2000,
-      disableOnInteraction: false,
-    },
+  if (windowWidth > 1000 && windowWidth < 1301){
+    var swiperTrust = new Swiper(".trust-section ", {
+      slidesPerView: 5.7,
+      spaceBetween: 10,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+  
+    }); 
+   
+  }
 
-  }); 
-  console.log('done on fhd')
-} 
+  if(windowWidth < 550) {
+    var swiperTrust = new Swiper(".trust-section ", {
+      slidesPerView:2,
+      spaceBetween: 10,
+      autoplay: {
+        delay: 1000,
+        disableOnInteraction: false,
+      },
+  
+    });
+  }
+  
