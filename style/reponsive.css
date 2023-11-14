@@ -244,7 +244,15 @@
     .responsive_step_box {
         width: 50%;
         margin-top: 4rem;
+        padding: 0 2rem;
     }
+
+
+    .step_box .step_box_desc p {
+        font-size: 13px;
+        padding: 12px;
+    }
+
 
     .flex-sm-row-reverse_a {
         flex-wrap: wrap-reverse;
