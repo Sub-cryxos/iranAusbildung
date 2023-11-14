@@ -1,9 +1,9 @@
 /* the blog part  */
 .blog_header {
-    font-size: clamp(1.7rem,1.8rem ,2rem);
+    font-size: clamp(1.7rem, 1.8rem, 2rem);
     color: #1D1E22;
     font-weight: 600;
-    font-family: PeydaWebFaNum6 ;
+    font-family: PeydaWebFaNum6;
 }
 
 .weblog_header {
@@ -23,7 +23,7 @@
 }
 
 
-#weblog_title::after{
+#weblog_title::after {
     right: 8px;
 
 }
@@ -61,7 +61,7 @@
 .blog_box h1 {
     font-weight: 600;
     line-height: 100%;
-    font-size: clamp(1.4rem,1.5rem ,1.6rem);
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
 
     color: #000;
     text-align: right;
@@ -92,7 +92,7 @@
     height: 57.5rem;
     display: flex;
     overflow: hidden;
-    margin-top: clamp(2rem, 2.5rem , 3rem) ;
+    margin-top: clamp(2rem, 2.5rem, 3rem);
 }
 
 .right_section_text {
@@ -105,7 +105,7 @@
 }
 
 .right_section_text h1 {
-    font-size: clamp(1.7rem,1.8rem ,2rem);
+    font-size: clamp(1.7rem, 1.8rem, 2rem);
 
     color: #1D1E22;
     font-weight: 600;
@@ -183,7 +183,7 @@
 }
 
 .comment_body h3 {
-    font-size: clamp(1.4rem,1.5rem ,1.6rem);
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
     font-style: normal;
     font-weight: 700;
     line-height: 200%;
@@ -193,7 +193,7 @@
 
 .comment_auther h3 {
     font-family: PeydaWebFaNum16;
-    font-size: clamp(1.4rem,1.5rem ,1.6rem);
+    font-size: clamp(1.4rem, 1.5rem, 1.6rem);
     font-style: normal;
     font-weight: 700;
     line-height: 200%;
@@ -213,20 +213,23 @@
 .news-info {
     width: 83%;
 }
+
 /* this is the trust section  */
 
-.trust_sec {
-    display: flex;
-    background-color: #F6F6F6;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    flex-direction: row;
-    justify-content: center;
+.trust-section{
+    padding:  4em 4em 4em;
+    background-color: #F6F6F6 !important;
+
 }
+
+
 
 .trust_logo_box {
     padding: 1rem;
-    width: 230px;
+
+
+    width: 230px !important;
+    height: 66px;
 
 }
 
@@ -235,7 +238,7 @@
 }
 
 .moving_arrow-comment {
-    margin-left:  clamp(2.7rem,2.8rem,3rem);
+    margin-left: clamp(2.7rem, 2.8rem, 3rem);
 }
 
 div[mobile-comments] {

@@ -54,7 +54,7 @@
     height: clamp(4.5rem, 5vw, 6rem);
     border: 1px solid #EAEAEA;
 
-}   
+}
 
 .search_submit {
     font-size: clamp(1.4rem, 1.6rem, 2rem);
@@ -241,9 +241,27 @@
 
 
 
+.moving-arrow-l,
+.moving-arrow-r {
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.moving-arrow-l {
+    top: 80rem;
+    right: 24rem;
+}
+
+.moving-arrow-r {
+    top: 80rem;
+    left: 24rem;
+}
+
 .aub-hero-slider .swiper-slide {
+    position: relative;
     width: unset !important;
-    margin-top: clamp(5rem,5.8rem,7rem);
+    margin-top: clamp(5rem, 5.8rem, 7rem);
 }
 
 .ausbildung_img {
@@ -281,20 +299,45 @@
 .count_dwon_box h1 {
     font-family: PeydaWebFaNum16;
     text-align: center;
-    font-size:  clamp(4rem,4.5rem,5rem);
+    font-size: clamp(4rem, 4.5rem, 5rem);
     font-weight: 600;
 
 }
 
 .guid-section {
-    margin-top: clamp(5rem,5.8rem,7rem);
-    
+    margin-top: clamp(5rem, 5.8rem, 7rem);
+
 }
 
 .count_dwon_box p {
     text-align: center;
 
-    font-size: clamp(1.8rem,2.2rem,2.5rem );
+    font-size: clamp(1.8rem, 2.2rem, 2.5rem);
     font-weight: 300;
     margin-top: 1.9rem;
+}
+
+@media screen and (max-width:1299px) {
+    .moving-arrow-l
+    {
+        right: 1rem !important;
+    }
+
+    .moving-arrow-r {
+        left: 1rem !important;
+    }
+    
+}
+
+
+@media screen and (max-width:1800px) {
+    .moving-arrow-l
+    {
+        right: 8em;
+    }
+
+    .moving-arrow-r {
+        left: 8em;
+    }
+    
 }

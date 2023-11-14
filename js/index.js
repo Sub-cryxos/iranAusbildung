@@ -1,4 +1,8 @@
 
+
+
+
+
 const windowWidth = window.innerWidth;
 if (windowWidth <= 612) {
   var swiper = new Swiper(".mySwiper", {
@@ -14,14 +18,18 @@ if (windowWidth <= 612) {
   });
 } else {
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 6,
+    slidesPerView: 4.2,
     spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 1000,
+      delay: 10000000000000,
       disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".moving-arrow-r",
+      prevEl: ".moving-arrow-l ",
     },
   });
 
@@ -68,7 +76,7 @@ if (windowWidth <= 600) {
 var swiperComment = new Swiper(".comments_section", {
   direction: "vertical",
   slidesPerView: 2,
-  spaceBetween: 20,
+  spaceBetween: 10,
   autoplay: {
     delay: 1000,
     disableOnInteraction: false,
@@ -83,15 +91,46 @@ var swiperComment = new Swiper(".comments_section", {
 });
 
 
-var swiperM = new Swiper(".m-comment", {
-  slidesPerView: 2,
-  spaceBetween: 20,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-  }
 
 
+const MobileComment = document.getElementsByClassName('.m-comment')
+
+if (MobileComment.length !== 0) {
+  var swiperM = new Swiper(".m-comment", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    }
+  });
+}
 
 
-});
+// the trust logo slider 
+console.log(windowWidth)
+if (windowWidth => 1300) {
+  var swiperTrust = new Swiper(".trust-section ", {
+    slidesPerView: 7.3,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+
+  }); 
+  console.log('done on fhd')
+} 
+
+if (windowWidth <= 1300) {
+  var swiperTrust = new Swiper(".trust-section ", {
+    slidesPerView: 5,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+
+  }); 
+  console.log('done on fhd')
+} 

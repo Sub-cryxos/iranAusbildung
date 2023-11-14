@@ -223,12 +223,12 @@
 
 .moving-arrow-l {
     top: 15rem;
-    right: -2rem;
+    right: -4rem;
 }
 
 .moving-arrow-r {
     top: 15rem;
-    left: -2rem;
+    left: -4rem;
 }
 
 .news-boxs {
@@ -405,7 +405,7 @@
 .recommended-color {
     background-color: #EEF0F2;
     height: fit-content;
-    padding-bottom: 4.5rem;
+    padding-bottom: 2%;
 }
 
 .recommended-box {
@@ -443,6 +443,27 @@
     line-height: 200%;
     /* 26px */
 }
+
+.load-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.load-more a {
+    font-family: PeydaWebFaNum15;
+
+    font-size: clamp(1.2rem,1.3rem,1.4rem);
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%;
+    color: var(--primary-color) !important;
+}
+
 
 
 .advertisement {
