@@ -45,6 +45,10 @@ body{
 
 /* this codes blongs to blog part  */
 
+.main-content-wrapper {
+    position: relative;
+}
+
 
 .blog_pic img {
     width: 100%;
@@ -827,6 +831,13 @@ body{
 #mobile-box {
     display: none;
 }
+
+
+.mobile-access-list {
+    display: none;
+}
+
+
 
 div[desktop-hide-card] {
     display: none;

@@ -861,12 +861,65 @@
     /* end of the Ausbildungs page  */
 
     /* start of the single ausbildung page  */
+
+    /* .accessibility_box {
+        position: fixed;
+        top:92lvh;
+    } */
+/* 
+    .accessibility_box .access-list {
+        display: none;
+    } */
+
+    /* .accessibility_u-900 {
+        top: 91lvh;
+    }
+
+    .accessibility_u-900-active {
+        top: 62lvh;
+    }
+
+    .accessibility_d-900 {
+        top: 95lvh;
+    } */
+
+    .mobile-access-list {
+        display: block;
+        position: fixed;
+        /* top: 100vh; */
+        bottom: 0;
+        z-index: 111111111;
+        transition: display cubic-bezier(0.165, 0.84, 0.44, 1)  .1s;
+
+    }
+
+    .mobile-access-list .access-list {
+        display: none;
+        transition: display cubic-bezier(0.165, 0.84, 0.44, 1)  .1s;
+    }
+
+    .access-list-mobile-active {
+        display: block !important;
+        transition: display cubic-bezier(0.165, 0.84, 0.44, 1)  .1s;
+
+    }
+
+    .mobile-access-list-900h {
+        bottom: 4% !important;
+    }
+
+    
+
+    .desktop-access-list {
+        display: none;
+    }
+
     .des_content_sec_solary {
         flex-wrap: wrap;
     }
 
     .des_content_sec_solary .solary_box {
-        margin-top: 1.5rem;
+        margin-top: 2.5rem;
 
     }
 
@@ -893,6 +946,10 @@
 
     }
 
+   .single-ausbildung-jobs  h1 {
+    margin-bottom: 4rem;
+   }
+
     #mobile-box {
         display: block;
     }
@@ -916,7 +973,7 @@
     }
 
     .des_content_sec h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .des_content_sec p {
@@ -942,7 +999,7 @@
     .solary_box p,
     span,
     .solary_box h1 {
-        font-size: 16px;
+        font-size: 14px;
 
     }
 

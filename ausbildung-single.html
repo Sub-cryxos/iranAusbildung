@@ -216,6 +216,34 @@
     <!-- -----------------------------------------header endd----------------------------------------------- ---------------------------- -->
 
     <!-- this is the main page  -->
+      <!-- the mobile access list  -->
+      <div class="accessibility_box mobile-access-list">
+        <header class="accessibility-header">
+            <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="20" transform="translate(0 20) rotate(-90)" fill="#EC3A4C" />
+                    <path
+                        d="M15.8332 17.5L15.8332 2.49999C15.8327 2.34812 15.7908 2.19926 15.712 2.06943C15.6332 1.93959 15.5205 1.8337 15.386 1.76316C15.2516 1.69262 15.1004 1.66008 14.9488 1.66907C14.7972 1.67806 14.6509 1.72822 14.5257 1.81416L3.69234 9.31416C3.24318 9.62499 3.24318 10.3733 3.69234 10.685L14.5257 18.185C14.6506 18.2718 14.797 18.3227 14.9488 18.3322C15.1007 18.3417 15.2522 18.3093 15.387 18.2387C15.5218 18.1681 15.6346 18.0619 15.7133 17.9317C15.792 17.8014 15.8334 17.6521 15.8332 17.5Z"
+                        fill="#F6F6F6" />
+                </svg>
+            </span>
+            <h1>دسترسی سریع</h1>
+
+        </header>
+
+        <ul class="access-list">
+            <li class="access-item"><a href="">آوسبیلدونگ طراح رابط کاربری چیست؟</a></li>
+            <hr>
+            <li class="access-item"><a href="">وظایف طراح رابط کاربری چیست؟</a></li>
+            <hr>
+            <li class="access-item"><a href="">حوزه های تخصصی طراح رابط کاربری چیست؟</a></li>
+            <hr>
+            <li class="access-item"><a href="">میزان درآمد این رشته چقدر هست؟</a></li>
+            <hr>
+            <li class="access-item"><a href="">مزایا و معایب این رشته چیست؟ </a></li>
+        </ul>
+    </div>
+    <!-- the mobile access list end -->
     <main class="container">
         <!-- for intro and bread cruump  -->
         <div class="row mt-5">
@@ -240,7 +268,8 @@
         </div>
         <!-- start of the blog  -->
         <div class="row mt-5">
-            <div class="col-xxl-9 col-xl-9 ">
+            <div class="col-xxl-9 col-xl-9 main-content-wrapper">
+              
                 <!-- image of the blog pls place the tag nam  e in to alt tag  -->
                 <div class="blog_pic w-100">
                     <img src="./assets/images/blog-pic.png" alt="place tag image ">
@@ -248,7 +277,7 @@
                 <!-- this is the content tab of blog  -->
 
                 <!-- the job info that hidden in desk and show in mobile  -->
-                <div class="job-info_box" id="mobile-box">
+                <div class="job-info_box single-ausbildung-jobs" id="mobile-box">
                     <h1>
                         <span><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -338,52 +367,52 @@
 
                     <div class="data-tabs">
                         <div class="w-100 tabs-of-main d-flex justify-content-between align-items-center ">
-                        
+
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <li class="nav-item " role="presentation">
                                     <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
                                         aria-selected="true">توضیحات</button>
                                 </li>
-    
+
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-profile" type="button" role="tab"
                                         aria-controls="pills-profile" aria-selected="false">میزان درآمد</button>
                                 </li>
-    
+
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
                                         data-bs-target="#pills-contact" type="button" role="tab"
                                         aria-controls="pills-contact" aria-selected="false">مسیر شغلی</button>
                                 </li>
                             </ul>
-                           
-                       
 
-                        <div class="employer_find d-flex gap-2" mobile-hide>
-                            <span>
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M11 17H13V11H11V17ZM12 9C12.2833 9 12.521 8.904 12.713 8.712C12.905 8.52 13.0007 8.28267 13 8C13 7.71667 12.904 7.479 12.712 7.287C12.52 7.095 12.2827 6.99933 12 7C11.7167 7 11.479 7.096 11.287 7.288C11.095 7.48 10.9993 7.71733 11 8C11 8.28333 11.096 8.521 11.288 8.713C11.48 8.905 11.7173 9.00067 12 9ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6867 5.825 19.9743 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26333 14.6833 2.00067 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31333 6.88333 4.02567 5.825 4.925 4.925C5.825 4.025 6.88333 3.31267 8.1 2.788C9.31667 2.26333 10.6167 2.00067 12 2C13.3833 2 14.6833 2.26267 15.9 2.788C17.1167 3.31333 18.175 4.02567 19.075 4.925C19.975 5.825 20.6877 6.88333 21.213 8.1C21.7383 9.31667 22.0007 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6867 17.1167 19.9743 18.175 19.075 19.075C18.175 19.975 17.1167 20.6877 15.9 21.213C14.6833 21.7383 13.3833 22.0007 12 22ZM12 20C14.2333 20 16.125 19.225 17.675 17.675C19.225 16.125 20 14.2333 20 12C20 9.76667 19.225 7.875 17.675 6.325C16.125 4.775 14.2333 4 12 4C9.76667 4 7.875 4.775 6.325 6.325C4.775 7.875 4 9.76667 4 12C4 14.2333 4.775 16.125 6.325 17.675C7.875 19.225 9.76667 20 12 20Z"
-                                        fill="black" />
-                                </svg>
 
-                            </span>
-                            <a href="#">
-                                یافتن کارفرما
-                            </a>
 
+                            <div class="employer_find d-flex gap-2" mobile-hide>
+                                <span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11 17H13V11H11V17ZM12 9C12.2833 9 12.521 8.904 12.713 8.712C12.905 8.52 13.0007 8.28267 13 8C13 7.71667 12.904 7.479 12.712 7.287C12.52 7.095 12.2827 6.99933 12 7C11.7167 7 11.479 7.096 11.287 7.288C11.095 7.48 10.9993 7.71733 11 8C11 8.28333 11.096 8.521 11.288 8.713C11.48 8.905 11.7173 9.00067 12 9ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6867 5.825 19.9743 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26333 14.6833 2.00067 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31333 6.88333 4.02567 5.825 4.925 4.925C5.825 4.025 6.88333 3.31267 8.1 2.788C9.31667 2.26333 10.6167 2.00067 12 2C13.3833 2 14.6833 2.26267 15.9 2.788C17.1167 3.31333 18.175 4.02567 19.075 4.925C19.975 5.825 20.6877 6.88333 21.213 8.1C21.7383 9.31667 22.0007 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6867 17.1167 19.9743 18.175 19.075 19.075C18.175 19.975 17.1167 20.6877 15.9 21.213C14.6833 21.7383 13.3833 22.0007 12 22ZM12 20C14.2333 20 16.125 19.225 17.675 17.675C19.225 16.125 20 14.2333 20 12C20 9.76667 19.225 7.875 17.675 6.325C16.125 4.775 14.2333 4 12 4C9.76667 4 7.875 4.775 6.325 6.325C4.775 7.875 4 9.76667 4 12C4 14.2333 4.775 16.125 6.325 17.675C7.875 19.225 9.76667 20 12 20Z"
+                                            fill="black" />
+                                    </svg>
+
+                                </span>
+                                <a href="#">
+                                    یافتن کارفرما
+                                </a>
+
+
+                            </div>
 
                         </div>
-                        
+
+                        <hr>
                     </div>
 
-                    <hr>    
-                    </div>
 
-                    
                     <!-- this is content of the tabs  -->
                     <!-- description -->
                     <div class="tab-content" id="pills-tabContent">
@@ -604,7 +633,7 @@
 
                                         </div>
 
-                                     
+
                                         <div class="btns">
                                             <div class="save-post">
 
@@ -706,7 +735,7 @@
                     <div class="sticky">
                         <!-- this is the fast accessibility -->
                         <div class="row top-gin  ">
-                            <div class="accessibility_box">
+                            <div class="accessibility_box desktop-access-list">
                                 <header class="accessibility-header">
                                     <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -1114,7 +1143,7 @@
                     <div class="popular-asubildung_pic">
                         <img src="./assets/images/popular_ausbildung.png" alt="popular _ausbildung">
                     </div>
-    
+
                     <div class="saved_post">
                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="formkit:bookmark">
@@ -1124,9 +1153,9 @@
                                     fill="black" />
                             </g>
                         </svg>
-    
+
                     </div>
-    
+
                     <div class="share_post">
                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="solar:share-linear">
@@ -1135,7 +1164,8 @@
                                     <path id="Vector"
                                         d="M11.5833 14.25C11.5833 14.8578 11.3419 15.4407 10.9121 15.8705C10.4823 16.3002 9.89945 16.5417 9.29167 16.5417C8.68388 16.5417 8.10098 16.3002 7.67121 15.8705C7.24144 15.4407 7 14.8578 7 14.25C7 13.6422 7.24144 13.0593 7.67121 12.6296C8.10098 12.1998 8.68388 11.9583 9.29167 11.9583C9.89945 11.9583 10.4823 12.1998 10.9121 12.6296C11.3419 13.0593 11.5833 13.6422 11.5833 14.25Z"
                                         stroke="black" stroke-width="1.25" />
-                                    <path id="Vector_2" d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
+                                    <path id="Vector_2"
+                                        d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
                                         stroke="black" stroke-width="1.25" stroke-linecap="round" />
                                     <path id="Vector_3"
                                         d="M20.7498 20.2083C20.7498 20.8161 20.5084 21.399 20.0786 21.8288C19.6489 22.2586 19.066 22.5 18.4582 22.5C17.8504 22.5 17.2675 22.2586 16.8377 21.8288C16.4079 21.399 16.1665 20.8161 16.1665 20.2083C16.1665 19.6005 16.4079 19.0177 16.8377 18.5879C17.2675 18.1581 17.8504 17.9167 18.4582 17.9167C19.066 17.9167 19.6489 18.1581 20.0786 18.5879C20.5084 19.0177 20.7498 19.6005 20.7498 20.2083ZM20.7498 8.29167C20.7498 8.89945 20.5084 9.48235 20.0786 9.91212C19.6489 10.3419 19.066 10.5833 18.4582 10.5833C17.8504 10.5833 17.2675 10.3419 16.8377 9.91212C16.4079 9.48235 16.1665 8.89945 16.1665 8.29167C16.1665 7.68388 16.4079 7.10098 16.8377 6.67121C17.2675 6.24144 17.8504 6 18.4582 6C19.066 6 19.6489 6.24144 20.0786 6.67121C20.5084 7.10098 20.7498 7.68388 20.7498 8.29167Z"
@@ -1144,10 +1174,10 @@
                             </g>
                         </svg>
                     </div>
-    
-                   
+
+
                 </div>
-    
+
                 <div class="second-sec">
                     <div class="popular_ausbildung_title">
                         <h3 class="popular_ausbildung_fa mt-2">پیراپزشکی</h3>
@@ -1156,14 +1186,14 @@
 
                     <div class="salary_ausbildung">
                         <ul class=" mt-1">
-    
+
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
-    
+
                         </ul>
                     </div>
-    
+
                     <div class="btn_navigate_more">
                         <a href="">
                             مشاهده بیشتر
@@ -1186,13 +1216,13 @@
                 </div>
             </div>
 
-            
+
             <div class="ausbildung_card ">
                 <div class="first-sec">
                     <div class="popular-asubildung_pic">
                         <img src="./assets/images/popular_ausbildung.png" alt="popular _ausbildung">
                     </div>
-    
+
                     <div class="saved_post">
                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="formkit:bookmark">
@@ -1202,9 +1232,9 @@
                                     fill="black" />
                             </g>
                         </svg>
-    
+
                     </div>
-    
+
                     <div class="share_post">
                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="solar:share-linear">
@@ -1213,7 +1243,8 @@
                                     <path id="Vector"
                                         d="M11.5833 14.25C11.5833 14.8578 11.3419 15.4407 10.9121 15.8705C10.4823 16.3002 9.89945 16.5417 9.29167 16.5417C8.68388 16.5417 8.10098 16.3002 7.67121 15.8705C7.24144 15.4407 7 14.8578 7 14.25C7 13.6422 7.24144 13.0593 7.67121 12.6296C8.10098 12.1998 8.68388 11.9583 9.29167 11.9583C9.89945 11.9583 10.4823 12.1998 10.9121 12.6296C11.3419 13.0593 11.5833 13.6422 11.5833 14.25Z"
                                         stroke="black" stroke-width="1.25" />
-                                    <path id="Vector_2" d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
+                                    <path id="Vector_2"
+                                        d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
                                         stroke="black" stroke-width="1.25" stroke-linecap="round" />
                                     <path id="Vector_3"
                                         d="M20.7498 20.2083C20.7498 20.8161 20.5084 21.399 20.0786 21.8288C19.6489 22.2586 19.066 22.5 18.4582 22.5C17.8504 22.5 17.2675 22.2586 16.8377 21.8288C16.4079 21.399 16.1665 20.8161 16.1665 20.2083C16.1665 19.6005 16.4079 19.0177 16.8377 18.5879C17.2675 18.1581 17.8504 17.9167 18.4582 17.9167C19.066 17.9167 19.6489 18.1581 20.0786 18.5879C20.5084 19.0177 20.7498 19.6005 20.7498 20.2083ZM20.7498 8.29167C20.7498 8.89945 20.5084 9.48235 20.0786 9.91212C19.6489 10.3419 19.066 10.5833 18.4582 10.5833C17.8504 10.5833 17.2675 10.3419 16.8377 9.91212C16.4079 9.48235 16.1665 8.89945 16.1665 8.29167C16.1665 7.68388 16.4079 7.10098 16.8377 6.67121C17.2675 6.24144 17.8504 6 18.4582 6C19.066 6 19.6489 6.24144 20.0786 6.67121C20.5084 7.10098 20.7498 7.68388 20.7498 8.29167Z"
@@ -1222,10 +1253,10 @@
                             </g>
                         </svg>
                     </div>
-    
-                   
+
+
                 </div>
-    
+
                 <div class="second-sec">
                     <div class="popular_ausbildung_title">
                         <h3 class="popular_ausbildung_fa mt-2">پیراپزشکی</h3>
@@ -1234,14 +1265,14 @@
 
                     <div class="salary_ausbildung">
                         <ul class=" mt-1">
-    
+
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
-    
+
                         </ul>
                     </div>
-    
+
                     <div class="btn_navigate_more">
                         <a href="">
                             مشاهده بیشتر
@@ -1264,13 +1295,13 @@
                 </div>
             </div>
 
-            
+
             <div class="ausbildung_card ">
                 <div class="first-sec">
                     <div class="popular-asubildung_pic">
                         <img src="./assets/images/popular_ausbildung.png" alt="popular _ausbildung">
                     </div>
-    
+
                     <div class="saved_post">
                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="formkit:bookmark">
@@ -1280,9 +1311,9 @@
                                     fill="black" />
                             </g>
                         </svg>
-    
+
                     </div>
-    
+
                     <div class="share_post">
                         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="solar:share-linear">
@@ -1291,7 +1322,8 @@
                                     <path id="Vector"
                                         d="M11.5833 14.25C11.5833 14.8578 11.3419 15.4407 10.9121 15.8705C10.4823 16.3002 9.89945 16.5417 9.29167 16.5417C8.68388 16.5417 8.10098 16.3002 7.67121 15.8705C7.24144 15.4407 7 14.8578 7 14.25C7 13.6422 7.24144 13.0593 7.67121 12.6296C8.10098 12.1998 8.68388 11.9583 9.29167 11.9583C9.89945 11.9583 10.4823 12.1998 10.9121 12.6296C11.3419 13.0593 11.5833 13.6422 11.5833 14.25Z"
                                         stroke="black" stroke-width="1.25" />
-                                    <path id="Vector_2" d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
+                                    <path id="Vector_2"
+                                        d="M16.1668 9.20834L11.5835 12.4167M16.1668 19.2917L11.5835 16.0833"
                                         stroke="black" stroke-width="1.25" stroke-linecap="round" />
                                     <path id="Vector_3"
                                         d="M20.7498 20.2083C20.7498 20.8161 20.5084 21.399 20.0786 21.8288C19.6489 22.2586 19.066 22.5 18.4582 22.5C17.8504 22.5 17.2675 22.2586 16.8377 21.8288C16.4079 21.399 16.1665 20.8161 16.1665 20.2083C16.1665 19.6005 16.4079 19.0177 16.8377 18.5879C17.2675 18.1581 17.8504 17.9167 18.4582 17.9167C19.066 17.9167 19.6489 18.1581 20.0786 18.5879C20.5084 19.0177 20.7498 19.6005 20.7498 20.2083ZM20.7498 8.29167C20.7498 8.89945 20.5084 9.48235 20.0786 9.91212C19.6489 10.3419 19.066 10.5833 18.4582 10.5833C17.8504 10.5833 17.2675 10.3419 16.8377 9.91212C16.4079 9.48235 16.1665 8.89945 16.1665 8.29167C16.1665 7.68388 16.4079 7.10098 16.8377 6.67121C17.2675 6.24144 17.8504 6 18.4582 6C19.066 6 19.6489 6.24144 20.0786 6.67121C20.5084 7.10098 20.7498 7.68388 20.7498 8.29167Z"
@@ -1300,10 +1332,10 @@
                             </g>
                         </svg>
                     </div>
-    
-                   
+
+
                 </div>
-    
+
                 <div class="second-sec">
                     <div class="popular_ausbildung_title">
                         <h3 class="popular_ausbildung_fa mt-2">پیراپزشکی</h3>
@@ -1312,14 +1344,14 @@
 
                     <div class="salary_ausbildung">
                         <ul class=" mt-1">
-    
+
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
                             <li> <span>حقوق سال اول</span> <span>637-1100 €</span> </li>
-    
+
                         </ul>
                     </div>
-    
+
                     <div class="btn_navigate_more">
                         <a href="">
                             مشاهده بیشتر
