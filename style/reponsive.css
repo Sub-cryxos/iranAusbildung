@@ -1113,7 +1113,8 @@
     }
 
     .main-section-text p {
-        font-size: 14px;
+        font-size: 13px;
+        text-align: justify;
     }
 
     .content-title h1 {
@@ -1134,6 +1135,11 @@
         padding-bottom: 3rem;
     }
 
+    .content-title {
+        padding: 20px 0px 20px 0;
+    }
+
+    
     /* start of the single post  */
 
     .blog_pic-avatar img {
