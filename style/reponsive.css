@@ -1204,9 +1204,7 @@
         height: 246px;
     }
 
-    .uniq-single-post-img img {
-        width: 32rem;
-    }
+   
 
     .title_de-f {
         align-items: end;
@@ -1234,10 +1232,23 @@
 
     .sticky {
         position: relative;
+        top: 0;
     }
 
     .date-published {
         margin-top: 1rem;
+    }
+
+    .submit-comment input {
+        width:44%;
+    }
+
+    .big-ad {
+        margin-bottom: 2.5rem;
+    }
+
+    .single-post-comment-section {
+        margin-top: 2rem;
     }
 
     /* end of the single post  */
