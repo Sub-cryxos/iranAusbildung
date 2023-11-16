@@ -212,7 +212,7 @@ body {
     padding: 0 4rem;
 
 
-  
+
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity .5s linear;
@@ -650,7 +650,7 @@ body {
     background-size: contain;
     background-color: #fff;
     border-radius: 5px;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .share_post {
@@ -710,8 +710,7 @@ body {
     font-family: PeydaWebFaNum15;
 }
 
-.letter-choose:hover  
-.letter-filter{
+.letter-choose:hover .letter-filter {
     visibility: visible;
     opacity: 1;
 }
@@ -774,7 +773,8 @@ body {
     background-color: #fff !important;
 }
 
-.letters-fa,.letters-de {
+.letters-fa,
+.letters-de {
     display: none;
 }
 
@@ -790,8 +790,8 @@ body {
     line-height: 150%;
     cursor: pointer;
     letter-spacing: 3px;
-    padding: 3px 2px 0 5px ;
-   
+    padding: 3px 2px 0 5px;
+
 }
 
 
@@ -809,3 +809,31 @@ body {
 }
 
 /* paginations end */
+
+@media screen and (max-width:420px) {
+
+    .deavtice {
+
+        justify-content: space-around !important;
+        gap: 3px !important;
+    }
+
+    .filter-time .f-period {
+        left: 1.5rem !important;
+    }
+
+    .filter-period .periodic-time {
+        left: -2rem !important;
+    }
+
+    .filter-types .types-f {
+
+        left: -6rem !important; 
+    }
+
+    .letter-choose .letter-filter {
+        top: 14rem !important;
+        left: 7rem;
+    }
+
+}
