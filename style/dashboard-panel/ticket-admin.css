@@ -160,7 +160,10 @@ input[type=file]+label.btn-3:hover::before {
 }
 
 .submit-btn {
-    width: 16%;
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .answer {

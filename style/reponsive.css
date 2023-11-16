@@ -1369,6 +1369,7 @@
 
     .categories-sec {
         height: auto;
+        padding: 10px;
     }
 
     .section-title h1 {
@@ -1379,6 +1380,7 @@
         /* flex-wrap: wrap; */
         display: flex;
         gap: 10px;
+        width: fit-content;
     }
 
     .news-box .shorthand {
@@ -1468,7 +1470,8 @@
     }
 
     .video-setion #pills-tab>.nav-item button {
-        font-size: 14px;
+        font-size: 12px;
+        margin-top: 2rem;
     }
 
     .tab-title-ul {
@@ -1502,11 +1505,12 @@
     }
 
     .recommended-title h1 a {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .recommended-box .recommended-pic img {
         width: 168px !important;
+        height: 140px !important;
     }
 
 
@@ -1515,6 +1519,13 @@
         display: none;
     }
 
+    .advertisement {
+        margin-top: 2rem;
+    }
+
+    .recommended-color {
+        padding: 20px 0 ;
+    }
 
     /* end of the post archive  */
 

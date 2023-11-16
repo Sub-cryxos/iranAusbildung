@@ -54,7 +54,7 @@
     .salary_ausbildung ul>li span {
         padding: 6px 2px 6px 1px;
         color: #000;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
@@ -106,12 +106,14 @@
     .nav-pills .nav-link {
         padding: 0;
         margin: 0;
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .nav-pills {
         flex-wrap: nowrap;
-        gap: 10px;
+        gap: 18px;
+        justify-content: start;
+        margin-top: 1rem;
     }
 
     /* start of the responsive of your services  */
@@ -136,6 +138,10 @@
         font-size: 16px !important;
     }
 
+    .popular-ausbildungs-wrapper {
+        justify-content: center;
+    }
+
     /* start the responsive of ticket page  */
     .input-ticket {
         width: 100% !important;
@@ -147,5 +153,10 @@
 
     .salary-consult p:nth-child(1){
         font-size: 12px !important  ;
+    }
+
+    /* start of profile  */
+    #password {
+        width: 100%;
     }
 }

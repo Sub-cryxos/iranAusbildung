@@ -45,7 +45,7 @@
 .cv-wait input {
     color: #969696;
     text-align: right;
-    font-family:  PeydaWebFaNum15;
+    font-family: PeydaWebFaNum15;
     font-size: 1em;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +59,8 @@
     padding: 10px;
 }
 
-.cv-wait input,select {
+.cv-wait input,
+select {
     border-radius: 10px;
     border: 1px solid #E8E8E8;
     background: #F6F6F6;
@@ -75,7 +76,7 @@
 
 .text-map {
     color: #000;
-    font-family:  PeydaWebFaNum15;
+    font-family: PeydaWebFaNum15;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -108,5 +109,64 @@
     font-style: normal;
     font-weight: 500;
     line-height: 164.3%;
-    /* 23.002px */  
+    /* 23.002px */
+}
+
+input[type=file] {
+
+    height: 0;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+}
+
+input[type=file]+label {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+
+    font-family: PeydaWebFaNum15;
+
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding: 9px 15px;
+    display: inline-flex;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+}
+
+input[type=file]+label.btn-3 {
+    border-radius: 5px;
+    background: #000;
+    overflow: hidden;
+}
+
+input[type=file]+label span {
+    display: inline-block;
+    height: 100%;
+    transition: all 0.3s;
+    width: 100%;
+
+    color: #FFF;
+    text-align: right;
+    font-family: PeydaWebFaNum15;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload-user-pic {
+    border-radius: 5px;
+    background: #000;
+    overflow: hidden;
+    font-size: 14px;
 }
