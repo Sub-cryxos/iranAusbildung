@@ -696,6 +696,8 @@ body {
     line-height: 100%;
     color: #000;
     font-family: PeydaWebFaNum15;
+    display: flex;
+    align-items: center;
 }
 
 .next-one,
