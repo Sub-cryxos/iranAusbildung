@@ -307,7 +307,7 @@
     .consult_navigate a {
         width: fit-content;
         margin-top: 2rem;
-
+        font-size: 12px;
     }
 
     .step_photo {
@@ -572,7 +572,7 @@
     }
 
     #popular_btn_more {
-        width: 61%;
+        width: 70%;
         font-size: 14px;
     }
 
