@@ -333,11 +333,11 @@
 @media screen and (max-width:1800px) {
     .moving-arrow-l
     {
-        right: 8em;
+        right: 8em; top: 94rem;
     }
 
     .moving-arrow-r {
-        left: 8em;
+        left: 8em;top: 94rem;
     }
     
 }
