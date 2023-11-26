@@ -1,7 +1,7 @@
 @import url('./reset.css');
 @import url('./defualt.css');
 @import url('./variables.css');
-
+@import url('./fonts.css');
 
 body {
     background: #FCFCFC;
@@ -22,62 +22,61 @@ body {
 .text-page h1 {
     color: #FFF;
     /* text-align: right; */
-    font-family: Morabba;
+    font-family: PeydaWebFaNum-N;
     font-size: 35px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 100%;
     text-align: center;
 }
 
 .text-page p {
     /* text */
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     color: #FFF;
     /* text-align: right; */
-    font-family: Morabba;
+    font-family: PeydaWebFaNum-N;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
     /* 14px */
     text-align: center;
+    /* margin-top: ; */
 }
 
-.category-nav {
+.category-nav-blogs {
     position: absolute;
     bottom: -28px;
     left: 11%;
-
     width: 80%;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 5px 44px 0px rgba(0, 0, 0, 0.05);
 }
 
-.categories {
+.categories-blogs {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     padding: 12px 12px 12px 12px;
 }
 
-.categories .category-item {
+.categories-blogs .category-item {
     padding: 12px 12px 12px 12px;
     border-left: 1px solid #E6E6E6;
     border-width: 1px;
 }
 
-.categories .category-item:nth-last-child(1) {
+.categories-blogs .category-item:nth-last-child(1) {
     border: none;
 }
 
-.categories .category-item>a {
+.categories-blogs .category-item>a {
     color: #000;
     text-align: center;
-    font-family: Peyda(FaNum);
-    font-size: 16px;
+    font-family: PeydaWebFaNum-N;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -88,7 +87,7 @@ body {
 
 /* page banner  */
 
-.banner {
+.banner-blogs {
     margin-top: 7rem;
 }
 
@@ -105,7 +104,7 @@ body {
 
 }
 
-.circle {
+.circle-blogs {
     position: absolute;
     bottom: -25rem;
     left: 0;
@@ -114,7 +113,7 @@ body {
     background-position: 18% 20%;
 }
 
-.banner-text {
+.banner-text-blogs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,10 +122,10 @@ body {
     width: 80%;
 }
 
-.banner-text p {
+.banner-text-blogs p {
     color: var(--secondary-color);
     /* text-align: right; */
-    font-family: Morabba;
+    font-family:  moraba-light;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -135,7 +134,7 @@ body {
 }
 
 
-.btn-sign {
+.btn-sign-blogs{
     /* height:50% ; */
     width: 80%;
     margin-right: auto;
@@ -146,18 +145,17 @@ body {
 
 }
 
-.more-btn {
-    display: inline !important;
+.more-btn-blogs {
+    display: inline ;
     padding: 5px 13px;
     border-radius: 5px;
     background-color: #CFCFCF;
     margin-bottom: 5px;
 
-
     color: #000;
     text-align: right;
-    font-family: Peyda(FaNum);
-    font-size: 18px;
+    font-family: PeydaWebFaNum-N;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: 200%;
@@ -200,7 +198,7 @@ body {
     margin-top: 1.5rem;
     color: #000;
     text-align: right;
-    font-family: Peyda(FaNum);
+    font-family:  PeydaWebFaNum6;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -211,7 +209,7 @@ body {
     margin-top: 2rem;
     color: #5B5B5B;
     text-align: right;
-    font-family: Peyda(FaNum);
+    font-family:  PeydaWebFaNum3;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -219,17 +217,15 @@ body {
     /* 24.15px */
 }
 
-.read-more_btn {
+.read-more_btn-blogs {
     width: 100%;
     height: 100%;
-
     display: flex;
-    /* justify-content: ; */
     align-items: end;
     padding-right: 3px;
 }
 
-.read-more_btn a {
+.read-more_btn-blogs a {
     padding: 8px 14px;
     border-radius: 5px;
     background-color: #FCDDE0;
@@ -240,7 +236,7 @@ body {
 
     color: var(--primary-color, #EC3A4C);
     text-align: right;
-    font-family: Peyda(FaNum);
+    font-family:  PeydaWebFaNum5;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -252,17 +248,47 @@ body {
 
 .vip-articles {
     background-color: #EEF0F2;
+    padding: 20px 0;
+    
 }
 
 .text-vip {
     color: #25262A;
     text-align: right;
-    font-family: Morabba;
+    font-family: moraba-regular;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 100%;
     /* 25px */
+    margin-bottom: 1rem;
+}
+
+.blogs-container {
+    margin-top: 4rem;
+}
+
+.blogs-footer {
+    margin-bottom: 4rem;
 }
 
 /* Vip articles ended */
+
+@media screen and (max-width:1300px) {
+    .circle-blogs {
+        bottom: -66px;
+        background-size: contain;
+    }
+
+    .circle-blogs img {
+        width: 400px;
+    }
+
+    .btn-sign-blogs {
+        margin-top: 2rem;
+    }
+
+    .more-btn-blogs {
+        width: 16%;
+    }
+}

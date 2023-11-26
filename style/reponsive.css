@@ -752,15 +752,15 @@
 
     /* start of the Ausbildungs page  */
 
-    .search_input_ausbildung  .input-group{
+    .search_input_ausbildung .input-group {
         width: 95%;
     }
 
-    .search_input_ausbildung    .input-group .btn {
+    .search_input_ausbildung .input-group .btn {
         font-size: 12px;
     }
 
-    .search_input_ausbildung   .input_search,
+    .search_input_ausbildung .input_search,
     .search_input_ausbildung .search_btn {
         height: 6rem;
     }
@@ -798,7 +798,7 @@
         left: 18.5rem;
     }
 
-    .filter-period .periodic-time{
+    .filter-period .periodic-time {
         top: 4rem;
         left: -9rem;
     }
@@ -923,16 +923,16 @@
         left: 19rem;
     }
 
-    .ausbildung_card_wrapper .first-sec .shitf p{
-        font-size: 9px !important; 
+    .ausbildung_card_wrapper .first-sec .shitf p {
+        font-size: 9px !important;
     }
 
-    .ausbildung_card_wrapper .second-sec  .salary_ausbildung ul>li{
+    .ausbildung_card_wrapper .second-sec .salary_ausbildung ul>li {
         width: 85% !important;
     }
 
 
-    
+
     /* end of the Ausbildungs page  */
 
     /* start of the single ausbildung page  */
@@ -1144,7 +1144,7 @@
 
     div[formTitle] span,
     .page_title~p {
-        font-size: 25px !important;
+        font-size: 30px !important;
         font-family: Morabba !important;
 
     }
@@ -1168,16 +1168,33 @@
 
     .desc_box {
         width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .wraped-object {
+        display: block;
+        height: 200px;
+
     }
 
     .desc_box h4 {
-
         top: -30px;
         left: 42%;
     }
 
+    .wraped-object h4 {
+        right: 14rem;
+    }
+
     .desc_box-wrapper {
         gap: 3rem;
+    }
+
+    .desc_box p {
+        font-size: 10px;
     }
 
 
@@ -1524,11 +1541,42 @@
     }
 
     .recommended-color {
-        padding: 20px 0 ;
+        padding: 20px 0;
     }
 
     /* end of the post archive  */
 
+    /* start of score change  */
+    .score-input {
+        width: 100% !important;
+    }
+
+    .score-resualt {
+        width: 45%;
+        margin: 20px auto ;
+    }
+
+    .score-calculate {
+        justify-content: center;
+    }
+
+    .table-data td {
+        font-size: 8px;
+    }
+
+    .table-header th {
+        font-size: 12px;
+    }
+
+    .score-data-des .description-box p {
+        font-size: 10px;
+    }
+
+    .score-resualt-numb p {
+        font-size: 3em;
+        margin-top: 3.1rem;
+    }
+    /* end of score change  */
 
     /* start of the compare responsive  */
 
@@ -1695,4 +1743,74 @@
         justify-content: center !important;
         padding: 0 !important;
     }
+
+    /* start of the blogs page  */
+
+   
+
+    .categories-blogs {
+        /* height: 56px; */
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    
+
+    .categories-blogs .category-item {
+        margin-top: 2rem;
+        padding: 7px;
+
+    }
+
+    .categories-blogs .category-item>a {
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    .category-nav-blogs {
+        width: 100%;
+        left: 0;
+        padding: 8px;
+        bottom: -10rem;
+    }
+
+    .banner-blogs {
+        margin-top: 15rem;
+    }
+
+    .banner-text-blogs {
+        width: 100%;
+    }
+
+    .banner-text-blogs p{
+        font-size: 16px;
+    }
+
+    .circle-blogs img {
+        width: 300px;
+
+    }
+
+    .circle-blogs {
+        bottom: -76px;
+        left: -41px;
+    }
+
+    .more-btn-blogs {
+        width: 41%;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .btn-sign-blogs{
+        width: 100%;
+        font-size: 14px;
+        
+    }
+
+    .read-more_btn-blogs {
+        width: auto;
+    }
+
+
 }
