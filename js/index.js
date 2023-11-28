@@ -1,5 +1,41 @@
 const windowWidth = window.innerWidth;
 
+if (windowWidth <= 1990) {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4.7,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    }, autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".moving-arrow-r",
+      prevEl: ".moving-arrow-l ",
+    },
+  });
+}
+
+if (windowWidth <= 1285) {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4.2,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    }, autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".moving-arrow-r",
+      prevEl: ".moving-arrow-l ",
+    },
+  });
+}
+
 if (windowWidth <= 1000) {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4.2,
@@ -16,7 +52,7 @@ if (windowWidth <= 1000) {
       prevEl: ".moving-arrow-l ",
     },
   });
-  console.log('pass')
+
 }
 if (windowWidth <= 512) {
   var swiper = new Swiper(".mySwiper", {
@@ -30,6 +66,7 @@ if (windowWidth <= 512) {
       disableOnInteraction: false,
     },
   });
+
   console.log('done first')
 }
 
@@ -106,39 +143,39 @@ var swiperM = new Swiper(".mobile-comments", {
 
 // the trust logo slider 
 
-  if(windowWidth > 1301 ) {
-    var swiperTrust = new Swiper(".trust-section ", {
-      slidesPerView: 7.7,
-      spaceBetween: 10,
-      autoplay: {
-        delay: 1000,
-        disableOnInteraction: false,
-      },
-    });
-  }
+if (windowWidth > 1301) {
+  var swiperTrust = new Swiper(".trust-section ", {
+    slidesPerView: 7.7,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+  });
+}
 
-  if (windowWidth > 1000 && windowWidth < 1301){
-    var swiperTrust = new Swiper(".trust-section ", {
-      slidesPerView: 5.7,
-      spaceBetween: 10,
-      autoplay: {
-        delay: 1000,
-        disableOnInteraction: false,
-      },
-  
-    }); 
-   
-  }
+if (windowWidth > 1000 && windowWidth < 1301) {
+  var swiperTrust = new Swiper(".trust-section ", {
+    slidesPerView: 5.7,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
 
-  if(windowWidth < 550) {
-    var swiperTrust = new Swiper(".trust-section ", {
-      slidesPerView:2.4,
-      spaceBetween: 3,
-      autoplay: {
-        delay: 1000,
-        disableOnInteraction: false,
-      },
-  
-    });
-  }
-  
+  });
+
+}
+
+if (windowWidth < 550) {
+  var swiperTrust = new Swiper(".trust-section ", {
+    slidesPerView: 2.4,
+    spaceBetween: 3,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+
+  });
+}
+

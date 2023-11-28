@@ -330,14 +330,15 @@
 }
 
 
-@media screen and (max-width:1800px) {
+@media screen and (max-width:1999px) {
     .moving-arrow-l
     {
-        right: 8em; top: 94rem;
+        right: 24em; top: 94rem;
     }
 
     .moving-arrow-r {
-        left: 8em;top: 94rem;
+        left: 24em;
+        top: 94rem;
     }
     
 }

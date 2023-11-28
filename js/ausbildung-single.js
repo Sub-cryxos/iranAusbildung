@@ -3,13 +3,13 @@ $(document).ready(function () {
         $('.save-post').toggleClass('save-post-active');
     })
 
-    $('.like-btn').click(function (e) { 
-        $(e.target).toggleClass('active-like-btn');
+    $('.like-comment').click(function (e) { 
+        $(e.target).toggleClass('liked-comment-like');
     });
 
     
-    $('.dislike').click(function (e) { 
-        $(e.target).toggleClass('active-dislike ');
+    $('.dislike-comment').click(function (e) { 
+        $(e.target).toggleClass('disliked-comment-dislike');
     });
 
     const docheight = $(window).innerHeight();
