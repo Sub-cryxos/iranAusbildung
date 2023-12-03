@@ -703,6 +703,64 @@ and the navbar for nav  */
 }
 
 /* Modal log in end */
+
+.btn_consult:hover .consult-list {
+    visibility: visible;
+    opacity: 1;
+}
+
+.consult-list {
+    position: absolute;
+    width: 192px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    top: 61px;
+    z-index: 111;
+    box-shadow: 1px 1px 20px rgba(196, 196, 196, 0.267);
+    opacity: 0;
+    visibility: hidden;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
+}
+
+
+
+.consult-item {
+    padding: 7px 7px;
+}
+
+.consult-item .consult-items {
+    display: flex;
+    align-items: center;
+}
+.consult-items p:hover  {
+    color: var(--primary-color) !important;
+    transition:  all linear .2s ;
+}
+
+.consult-items p {
+    color: #000;
+    text-align: right;
+    font-family: PeydaWebFaNum-N;   
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 14px */
+}
+
+.consult-item hr {
+    margin: 1px 0;
+    color: #c4bbbb;
+
+
+}
+
+.consult-item:nth-last-child(1) hr{
+    display: none;
+}
+
 /* responsive mobile part  */
 
 @media screen and (max-width:1040px) {
