@@ -1,6 +1,6 @@
-const windowWidth = window.innerWidth;
+const windowWidthd = window.innerWidth;  
 
-if (windowWidth <= 1990) {
+if (windowWidthd <= 1990) {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4.7,
     spaceBetween: 10,
@@ -18,7 +18,7 @@ if (windowWidth <= 1990) {
   });
 }
 
-if (windowWidth <= 1285) {
+if (windowWidthd <= 1285) {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4.2,
     spaceBetween: 10,
@@ -36,7 +36,7 @@ if (windowWidth <= 1285) {
   });
 }
 
-if (windowWidth <= 1000) {
+if (windowWidthd <= 1000) {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 4.2,
     spaceBetween: 10,
@@ -54,7 +54,7 @@ if (windowWidth <= 1000) {
   });
 
 }
-if (windowWidth <= 512) {
+if (windowWidthd <= 512) {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2.06,
     spaceBetween: 10,
@@ -71,7 +71,7 @@ if (windowWidth <= 512) {
 }
 
 // ths slider best ausbildungs 
-if (windowWidth <= 600) {
+if (windowWidthd <= 600) {
 
   var swiper = new Swiper(".best_ausbildungs", {
     slidesPerView: 1.17,
@@ -143,7 +143,7 @@ var swiperM = new Swiper(".mobile-comments", {
 
 // the trust logo slider 
 
-if (windowWidth > 1301) {
+if (windowWidthd > 1301) {
   var swiperTrust = new Swiper(".trust-section ", {
     slidesPerView: 7.7,
     spaceBetween: 10,
@@ -154,7 +154,7 @@ if (windowWidth > 1301) {
   });
 }
 
-if (windowWidth > 1000 && windowWidth < 1301) {
+if (windowWidthd > 1000 && windowWidth < 1301) {
   var swiperTrust = new Swiper(".trust-section ", {
     slidesPerView: 5.7,
     spaceBetween: 10,
@@ -167,7 +167,7 @@ if (windowWidth > 1000 && windowWidth < 1301) {
 
 }
 
-if (windowWidth < 550) {
+if (windowWidthd < 550) {
   var swiperTrust = new Swiper(".trust-section ", {
     slidesPerView: 2.4,
     spaceBetween: 3,
