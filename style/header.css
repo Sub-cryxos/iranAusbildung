@@ -500,6 +500,22 @@ and the navbar for nav  */
 
 /* mobile btns end  */
 
+
+.consult_request:hover .consult-list{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header-consult {
+    left: 64px;
+    top: 67px !important;
+}
+
+.sticky-consult {
+    left: 21rem;
+    top: 70px !important; 
+}
+
 /* Modal log in start  */
 
 .active-form-login {
