@@ -1,0 +1,36 @@
+/* this is the trust section  */
+
+.trust-section{
+    padding:  3em 3em 3em;
+    background-color: #F6F6F6 !important;
+
+}
+
+
+
+.trust_logo_box {
+    padding: 1rem;
+
+
+    width: 230px !important;
+    height: 66px;
+
+}
+
+.trust_logo_box img {
+    width: 100%;
+}
+
+.moving_arrow-comment {
+    margin-left: clamp(2.7rem, 2.8rem, 3rem);
+}
+
+div[mobile-comments] {
+    display: none;
+}
+
+@media screen and (max-width:1390px) {
+    .news-info {
+        width: 100%;
+    }
+}
