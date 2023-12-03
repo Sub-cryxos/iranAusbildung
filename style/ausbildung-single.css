@@ -1105,6 +1105,61 @@ div[desktop-hide-card] {
     height: 306.375px;
 }
 
+
+.compare-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.compare-text div {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.compare-text div .type-title {
+    font-family: PeydaWebFaNum5;
+    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000;
+    /* mask-type: 1rem; */
+}
+
+.compare-text div .saqure-red,
+.compare-text div .saqure-pink ,
+.compare-text div .saqure-blue,
+.compare-text div .saqure-whiteblue{
+    width: 2rem;
+    height: 2rem;
+    display: block;
+}
+
+.compare-text div .saqure-red {
+    background-color: var(--primary-color);
+}
+
+.compare-text div .saqure-pink {
+    background: #FFCACA;
+}
+
+.compare-text div .saqure-blue {
+        background-color: #4263E9;
+} 
+
+
+.compare-text div .saqure-whiteblue {
+    background-color: #DCE3FF;
+}
+
+
 /* end of the chart  */
 
 /* some responsive fix  */
