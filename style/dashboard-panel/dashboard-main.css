@@ -156,3 +156,8 @@ ausbildung_card.ausbildung_card_wrapper {
 }
 
 
+@media screen and (max-width:1550px) {
+    #only-xxl-margin {
+        margin-right: 37px;
+    }
+}

@@ -8,7 +8,7 @@ if (windowWidth <= 1990) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
     navigation: {
@@ -26,7 +26,7 @@ if (windowWidth <= 1285) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
     navigation: {
@@ -44,7 +44,7 @@ if (windowWidth <= 1000) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
     navigation: {
@@ -62,7 +62,7 @@ if (windowWidth <= 512) {
       el: ".swiper-pagination",
       clickable: true,
     }, autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
   });
@@ -77,7 +77,7 @@ if (windowWidth <= 600) {
     slidesPerView: 1.17,
     spaceBetween: 20,
     autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
 
@@ -94,7 +94,7 @@ if (windowWidth <= 600) {
     slidesPerView: 2.2,
     spaceBetween: 50,
     autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
 
@@ -114,7 +114,7 @@ var swiperComment = new Swiper(".desktop-comments", {
   slidesPerView: 2,
   spaceBetween: 10,
   autoplay: {
-    delay: 1000,
+    delay:2000,
     disableOnInteraction: false,
   },
 
@@ -135,7 +135,7 @@ var swiperM = new Swiper(".mobile-comments", {
     prevEl: " .moving-comment-arrow-l",
   },
   autoplay: {
-    delay: 1000,
+    delay: 2000,
     disableOnInteraction: false,
   }
 });
@@ -148,7 +148,7 @@ if (windowWidth > 1301) {
     slidesPerView: 7.7,
     spaceBetween: 10,
     autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
   });
@@ -159,7 +159,7 @@ if (windowWidth > 1000 && windowWidth < 1301) {
     slidesPerView: 5.7,
     spaceBetween: 10,
     autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
 
@@ -172,7 +172,7 @@ if (windowWidth < 550) {
     slidesPerView: 2.4,
     spaceBetween: 3,
     autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
 

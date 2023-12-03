@@ -310,10 +310,10 @@
 /* video article section start  */
 
 .video-offer {
-    height: 750px;
+    height: auto;
     background-color: #1D1E22;
 
-    /* padding: 0 0 20px 0; */
+    padding: 0 0 20px 0;
 }
 
 .tab-title-ul {

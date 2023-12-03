@@ -8,6 +8,7 @@
 .main_header,
 .mobile-header {
     background-color: var(--header-bg-color);
+
 }
 
 /* this is the navbar  */
@@ -279,6 +280,7 @@ and the navbar for nav  */
 
 .mobile-header {
     display: none;
+    margin: 70px 0 0 0 ;
 }
 
 
@@ -418,7 +420,7 @@ and the navbar for nav  */
     flex-direction: column;
     width: 100%;
     align-items: start;
-
+    gap: 2rem;
 }
 
 .mobile-menu-main .nav_item {

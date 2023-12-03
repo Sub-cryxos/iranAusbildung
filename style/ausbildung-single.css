@@ -26,10 +26,14 @@ body {
 
 .title_de-f {
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
+    /* gap: 5px; */
 }
 
-
+.designed_sharp {
+    /* margin-bottom: 5px; */
+    margin-top: -4px;
+}
 
 .page_title .title_de {
     font-size: clamp(2.4rem, 2.7rem, 3rem);
@@ -377,12 +381,12 @@ body {
 
 .job-info_box h1 {
     font-size: clamp(1.4rem, 1.6rem, 1.8rem);
-
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
     color: #000;
     font-family: moraba-medium;
+    margin-bottom: 20px;
 }
 
 .job-info_box .job-info .info-item {
@@ -982,6 +986,127 @@ div[desktop-hide-card] {
     padding: 5px 8px;
 }
 
+/* start of the chart  */
+
+.income-of-ausbildunbg {
+    margin-bottom: 3rem;
+}
+
+.MainCHarts .title-divider {
+    font-family: PeydaWebFaNum5;
+    /* margin-top: 2rem; */
+    font-size: clamp(1.5rem, 1.8rem, 2.2rem);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--primary-color);
+
+}
+.chatrs-content p {
+    font-family: PeydaWebFaNum15;
+    margin-top: 1.5rem;
+    color: var(--secondary-color, #1D1E22);
+    text-align: center;
+    font-family: Peyda(FaNum);
+    font-size: clamp(1.4rem,1.6rem,2rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.title-divider {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.charts-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    /* gap: 5rem; */
+    direction: ltr;
+    /* flex-wrap: wrap; */
+}
+
+.after-course,
+.thired-year {
+    display: flex;
+    gap: 5px;
+    align-items: end;
+}
+
+.chart {
+    width:  clamp(2.8rem,3vw, 5rem);
+    padding: 0px 8.313px 0px 9.5px;
+    border-radius: 11.875px;
+    background-color: var(--primary-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart span {
+    font-family: PeydaWebFaNum15;
+    font-size:clamp(1.3rem,1.4rem,2.1rem) ;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000  ;
+   
+}
+
+.chart:nth-child(odd) {
+    background-color: #FFCACA;
+    
+}
+
+.chart:nth-child(odd) ~ .chart span {
+    color: #fffcfc;
+}
+
+.chart:nth-child(3) {
+    background-color:  #DCE3FF;;
+}
+
+.chart:nth-last-child(1) {
+    background-color: #4263E9;
+}
+
+/* the classing for the charts are  */
+/* 2000 to up 306px  large*/
+/* 1500 to 2000 230px  middle*/
+/* 1200 to 1500 150px  mid-short*/
+/* 800 to 1200 70px short */
+.short {
+    height: 100.938px;}
+
+.mid-short {
+    height: 166.25px;
+}
+
+.middle {
+    height: 211.375px;
+}
+
+.s-large {
+    height: 263.625px;
+}
+
+.large {
+    height: 306.375px;
+}
+
+/* end of the chart  */
+
 /* some responsive fix  */
 @media screen and (max-width: 1140px) {
     .page_title {
@@ -1005,5 +1130,11 @@ div[desktop-hide-card] {
     .des_content_sec_multi_img img {
         max-width: 300px;
         height: 250px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .charts {
+        gap: 3rem;
     }
 }

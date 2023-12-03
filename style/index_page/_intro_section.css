@@ -340,5 +340,9 @@
         left: 24em;
         top: 94rem;
     }
+
+    .news-info {
+        width: 100% !important;
+    }
     
 }

@@ -39,6 +39,12 @@
 
 }
 
+.incomes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .salary-consult .salary-numb {
     font-size: 4em;
     font-weight: 400;
@@ -65,4 +71,23 @@
 .nav-pills {
     justify-content: space-around;
     width: 100%;
+}
+
+@media screen and (max-width:1550px) {
+    .salary-consult {
+        width: 25rem;
+    }
+
+    .incomes {
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .transaction_box {
+        width: 272px;
+    }
+
+    .wallet {
+        width: 286px;
+    }
 }

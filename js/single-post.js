@@ -1,5 +1,5 @@
-$(document).ready(function () {
-    $('.save-post').click((e)=>{
+$(document).ready(  function () {
+    $('.save-post').click(function () {
         $('.save-post').toggleClass('save-post-active');
     })
 
@@ -11,4 +11,16 @@ $(document).ready(function () {
     $('.dislike').click(function (e) { 
         $(e.target).toggleClass('active-dislike ');
     });
+
+   
+
+    $('.like-comment').click(function (e) { 
+        $(e.target).toggleClass('liked-comment-like');
+    });
+
+    
+    $('.dislike-comment').click(function (e) { 
+        $(e.target).toggleClass('disliked-comment-dislike');
+    });
+
 });
