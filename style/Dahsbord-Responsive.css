@@ -1,6 +1,18 @@
 @media screen and (max-width:750px) {
 
     /* responsive of main dashboard page  */
+    *[mobile-hide] {
+        display: none;
+    }
+
+    .mobile-header {
+        margin: 0 !important;
+    }
+
+    .sidebar-active {
+        display: block !important;
+    }
+
     .sidebar {
         display: none;
     }

@@ -17,5 +17,8 @@ $(document).ready(function () {
         $('.mobile-navbar').removeClass('mobile-navbar-active');
         
       });
-    
+  
+      $('.side-activator').click((e)=>{
+        $('.sidebar').toggleClass('sidebar-active');
+      })
 });

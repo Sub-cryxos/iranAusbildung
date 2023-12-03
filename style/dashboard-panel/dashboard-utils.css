@@ -384,3 +384,22 @@ tr:nth-child(odd) {
     font-weight: 500;
     line-height: normal;
 }
+
+
+@media screen and (max-width:850px) {
+    .sidebar .header .brand-logo p {
+        font-size: 10px;
+    }
+
+    .navbar-sidebar li {
+        padding: 5px 5px;
+    }
+
+    .navbar-sidebar li>a {
+        font-size: 10px;
+    }
+
+    .sidebar-footer p {
+        text-align: center;
+    }
+}
