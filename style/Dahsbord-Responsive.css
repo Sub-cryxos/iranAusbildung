@@ -5,6 +5,13 @@
         display: none;
     }
 
+    div[mobile-sidebar] {
+        position: fixed;
+        /* top: 20px; */
+        height: 100%;
+        z-index: 11111;
+    }
+
     .mobile-header {
         margin: 0 !important;
     }
