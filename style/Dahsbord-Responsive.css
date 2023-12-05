@@ -135,6 +135,10 @@
         margin-top: 1rem;
     }
 
+    #only-xxl-margin {
+        margin: 0;
+    }
+
     /* start of the responsive of your services  */
     .cv-wait {
         width: 100%;

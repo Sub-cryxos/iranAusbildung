@@ -8,27 +8,42 @@
     <link rel="stylesheet" href="./../../style/dashboard-panel/dashboard-utils.css">
     <link rel="stylesheet" href="./../../style/dashboard-panel/dashboard-main.css">
     <link rel="stylesheet" href="./../../style/Dahsbord-Responsive.css">
+    <link rel="stylesheet" href="./../../style/header.css">
+
     <title>دانشبورد</title>
 </head>
 
 <body dir="rtl">
-
     <!-- start of the side bar  -->
-
-
-    <div class="sidebar col-xxl-2 col-xl-3 col-md-3">
+    <div class="sidebar col-xxl-2 col-xl-3 col-md-3 col-sm-4" mobile-sidebar>
         <header class="header">
             <div class="brand-logo">
-                <img src="../../assets/Icons/solar_rocket-line-duotone.svg" alt="">
+                <img src="./../../assets/Icons/solar_rocket-line-duotone.svg" alt="">
                 <p class="brand-title">ایـــران آوسـبـیـلـدونـــگ</p>
+                <div class="mobile-header-close">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <g clip-path="url(#clip0_1943_605)">
+                                <path
+                                    d="M6.0706 3.24333L2.33337 6.99999L6.0706 10.7567C6.10435 10.801 6.14723 10.8375 6.19634 10.8638C6.24544 10.8902 6.29963 10.9056 6.35523 10.9092C6.41083 10.9127 6.46654 10.9043 6.51859 10.8844C6.57064 10.8645 6.61782 10.8337 6.65693 10.7941C6.69605 10.7544 6.72618 10.7068 6.74529 10.6544C6.7644 10.6021 6.77204 10.5463 6.7677 10.4908C6.76336 10.4352 6.74713 10.3812 6.72012 10.3325C6.69311 10.2838 6.65595 10.2414 6.61115 10.2083L3.81504 7.38888L11.2545 7.38888C11.3576 7.38888 11.4565 7.34791 11.5295 7.27498C11.6024 7.20205 11.6434 7.10313 11.6434 6.99999C11.6434 6.89685 11.6024 6.79794 11.5295 6.72501C11.4565 6.65207 11.3576 6.6111 11.2545 6.6111L3.81504 6.6111L6.61115 3.79166C6.68387 3.71843 6.72451 3.61931 6.72415 3.51612C6.72378 3.41292 6.68244 3.31409 6.60921 3.24138C6.53598 3.16867 6.43686 3.12802 6.33367 3.12839C6.23047 3.12875 6.13164 3.1701 6.05893 3.24333L6.0706 3.24333Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1943_605">
+                                    <rect width="14" height="14" fill="white" transform="translate(0 14) rotate(-90)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                </div>
             </div>
 
             <div class="div-line"></div>
 
             <nav class="navbar-sidebar">
                 <ul>
-                    <li class="active-navbar"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                            viewBox="0 0 20 20" fill="none">
+                    <li class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                            fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M3.73203 1.33301H3.66536C3.36003 1.33301 3.09736 1.33301 2.86536 1.38767C2.50621 1.47349 2.17783 1.65707 1.91661 1.91806C1.65538 2.17905 1.47151 2.50727 1.38536 2.86634C1.33203 3.09834 1.33203 3.35967 1.33203 3.66634V6.99967C1.33203 7.30501 1.33203 7.56767 1.3867 7.79967C1.47252 8.15883 1.65609 8.48721 1.91708 8.74843C2.17807 9.00966 2.50629 9.19353 2.86536 9.27967C3.09736 9.33301 3.3587 9.33301 3.66536 9.33301H6.9987C7.30403 9.33301 7.5667 9.33301 7.7987 9.27834C8.15785 9.19252 8.48623 9.00895 8.74746 8.74796C9.00868 8.48696 9.19255 8.15875 9.2787 7.79967C9.33203 7.56767 9.33203 7.30634 9.33203 6.99967V3.66634C9.33203 3.36101 9.33203 3.09834 9.27736 2.86634C9.19154 2.50719 9.00797 2.17881 8.74698 1.91758C8.48599 1.65636 8.15777 1.47248 7.7987 1.38634C7.5667 1.33301 7.30536 1.33301 6.9987 1.33301H3.73203ZM3.17603 2.68501C3.23336 2.67167 3.3227 2.66634 3.73203 2.66634H6.93203C7.3427 2.66634 7.4307 2.67034 7.48803 2.68501C7.6078 2.71365 7.7173 2.77491 7.80438 2.86199C7.89146 2.94907 7.95272 3.05857 7.98136 3.17834C7.9947 3.23434 7.9987 3.32234 7.9987 3.73301V6.93301C7.9987 7.34367 7.9947 7.43167 7.98003 7.48901C7.95139 7.60878 7.89013 7.71828 7.80305 7.80536C7.71597 7.89244 7.60647 7.9537 7.4867 7.98234C7.43203 7.99434 7.34403 7.99967 6.93203 7.99967H3.73203C3.32136 7.99967 3.23336 7.99567 3.17603 7.98101C3.05626 7.95237 2.94676 7.89111 2.85968 7.80403C2.7726 7.71695 2.71134 7.60745 2.6827 7.48767C2.6707 7.43301 2.66536 7.34501 2.66536 6.93301V3.73301C2.66536 3.32234 2.66936 3.23434 2.68403 3.17701C2.71267 3.05723 2.77393 2.94774 2.86101 2.86066C2.94809 2.77357 3.05759 2.71232 3.17736 2.68367L3.17603 2.68501ZM13.0654 1.33301H12.9987C12.6934 1.33301 12.4307 1.33301 12.1987 1.38767C11.8395 1.47349 11.5112 1.65707 11.2499 1.91806C10.9887 2.17905 10.8048 2.50727 10.7187 2.86634C10.6654 3.09834 10.6654 3.35967 10.6654 3.66634V6.99967C10.6654 7.30501 10.6654 7.56767 10.72 7.79967C10.8059 8.15883 10.9894 8.48721 11.2504 8.74843C11.5114 9.00966 11.8396 9.19353 12.1987 9.27967C12.4307 9.33301 12.692 9.33301 12.9987 9.33301H16.332C16.6374 9.33301 16.9 9.33301 17.132 9.27834C17.4912 9.19252 17.8196 9.00895 18.0808 8.74796C18.342 8.48696 18.5259 8.15875 18.612 7.79967C18.6654 7.56767 18.6654 7.30634 18.6654 6.99967V3.66634C18.6654 3.36101 18.6654 3.09834 18.6107 2.86634C18.5249 2.50719 18.3413 2.17881 18.0803 1.91758C17.8193 1.65636 17.4911 1.47248 17.132 1.38634C16.9 1.33301 16.6387 1.33301 16.332 1.33301H13.0654ZM12.5094 2.68501C12.5667 2.67167 12.656 2.66634 13.0654 2.66634H16.2654C16.676 2.66634 16.764 2.67034 16.8214 2.68501C16.9411 2.71365 17.0506 2.77491 17.1377 2.86199C17.2248 2.94907 17.2861 3.05857 17.3147 3.17834C17.328 3.23434 17.332 3.32234 17.332 3.73301V6.93301C17.332 7.34367 17.3267 7.43167 17.3134 7.48901C17.2847 7.60878 17.2235 7.71828 17.1364 7.80536C17.0493 7.89244 16.9398 7.9537 16.82 7.98234C16.764 7.99567 16.676 7.99967 16.2654 7.99967H13.0654C12.6547 7.99967 12.5667 7.99567 12.5094 7.98101C12.3896 7.95237 12.2801 7.89111 12.193 7.80403C12.1059 7.71695 12.0447 7.60745 12.016 7.48767C12.004 7.43301 11.9987 7.34501 11.9987 6.93301V3.73301C11.9987 3.32234 12.0027 3.23434 12.0174 3.17701C12.046 3.05723 12.1073 2.94774 12.1943 2.86066C12.2814 2.77357 12.3909 2.71232 12.5107 2.68367L12.5094 2.68501ZM3.66536 10.6663H6.9987C7.30403 10.6663 7.5667 10.6663 7.7987 10.721C8.15785 10.8068 8.48623 10.9904 8.74746 11.2514C9.00868 11.5124 9.19255 11.8406 9.2787 12.1997C9.33203 12.4317 9.33203 12.693 9.33203 12.9997V16.333C9.33203 16.6383 9.33203 16.901 9.27736 17.133C9.19154 17.4922 9.00797 17.8205 8.74698 18.0818C8.48599 18.343 8.15777 18.5269 7.7987 18.613C7.5667 18.6663 7.30536 18.6663 6.9987 18.6663H3.66536C3.36003 18.6663 3.09736 18.6663 2.86536 18.6117C2.50621 18.5259 2.17783 18.3423 1.91661 18.0813C1.65538 17.8203 1.47151 17.4921 1.38536 17.133C1.33203 16.901 1.33203 16.6397 1.33203 16.333V12.9997C1.33203 12.6943 1.33203 12.4317 1.3867 12.1997C1.47252 11.8405 1.65609 11.5121 1.91708 11.2509C2.17807 10.9897 2.50629 10.8058 2.86536 10.7197C3.09736 10.6663 3.3587 10.6663 3.66536 10.6663ZM3.73203 11.9997C3.32136 11.9997 3.23336 12.0037 3.17603 12.0183C3.05626 12.047 2.94676 12.1082 2.85968 12.1953C2.7726 12.2824 2.71134 12.3919 2.6827 12.5117C2.6707 12.5663 2.66536 12.6543 2.66536 13.0663V16.2663C2.66536 16.677 2.66936 16.765 2.68403 16.8223C2.71267 16.9421 2.77393 17.0516 2.86101 17.1387C2.94809 17.2258 3.05759 17.287 3.17736 17.3157C3.23336 17.329 3.32136 17.333 3.73203 17.333H6.93203C7.3427 17.333 7.4307 17.3277 7.48803 17.3143C7.6078 17.2857 7.7173 17.2244 7.80438 17.1374C7.89146 17.0503 7.95272 16.9408 7.98136 16.821C7.9947 16.765 7.9987 16.677 7.9987 16.2663V13.0663C7.9987 12.6557 7.9947 12.5677 7.98003 12.5103C7.95139 12.3906 7.89013 12.2811 7.80305 12.194C7.71597 12.1069 7.60647 12.0456 7.4867 12.017C7.43203 12.005 7.34403 11.9997 6.93203 11.9997H3.73203ZM13.0654 10.6663H12.9987C12.6934 10.6663 12.4307 10.6663 12.1987 10.721C11.8395 10.8068 11.5112 10.9904 11.2499 11.2514C10.9887 11.5124 10.8048 11.8406 10.7187 12.1997C10.6654 12.4317 10.6654 12.693 10.6654 12.9997V16.333C10.6654 16.6383 10.6654 16.901 10.72 17.133C10.8059 17.4922 10.9894 17.8205 11.2504 18.0818C11.5114 18.343 11.8396 18.5269 12.1987 18.613C12.4307 18.6677 12.6934 18.6677 12.9987 18.6677H16.332C16.6374 18.6677 16.9 18.6677 17.132 18.613C17.4909 18.527 17.819 18.3433 18.08 18.0823C18.341 17.8213 18.5247 17.4932 18.6107 17.1343C18.6654 16.9023 18.6654 16.6397 18.6654 16.3343V12.9997C18.6654 12.6943 18.6654 12.4317 18.6107 12.1997C18.5249 11.8405 18.3413 11.5121 18.0803 11.2509C17.8193 10.9897 17.4911 10.8058 17.132 10.7197C16.9 10.6663 16.6387 10.6663 16.332 10.6663H13.0654ZM12.5094 12.0183C12.5667 12.005 12.656 11.9997 13.0654 11.9997H16.2654C16.676 11.9997 16.764 12.0037 16.8214 12.0183C16.9411 12.047 17.0506 12.1082 17.1377 12.1953C17.2248 12.2824 17.2861 12.3919 17.3147 12.5117C17.328 12.5677 17.332 12.6557 17.332 13.0663V16.2663C17.332 16.677 17.3267 16.765 17.3134 16.8223C17.2847 16.9421 17.2235 17.0516 17.1364 17.1387C17.0493 17.2258 16.9398 17.287 16.82 17.3157C16.764 17.329 16.676 17.333 16.2654 17.333H13.0654C12.6547 17.333 12.5667 17.3277 12.5094 17.3143C12.3896 17.2857 12.2801 17.2244 12.193 17.1374C12.1059 17.0503 12.0447 16.9408 12.016 16.821C12.004 16.7663 11.9987 16.6783 11.9987 16.2663V13.0663C11.9987 12.6557 12.0027 12.5677 12.0174 12.5103C12.046 12.3906 12.1073 12.2811 12.1943 12.194C12.2814 12.1069 12.3909 12.0456 12.5107 12.017L12.5094 12.0183Z"
                                 fill="white" />
@@ -53,7 +68,8 @@
                         </svg><a href="" class="">لیست خدمات شما</a></li>
 
 
-                    <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <li class="active-navbar"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 20 20" fill="none">
                             <path
                                 d="M14.1104 7.47084C13.8873 5.7949 13.0359 4.26628 11.7285 3.19426C10.4211 2.12224 8.75527 1.58686 7.06811 1.69645C5.38094 1.80604 3.7984 2.55242 2.64066 3.78456C1.48293 5.01671 0.836449 6.64262 0.832031 8.33334C0.832031 9.91 1.37953 11.3592 2.29536 12.5008C2.9687 13.3417 3.33203 14.2708 3.33203 15.255V18.3333H10.832L10.8329 15.8333H12.4987C12.9407 15.8333 13.3646 15.6577 13.6772 15.3452C13.9898 15.0326 14.1654 14.6087 14.1654 14.1667V11.7258L15.7987 11.0258C16.0837 10.9042 16.1087 10.6142 15.9854 10.42L14.1104 7.47V7.47084ZM2.4987 8.33334C2.49742 7.06269 2.97996 5.83922 3.84826 4.91153C4.71656 3.98385 5.90549 3.42155 7.17344 3.33889C8.4414 3.25624 9.69327 3.65942 10.6747 4.46653C11.656 5.27364 12.2933 6.42411 12.457 7.68417L12.5045 8.0525L13.7904 10.0733L12.4987 10.6267V14.1667H9.16703L9.16536 16.6667H4.9987V15.255C4.9987 13.8892 4.5062 12.595 3.59453 11.4583C2.88287 10.5725 2.49613 9.46962 2.4987 8.33334ZM17.627 15.085L16.2395 14.16C17.0625 12.9289 17.5008 11.4809 17.4987 10C17.5013 8.51894 17.0633 7.07058 16.2404 5.83917L17.627 4.91417C18.633 6.41927 19.1685 8.18965 19.1654 10C19.1654 11.8817 18.5987 13.63 17.627 15.085Z"
                                 fill="#F8F8F8" />
@@ -76,15 +92,53 @@
             </div>
         </footer>
     </div>
-
-
-
     <!-- end of the side bar  -->
+
 
     <!-- this is the main content of dashboard that container header and content start  -->
     <div class="container-fluid">
 
         <div class="row ">
+             <!-- the responsive mobile header  -->
+             <div class="mobile-header container-fluid">
+                <div class="row ">
+                    <div class="col-2">
+                        <button class="side-activator">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                fill="none">
+                                <rect width="30" height="30" rx="5" fill="#25262A" />
+                                <path
+                                    d="M21.7551 15.4898H8.69941C8.51392 15.4898 8.33602 15.4043 8.20485 15.2522C8.07369 15.1001 8 14.8937 8 14.6786C8 14.4634 8.07369 14.2571 8.20485 14.1049C8.33602 13.9528 8.51392 13.8673 8.69941 13.8673H21.7551C21.9406 13.8673 22.1185 13.9528 22.2497 14.1049C22.3809 14.2571 22.4545 14.4634 22.4545 14.6786C22.4545 14.8937 22.3809 15.1001 22.2497 15.2522C22.1185 15.4043 21.9406 15.4898 21.7551 15.4898ZM21.7551 10.6224H8.69941C8.51392 10.6224 8.33602 10.537 8.20485 10.3848C8.07369 10.2327 8 10.0264 8 9.81122C8 9.59607 8.07369 9.38974 8.20485 9.2376C8.33602 9.08547 8.51392 9 8.69941 9H21.7551C21.9406 9 22.1185 9.08547 22.2497 9.2376C22.3809 9.38974 22.4545 9.59607 22.4545 9.81122C22.4545 10.0264 22.3809 10.2327 22.2497 10.3848C22.1185 10.537 21.9406 10.6224 21.7551 10.6224ZM21.7551 20.3571H8.69941C8.51392 20.3571 8.33602 20.2717 8.20485 20.1195C8.07369 19.9674 8 19.7611 8 19.5459C8 19.3308 8.07369 19.1244 8.20485 18.9723C8.33602 18.8202 8.51392 18.7347 8.69941 18.7347H21.7551C21.9406 18.7347 22.1185 18.8202 22.2497 18.9723C22.3809 19.1244 22.4545 19.3308 22.4545 19.5459C22.4545 19.7611 22.3809 19.9674 22.2497 20.1195C22.1185 20.2717 21.9406 20.3571 21.7551 20.3571Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="col-8">
+                        <div class="top-bar">
+                            <div class="logo-top"><img src="./../../assets/images/logo.svg" alt="logo"></div>
+                            <div class="text-top"> <a href="#">ایـــران آوسـبـیـلـدونـــگ</a></div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-2">
+                        <a href="" class="mobile-svg">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                                    fill="none">
+                                    <rect width="30" height="30" rx="5" fill="#25262A" />
+                                    <path opacity="0.2"
+                                        d="M21.6155 18.6461C21.5053 19.4697 21.0997 20.2253 20.4742 20.7722C19.8487 21.3192 19.0458 21.6204 18.2148 21.6198C15.6562 21.6198 13.2023 20.6033 11.393 18.7941C9.58381 16.9849 8.56738 14.531 8.56738 11.9723C8.56675 11.1414 8.86793 10.3385 9.41491 9.71295C9.96189 9.08742 10.7174 8.68183 11.5411 8.57162C11.6628 8.55716 11.786 8.58251 11.8921 8.64389C11.9982 8.70527 12.0817 8.79938 12.1298 8.91212L13.6287 12.2603C13.6656 12.3463 13.6806 12.4401 13.6724 12.5333C13.6642 12.6265 13.6331 12.7162 13.5819 12.7945L12.066 14.597C12.0122 14.6781 11.9804 14.7719 11.9737 14.869C11.967 14.9661 11.9856 15.0633 12.0277 15.151C12.6143 16.352 13.8557 17.5785 15.0602 18.1595C15.1485 18.2014 15.2461 18.2196 15.3435 18.2122C15.4409 18.2049 15.5347 18.1723 15.6157 18.1176L17.3891 16.6067C17.4677 16.5544 17.5581 16.5225 17.6521 16.5139C17.7461 16.5054 17.8408 16.5204 17.9275 16.5577L21.2729 18.0566C21.3862 18.1045 21.4808 18.1878 21.5426 18.2942C21.6044 18.4005 21.63 18.524 21.6155 18.6461Z"
+                                        fill="white" />
+                                    <path
+                                        d="M16.5316 8.98801C16.5509 8.91599 16.5841 8.84847 16.6295 8.78931C16.6749 8.73015 16.7314 8.68051 16.796 8.64322C16.8606 8.60593 16.9318 8.58173 17.0057 8.572C17.0797 8.56227 17.1548 8.5672 17.2268 8.58651C18.2788 8.86099 19.2387 9.41097 20.0075 10.1798C20.7763 10.9486 21.3263 11.9084 21.6008 12.9605C21.6201 13.0325 21.625 13.1076 21.6153 13.1815C21.6055 13.2554 21.5813 13.3267 21.544 13.3913C21.5068 13.4558 21.4571 13.5124 21.3979 13.5578C21.3388 13.6031 21.2713 13.6364 21.1992 13.6557C21.1513 13.6683 21.102 13.6747 21.0524 13.6748C20.9274 13.6748 20.8058 13.6335 20.7066 13.5573C20.6075 13.4811 20.5363 13.3743 20.5041 13.2534C20.2802 12.3946 19.8313 11.6111 19.2038 10.9835C18.5762 10.3559 17.7926 9.90706 16.9338 9.68319C16.8617 9.664 16.7941 9.63079 16.7349 9.58546C16.6757 9.54012 16.6259 9.48355 16.5886 9.41899C16.5512 9.35442 16.527 9.28312 16.5172 9.20917C16.5074 9.13522 16.5123 9.06007 16.5316 8.98801ZM16.3663 11.9532C17.3445 12.2142 17.973 12.8427 18.2341 13.8209C18.2663 13.9418 18.3375 14.0486 18.4367 14.1248C18.5358 14.201 18.6574 14.2423 18.7824 14.2423C18.832 14.2422 18.8813 14.2357 18.9293 14.2232C19.0013 14.2039 19.0688 14.1706 19.128 14.1253C19.1871 14.0799 19.2368 14.0233 19.2741 13.9588C19.3113 13.8942 19.3355 13.8229 19.3453 13.749C19.355 13.6751 19.3501 13.6 19.3308 13.528C18.9676 12.1688 18.0184 11.2197 16.6593 10.8565C16.5873 10.8373 16.5122 10.8324 16.4383 10.8422C16.3644 10.852 16.2932 10.8762 16.2286 10.9135C16.1641 10.9508 16.1076 11.0005 16.0623 11.0597C16.0169 11.1188 15.9837 11.1863 15.9645 11.2583C15.9452 11.3304 15.9404 11.4054 15.9501 11.4793C15.9599 11.5532 15.9842 11.6245 16.0215 11.689C16.0588 11.7535 16.1085 11.81 16.1676 11.8554C16.2268 11.9007 16.2943 11.9339 16.3663 11.9532ZM22.1789 18.717C22.0524 19.6782 21.5803 20.5605 20.8509 21.1991C20.1214 21.8378 19.1844 22.189 18.2149 22.1872C12.5825 22.1872 8.00001 17.6047 8.00001 11.9723C7.99827 11.0028 8.3495 10.0658 8.98811 9.33638C9.62672 8.60691 10.509 8.13485 11.4702 8.00837C11.7133 7.97869 11.9595 8.02842 12.1719 8.15013C12.3844 8.27184 12.5518 8.45901 12.6492 8.68369L14.1474 12.0284V12.0369C14.222 12.2089 14.2527 12.3966 14.237 12.5834C14.2213 12.7702 14.1596 12.9502 14.0573 13.1073C14.0445 13.1265 14.0311 13.1442 14.0169 13.1619L12.54 14.9127C13.0713 15.9923 14.2006 17.1117 15.2945 17.6444L17.0211 16.1753C17.038 16.1611 17.0558 16.1478 17.0743 16.1356C17.2312 16.0309 17.4118 15.967 17.5997 15.9497C17.7876 15.9323 17.9769 15.9621 18.1504 16.0363L18.1596 16.0406L21.5014 17.538C21.7265 17.6351 21.9141 17.8023 22.0363 18.0149C22.1584 18.2274 22.2084 18.4737 22.1789 18.717ZM21.0524 18.5751H21.0446L17.7106 17.0819L15.9833 18.551C15.9665 18.5652 15.949 18.5785 15.9308 18.5907C15.7674 18.6997 15.5786 18.7644 15.3828 18.7786C15.187 18.7928 14.9908 18.7559 14.8135 18.6716C13.4849 18.0296 12.1605 16.7152 11.5178 15.4007C11.4327 15.2247 11.3945 15.0297 11.4069 14.8345C11.4193 14.6394 11.482 14.4508 11.5887 14.287C11.6007 14.2678 11.6143 14.2495 11.6291 14.2324L13.1075 12.4795L11.6178 9.14549C11.6175 9.14266 11.6175 9.13981 11.6178 9.13698C10.9299 9.22671 10.2983 9.56413 9.84125 10.0861C9.38423 10.608 9.13314 11.2786 9.135 11.9723C9.13763 14.3797 10.0951 16.6877 11.7974 18.3899C13.4996 20.0922 15.8076 21.0496 18.2149 21.0523C18.9082 21.0546 19.5787 20.8044 20.1009 20.3484C20.6231 19.8924 20.9614 19.2617 21.0524 18.5744V18.5751Z"
+                                        fill="white" />
+                                </svg></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- the responsive mobile header  -->
             <div class="dashboad-content col-xxl-12 col-xl-12 col-md-12">
                 <!-- start of the header  -->
                 <header class="header-info">
@@ -467,7 +521,8 @@
                 <!-- the services box is here  -->
 
                 <div class="row gap-xxl-5">
-                    <div class="dashboard-content-main-box col-xxl-5 col-xl-10 offset-xxl-0 offset-xl-1   offset-md-0 mt-5" id="only-xxl-margin" >
+                    <div class="dashboard-content-main-box col-xxl-5 col-xl-10 offset-xxl-0 offset-xl-1   offset-md-0 mt-5"
+                        id="only-xxl-margin">
                         <header class="d-flex justify-content-between">
                             <div class="content-title d-flex align-items-center gap-2">
                                 <span><img src="../../assets/Icons/cil_education.svg" alt=""></span>
@@ -510,10 +565,10 @@
                         <!-- this is content of the tabs  -->
                         <div class="tab-content" id="pills-tabContent">
                             <!-- همه  -->
-                            <div  class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab">
 
-                                <table desktop-show> 
+                                <table desktop-show>
                                     <tr>
                                         <th class="t-header">نوع جلسه</th>
                                         <th class="t-header">تاریخ تحویل</th>
@@ -524,27 +579,27 @@
                                         <td class="table-content ">بررسی رزومه و انگیزه نامه</td>
                                         <td class="table-content">1402/05/08</td>
                                         <td class="table-content processing">در حال انجام</td>
-                                        <td class="table-content"><a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"
-                                            alt=""></a></td>
+                                        <td class="table-content"><a href=""><img
+                                                    src="../../assets/Icons/clarity_arrow-line.svg" alt=""></a></td>
                                     </tr>
                                     <tr>
                                         <td class="table-content">بررسی رزومه و انگیزه نامه</td>
                                         <td class="table-content">1402/05/08</td>
                                         <td class="table-content done">در حال انجام</td>
-                                        <td class="table-content"><a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"
-                                            alt=""></a></td>
+                                        <td class="table-content"><a href=""><img
+                                                    src="../../assets/Icons/clarity_arrow-line.svg" alt=""></a></td>
                                     </tr>
                                     <tr>
                                         <td class="table-content">بررسی رزومه و انگیزه نامه</td>
                                         <td class="table-content">1402/05/08</td>
                                         <td class="table-content">در حال انجام</td>
-                                        <td class="table-content"><a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"
-                                            alt=""></a></td>
+                                        <td class="table-content"><a href=""><img
+                                                    src="../../assets/Icons/clarity_arrow-line.svg" alt=""></a></td>
                                     </tr>
 
                                 </table>
                                 <!-- this particle wrote for the responsive that need to get intel here on responsive  -->
-                                <div class="mobile-sevices-box"   mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
@@ -559,7 +614,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing">در حال انجام</span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
 
@@ -578,7 +633,7 @@
                                                 <span class="processing">در حال انجام</span>
 
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
 
@@ -597,16 +652,16 @@
                                                 <span class="processing">در حال انجام</span>
 
                                             </div>
-                                            <a href=""><img src ="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
                                 </div>
-                            </div>             
+                            </div>
 
                             <!-- درحال انجام  -->
-                            <div  class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
                                 aria-labelledby="pills-profile-tab">
-                                <table desktop-show >
+                                <table desktop-show>
                                     <tr>
                                         <th class="t-header">نوع جلسه</th>
                                         <th class="t-header">تاریخ تحویل</th>
@@ -638,7 +693,7 @@
                                 </table>
                                 <!-- this particle wrote for the responsive that need to get intel here on responsive  -->
 
-                                <div class="mobile-sevices-box"  mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
@@ -654,7 +709,7 @@
                                                 <span class="processing">در حال 22انجام</span>
 
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
 
@@ -673,7 +728,7 @@
                                                 <span class="processing">در حال انجام</span>
 
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
 
@@ -692,7 +747,7 @@
                                                 <span class="processing">در حال انجام</span>
 
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -735,7 +790,7 @@
                                 </table>
                                 <!-- this particle wrote for the responsive that need to get intel here on responsive  -->
 
-                                <div class="mobile-sevices-box"  mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
@@ -750,7 +805,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="done">انجام شده </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
 
@@ -769,7 +824,7 @@
                                                 <span class="done">انجام شده </span>
 
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
 
@@ -788,7 +843,7 @@
                                                 <span class="done">انجام شده </span>
 
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -797,7 +852,8 @@
 
                     </div>
 
-                    <div class="dashboard-content-main-box col-xxl-6 col-xl-10 offset-xxl-0 offset-xl-1  offset-md-0 mt-5" >
+                    <div
+                        class="dashboard-content-main-box col-xxl-6 col-xl-10 offset-xxl-0 offset-xl-1  offset-md-0 mt-5">
                         <header class="d-flex justify-content-between">
                             <div class="content-title d-flex align-items-center gap-2">
                                 <span><img src="../../assets/Icons/cil_education.svg" alt=""></span>
@@ -903,7 +959,7 @@
 
                                 </table>
 
-                                <div class="mobile-sevices-box"  mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
@@ -915,7 +971,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -926,7 +982,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -942,7 +998,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -953,7 +1009,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -969,7 +1025,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -980,7 +1036,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="done"> انجام شده</span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -989,8 +1045,7 @@
                             </div>
 
                             <!-- درتحصیلی  -->
-                            <div  class="tab-pane fade" id="pills-tab-edu" role="tabpanel"
-                                aria-labelledby="pills-edu">
+                            <div class="tab-pane fade" id="pills-tab-edu" role="tabpanel" aria-labelledby="pills-edu">
                                 <table desktop-show>
                                     <tr>
                                         <th class="t-header">نوع مشاوره </th>
@@ -1021,11 +1076,11 @@
 
                                 </table>
 
-                                <div class="mobile-sevices-box"  mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
-                                            <span class="infos-Bx">  مشاوره تحصیلی </span>
+                                            <span class="infos-Bx"> مشاوره تحصیلی </span>
                                         </div>
 
                                         <div class="sevices-box-item">
@@ -1033,7 +1088,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1044,7 +1099,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1052,7 +1107,7 @@
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
-                                            <span class="infos-Bx">  مشاوره تحصیلی </span>
+                                            <span class="infos-Bx"> مشاوره تحصیلی </span>
                                         </div>
 
                                         <div class="sevices-box-item">
@@ -1060,7 +1115,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1071,15 +1126,15 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
 
-                                       <div class="sevices-boxs">
+                                    <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
-                                            <span class="infos-Bx">  مشاوره تحصیلی </span>
+                                            <span class="infos-Bx"> مشاوره تحصیلی </span>
                                         </div>
 
                                         <div class="sevices-box-item">
@@ -1087,7 +1142,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1098,7 +1153,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="done"> انجام شده</span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1139,11 +1194,11 @@
 
                                 </table>
 
-                                <div class="mobile-sevices-box"  mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
-                                            <span class="infos-Bx">مشاوره نظام وظیفه  </span>
+                                            <span class="infos-Bx">مشاوره نظام وظیفه </span>
                                         </div>
 
                                         <div class="sevices-box-item">
@@ -1151,7 +1206,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1162,7 +1217,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1170,7 +1225,7 @@
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
-                                            <span class="infos-Bx">مشاوره نظام وظیفه  </span>
+                                            <span class="infos-Bx">مشاوره نظام وظیفه </span>
                                         </div>
 
                                         <div class="sevices-box-item">
@@ -1178,7 +1233,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1189,7 +1244,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1197,7 +1252,7 @@
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
-                                            <span class="infos-Bx">مشاوره نظام وظیفه  </span>
+                                            <span class="infos-Bx">مشاوره نظام وظیفه </span>
                                         </div>
 
                                         <div class="sevices-box-item">
@@ -1205,7 +1260,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1214,9 +1269,9 @@
                                         <div class="sevices-box-item">
                                             <div>
                                                 <span class="titles"> وضعیت:</span>
-                                                <span class="done">  انجام شده </span>
+                                                <span class="done"> انجام شده </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1225,8 +1280,7 @@
                             </div>
 
                             <!-- کاری  -->
-                            <div class="tab-pane fade" id="pills-job-tab" role="tabpanel"
-                                aria-labelledby="pills-job">
+                            <div class="tab-pane fade" id="pills-job-tab" role="tabpanel" aria-labelledby="pills-job">
                                 <table desktop-show>
                                     <tr>
                                         <th class="t-header">نوع مشاوره </th>
@@ -1257,7 +1311,7 @@
 
                                 </table>
 
-                                <div class="mobile-sevices-box"  mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
@@ -1269,7 +1323,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1280,7 +1334,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1296,7 +1350,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1307,7 +1361,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1323,7 +1377,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1334,7 +1388,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="done"> انجام شده</span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1376,7 +1430,7 @@
 
                                 </table>
 
-                                <div class="mobile-sevices-box"  mobile-show>
+                                <div class="mobile-sevices-box" mobile-show>
                                     <div class="sevices-boxs">
                                         <div class="sevices-box-item">
                                             <span class="titles">نوع جلسه:</span>
@@ -1388,7 +1442,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1399,7 +1453,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1415,7 +1469,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1426,7 +1480,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="processing"> درحال انجام </span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1442,7 +1496,7 @@
                                             <span>سینا شاطریان</span>
                                         </div>
 
-                                        
+
                                         <div class="sevices-box-item">
                                             <span class="titles">تاریخ تحویل:</span>
                                             <span>1402/05/08</span>
@@ -1453,7 +1507,7 @@
                                                 <span class="titles"> وضعیت:</span>
                                                 <span class="done"> انجام شده</span>
                                             </div>
-                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg"/></a>
+                                            <a href=""><img src="../../assets/Icons/clarity_arrow-line.svg" /></a>
 
                                         </div>
                                     </div>
@@ -1472,6 +1526,10 @@
     </div>
     <!-- this is the main content of dashboard that container header and content end  -->
     <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script src="./../../jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./../../js/header.js"></script>
+    <script src="./../../js/dashboard-siderbar.js"></script>
+
 
 </body>
 
