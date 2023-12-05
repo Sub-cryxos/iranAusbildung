@@ -27,7 +27,7 @@
 .salary-consult span{
     color: #FFF;
     font-family: PeydaWebFaNum15;
-    font-size: 2em;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -46,7 +46,7 @@
 }
 
 .salary-consult .salary-numb {
-    font-size: 4em;
+    font-size: 3.5rem;
     font-weight: 400;
   
 }
