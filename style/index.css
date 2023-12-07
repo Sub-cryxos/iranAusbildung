@@ -10,3 +10,11 @@ body{
     background: #fff !important;
 }
 
+
+/* becuase of an mines margin we need this in here  */
+
+@media screen and (max-width:850px) {
+    .salary_ausbildung ul>li {
+        padding:  0 2px;
+    }
+}

@@ -468,6 +468,12 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
+.accessibility-header-fade {
+    visibility: 0;
+    opacity: 0;
+    transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .similar-header {
     padding: 17px 15px 10px 10px;
 
@@ -789,6 +795,7 @@ body {
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    margin-top: 2rem;
 }
 
 .load-more a {

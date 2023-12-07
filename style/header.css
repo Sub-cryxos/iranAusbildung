@@ -113,7 +113,7 @@
 }
 
 .sub-menu-services li {
-    padding: 1.1rem 1rem;
+    padding: 2.1rem 1rem;
 }
 
 .sub-menu-service::-webkit-scrollbar {
@@ -278,10 +278,10 @@ and the navbar for nav  */
 }
 
 
-.mobile-header {
-    display: none;
-    margin: 70px 0 0 0 ;
-}
+    .mobile-header {
+        display: none;
+        margin: 70px 0 0 0 ;
+    }
 
 
 /* the float header  */

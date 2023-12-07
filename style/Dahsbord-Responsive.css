@@ -44,7 +44,7 @@
 
     .popular-asubildung_pic img {
         width: 144.857px;
-        height: 153.549px;
+        height: 130.549px;
         transform: scale(1.0);
     }
 
@@ -88,7 +88,7 @@
     }
 
     .shitf {
-        top: 18px;
+        top: 26px;
         left: 174px;
         padding: 2px 0px 0px 6px;
         width: 60px;
@@ -101,7 +101,7 @@
     }
 
     .saved_post {
-        top: 16px;
+        top:26px;
         right: 23px;
         background-color: #ffffff8e;
         border-radius: 5px;

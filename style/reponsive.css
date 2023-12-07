@@ -50,7 +50,7 @@
 
 
     .big_highlight>p {
-        font-size: clamp(0.4rem, 2.1rem, 2.8rem);
+        font-size: clamp(0.4rem, 2.5rem, 2.8rem);
 
     }
 
@@ -481,13 +481,18 @@
 
 
     .ausbildung_card .popular-asubildung_pic {
-        width: 144px;
-        height: 153px;
+        width: 160px;
+        height: 140px;
+        padding: 10px;
     }
 
-    .popular-asubildung_pic img {
-        transform: scale(1.07);
+    .ausbildung_card  .save-btn {
+        /* top: 2.8rem; */
+        z-index: 1;
+        top: 30px;
     }
+
+  
 
     #weblog_btn {
         padding: 10px 32px;
@@ -605,11 +610,7 @@
         margin-top: 5rem;
     }
 
-    .bg-circle {
-        left: -15rem;
-        top: 10rem;
-    }
-
+  
 
     #picture_guid_pro {
         width: 319.938px;
@@ -752,6 +753,18 @@
 
     /* start of the Ausbildungs page  */
 
+    .ausb-categories {
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin-top: 0rem;
+        gap: 7px;
+    }
+
+    .famous_category {
+        font-size: 13px;
+    }
+   
+
     .search_input_ausbildung .input-group {
         width: 95%;
     }
@@ -824,10 +837,6 @@
 
 
 
-    .categories {
-        display: none
-    }
-
     .search_btn {
         gap: 0;
     }
@@ -838,7 +847,7 @@
 
     .sort {
         padding: 0;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .ausbildung_card {
@@ -895,13 +904,13 @@
     }
 
     .saved_post {
-        top: 15px;
-        right: 3px;
+        top: 31px;
+        right: 13px;
     }
 
     .share_post {
-        top: 14px;
-        right: 33px;
+        top: 29px;
+        right: 43px;
     }
 
     .shitf p {
@@ -913,6 +922,7 @@
         padding: 1px;
     }
 
+
     .ausbildung_card_wrapper {
         flex-direction: column;
         justify-content: center;
@@ -921,6 +931,7 @@
 
     .ausbildung_card_wrapper .first-sec .shitf {
         left: 19rem;
+        top: 31px;
     }
 
     .ausbildung_card_wrapper .first-sec .shitf p {
@@ -937,26 +948,15 @@
 
     /* start of the single ausbildung page  */
 
-    /* .accessibility_box {
-        position: fixed;
-        top:92lvh;
-    } */
-    /* 
-    .accessibility_box .access-list {
-        display: none;
-    } */
+   
 
-    /* .accessibility_u-900 {
-        top: 91lvh;
+    .compare-box li {
+        padding: 15px 5px;
     }
 
-    .accessibility_u-900-active {
-        top: 62lvh;
+    #single-aub  li{
+        width: 90% !important;
     }
-
-    .accessibility_d-900 {
-        top: 95lvh;
-    } */
 
     .mobile-access-list {
         display: block;
@@ -1119,7 +1119,7 @@
     }
 
     .load-more {
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 
 
@@ -1132,6 +1132,12 @@
     .sa-m-s .popular-asubildung_pic img {
         width: 100%;
         height: 100%;
+    }
+
+    .aus-lists {
+        padding: 1px;
+        margin-left:0 ;
+        margin-right: 0;
     }
 
 
@@ -1438,7 +1444,9 @@
     .bg-circle {
         width: 442px;
         height: 422px;
-        left: 3.5rem !important;
+        left: -2rem !important;
+        top: 10rem;
+
     }
 
 
@@ -1455,10 +1463,15 @@
     .video-box .video {
         width: 352px;
         height: 200px;
+        
     }
 
     .video-box {
         width: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .video-text-box p {

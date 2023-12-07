@@ -170,17 +170,26 @@ input::placeholder {
     }
 
     .footer-navbar {
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
 
     .trust-logo {
-        margin-top: 2rem;
+        margin-top: 4rem;
         width: 100%;
     }
 
     .mobile-footer {
         width: 100%;
         justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .news-join {
+        margin-top: 4rem;
+    }
+
+    .news-join form {
+        margin-top: 3rem;
     }
 
     .copy-right {

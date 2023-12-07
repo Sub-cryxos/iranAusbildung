@@ -77,7 +77,7 @@ if (windowWidth <= 600) {
     slidesPerView: 1.17,
     spaceBetween: 20,
     autoplay: {
-      delay: 2000,
+      delay: 20000000,
       disableOnInteraction: false,
     },
 

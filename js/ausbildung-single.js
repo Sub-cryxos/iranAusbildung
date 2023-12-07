@@ -23,4 +23,14 @@ $(document).ready(function () {
         $('.mobile-access-list .access-list ').toggleClass('access-list-mobile-active ')
         
     });
+
+    $(window).scroll((e)=>{
+        var sticky = $('.accessibility_box'),
+        scroll = $(window).scrollTop();
+
+        if (scroll >= 7500) sticky.addClass('accessibility-header-fade');
+        else sticky.removeClass('accessibility-header-fade');
+    })
+
+  
 });
