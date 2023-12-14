@@ -1761,7 +1761,9 @@
 
     /* start of the blogs page  */
 
-   
+    .blogs-container {
+        margin-top: 2rem;
+    }
 
     .categories-blogs {
         /* height: 56px; */
