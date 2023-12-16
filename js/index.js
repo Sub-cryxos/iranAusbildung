@@ -148,7 +148,7 @@ if (windowWidth > 1301) {
     slidesPerView: 7.7,
     spaceBetween: 10,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     },
   });
@@ -159,7 +159,7 @@ if (windowWidth > 1000 && windowWidth < 1301) {
     slidesPerView: 5.7,
     spaceBetween: 10,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     },
 
@@ -172,7 +172,7 @@ if (windowWidth < 550) {
     slidesPerView: 2.4,
     spaceBetween: 3,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     },
 

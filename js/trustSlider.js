@@ -78,18 +78,33 @@ if (windowWidthd > 1301) {
     slidesPerView: 7.7,
     spaceBetween: 10,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     },
   });
 }
 
-if (windowWidthd > 1000 && windowWidthd < 1301) {
+if (windowWidthd > 1270 && windowWidthd < 1300) {
+  var swiperTrust = new Swiper(".trust-section ", {
+    slidesPerView:5.2,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+
+  });
+
+
+}
+
+
+if (windowWidthd > 1000 && windowWidthd < 1269) {
   var swiperTrust = new Swiper(".trust-section ", {
     slidesPerView: 5.7,
     spaceBetween: 10,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     },
 
@@ -102,7 +117,7 @@ if (windowWidthd < 550) {
     slidesPerView: 2.4,
     spaceBetween: 3,
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     },
 
