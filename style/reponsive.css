@@ -1205,6 +1205,14 @@
     /* end of the ausbildung forms  */
     /* start of the contact us  */
 
+    .telgram_box .text h2 {
+        font-size: 13px;
+    }
+
+    .contact-title p {
+        font-size: 14px !important;
+    }
+
     .content {
         width: 100%;
     }

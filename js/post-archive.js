@@ -1,7 +1,30 @@
 
 const windowWidth = window.innerWidth;
 
-if (windowWidth <= 460) {
+if (windowWidth <= 390) {
+
+  var swiper = new Swiper(".best-cities", {
+    slidesPerView: 2,
+    spaceBetween: 1,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+
+    navigation: {
+      nextEl: ".moving-arrow-l",
+      prevEl: " .moving-arrow-r",
+    },
+
+
+  });
+  console.log('yes2')
+
+}
+
+
+
+if (windowWidth <= 460 && windowWidth > 399) {
 
   var swiper = new Swiper(".best-cities", {
     slidesPerView: 2.1,
@@ -19,6 +42,7 @@ if (windowWidth <= 460) {
 
   });
 
+  console.log('yes')
 }
 
 if (windowWidth <= 1000) {
