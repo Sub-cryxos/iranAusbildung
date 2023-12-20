@@ -1573,10 +1573,14 @@
 
     .table-data td {
         font-size: 8px;
+        line-height: 15px;
+        padding: 17px 26px;
     }
 
     .table-header th {
-        font-size: 12px;
+        font-size: 10px;
+        line-height: 15px;
+        padding: 17px 26px;
     }
 
     .score-data-des .description-box p {
