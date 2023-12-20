@@ -659,3 +659,9 @@ s {
     background-image: url() !important;
     
 }
+
+.breadcrumb-item  {
+    font-size: 12px;
+    font-family: PeydaWebFaNum15;
+    text-align: center;
+}

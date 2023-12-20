@@ -360,6 +360,12 @@ body {
 
 }
 
+.s-a-save-post {
+    position: absolute;
+    top: 30px;
+    right: 16px;
+}
+
 .save-post-active {
     background-image: url('../assets/Icons/saved-card.svg');
     background-repeat: no-repeat;
@@ -811,9 +817,10 @@ body {
 
 
 
-.single-aub ul >li {
-    width:100% !important;
+.single-aub ul>li {
+    width: 100% !important;
 }
+
 /* end of the comment sectionn  */
 
 /* start of ads  */
@@ -1014,13 +1021,14 @@ div[desktop-hide-card] {
     color: var(--primary-color);
 
 }
+
 .chatrs-content p {
     font-family: PeydaWebFaNum15;
     margin-top: 1.5rem;
     color: var(--secondary-color, #1D1E22);
     text-align: center;
     font-family: Peyda(FaNum);
-    font-size: clamp(1.4rem,1.6rem,2rem);
+    font-size: clamp(1.4rem, 1.6rem, 2rem);
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -1055,7 +1063,7 @@ div[desktop-hide-card] {
 }
 
 .chart {
-    width:  clamp(2.8rem,3vw, 5rem);
+    width: clamp(2.8rem, 3vw, 5rem);
     padding: 0px 8.313px 0px 9.5px;
     border-radius: 11.875px;
     background-color: var(--primary-color);
@@ -1067,26 +1075,27 @@ div[desktop-hide-card] {
 
 .chart span {
     font-family: PeydaWebFaNum15;
-    font-size:clamp(1.3rem,1.4rem,2.1rem) ;
+    font-size: clamp(1.3rem, 1.4rem, 2.1rem);
 
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
-    color: #000  ;
-   
+    color: #000;
+
 }
 
 .chart:nth-child(odd) {
     background-color: #FFCACA;
-    
+
 }
 
-.chart:nth-child(odd) ~ .chart span {
+.chart:nth-child(odd)~.chart span {
     color: #fffcfc;
 }
 
 .chart:nth-child(3) {
-    background-color:  #DCE3FF;;
+    background-color: #DCE3FF;
+    ;
 }
 
 .chart:nth-last-child(1) {
@@ -1099,7 +1108,8 @@ div[desktop-hide-card] {
 /* 1200 to 1500 150px  mid-short*/
 /* 800 to 1200 70px short */
 .short {
-    height: 100.938px;}
+    height: 100.938px;
+}
 
 .mid-short {
     height: 166.25px;
@@ -1136,7 +1146,7 @@ div[desktop-hide-card] {
 
 .compare-text div .type-title {
     font-family: PeydaWebFaNum5;
-    font-size:clamp(1.2rem,1.4rem,1.6rem) ;
+    font-size: clamp(1.2rem, 1.4rem, 1.6rem);
 
     font-style: normal;
     font-weight: 400;
@@ -1146,9 +1156,9 @@ div[desktop-hide-card] {
 }
 
 .compare-text div .saqure-red,
-.compare-text div .saqure-pink ,
+.compare-text div .saqure-pink,
 .compare-text div .saqure-blue,
-.compare-text div .saqure-whiteblue{
+.compare-text div .saqure-whiteblue {
     width: 2rem;
     height: 2rem;
     display: block;
@@ -1163,8 +1173,8 @@ div[desktop-hide-card] {
 }
 
 .compare-text div .saqure-blue {
-        background-color: #4263E9;
-} 
+    background-color: #4263E9;
+}
 
 
 .compare-text div .saqure-whiteblue {
@@ -1205,8 +1215,13 @@ div[desktop-hide-card] {
         gap: 3rem;
     }
 
-    
-    .single-aub li {
-        width:100% !important;
+
+    #single-aub li {
+        width: 100% !important;
+    }
+
+    .sa-m-s .share_post {
+        top: 30px;
+        right: 48px;
     }
 }

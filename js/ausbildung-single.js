@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.save-post').click((e)=>{
-        $('.save-post').toggleClass('save-post-active');
+        $(e.target).toggleClass('save-post-active');
     })
 
     $('.like-comment').click(function (e) { 
