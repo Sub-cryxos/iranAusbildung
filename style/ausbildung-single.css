@@ -809,6 +809,11 @@ body {
     color: var(--primary-color) !important;
 }
 
+
+
+.single-aub ul >li {
+    width:100% !important;
+}
 /* end of the comment sectionn  */
 
 /* start of ads  */
@@ -1198,5 +1203,10 @@ div[desktop-hide-card] {
 @media screen and (max-width:850px) {
     .charts {
         gap: 3rem;
+    }
+
+    
+    .single-aub li {
+        width:100% !important;
     }
 }

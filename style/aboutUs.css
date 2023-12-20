@@ -3,6 +3,10 @@
 @import url('./fonts.css');
 /* title  */
 
+.mobile-header {
+    margin-top: 0;
+}
+
 .page-title h3 {
     color: var(--primary-color);
     text-align: right;

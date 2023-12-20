@@ -266,4 +266,8 @@ input::placeholder {
         margin: 5px  auto 23px auto !important;
     }
    
+
+    .copy-right-media{
+        width: 100%;
+    }
 }
