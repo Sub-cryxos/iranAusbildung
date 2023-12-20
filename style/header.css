@@ -529,6 +529,11 @@ and the navbar for nav  */
     display: none;
 }
 
+.modal {
+    z-index: 1111111111111;
+
+}
+
 .login-sign-content {
     width: 426px;
     height: auto;
@@ -555,8 +560,8 @@ and the navbar for nav  */
     text-align: right;
     font-family: PeydaWebFaNum5;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
+    font-style: normal;
     line-height: normal;
 }
 
@@ -765,7 +770,27 @@ and the navbar for nav  */
 
 @media screen and (max-width:1040px) {
 
+    .login-modal-content {
+        width: 366px;
+    }
 
+    
+    .header-mobile-consult {
+        top: 38% !important;
+    }
+
+    .header-mobile-consult .consult-items p  {
+        color: #000f !important;
+    }
+
+
+    .header-mobile-consult  .consult-items {
+        padding: 4px 0px;
+    }
+
+    .header-mobile-consult  .consult-item hr {
+        margin-top: 5px;
+    }
 
     .main_header,
     .nav_bar {
