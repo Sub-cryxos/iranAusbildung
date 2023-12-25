@@ -94,13 +94,25 @@ body{
 
 /* start of the content the blog  */
 
-.des_content_sec h1 {
+.des_content_sec h1,
+.des_content_sec h2,
+.des_content_sec h3,    
+.des_content_sec h4 {
     margin-top: 2rem;
     font-size: clamp(1.6rem,1.8rem,2.2rem);
     font-family: PeydaWebFaNum5;
     font-weight: 500;
     line-height: 100%;
     color: var(--primary-color);
+}
+
+.des_content_sec h2 {
+    font-size: clamp(1.2rem,1.4rem,1.8rem);
+}
+
+.des_content_sec h3 {
+    font-size: clamp(1.4rem,1.6rem,2rem);
+
 }
 
 .des_content_sec p {
